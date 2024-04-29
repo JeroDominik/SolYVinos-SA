@@ -25,7 +25,7 @@ export default function Home () {
               <p className="text-slate-300 text-pretty text-lg lg:text-xl mb-2">
                 Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar del texto final.
               </p>
-              <p className="text-slate-300 text-pretty text-lg">
+              <p className="text-slate-300 text-pretty text-lg lg:text-xl">
                 Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar del texto final.
               </p>
             </div>
