@@ -7,7 +7,7 @@ export default function Home () {
   return (
     <main className="flex flex-col mx-auto items-center justify-center">
       <header className="relative h-full w-full bg-neutral-900">
-        <div className="absolute inset-0 bg-fuchsia-950 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
+        <div className="absolute inset-0 bg-fuchsia-950/70 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
         <Navbar/>
         <section className="mb-14 mt-16 mx-auto max-w-6xl">
           <h1 className="flex flex-col text-2xl font-semibold text-slate-100 text-center mb-16 gap-y-4">
