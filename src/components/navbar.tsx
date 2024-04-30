@@ -1,14 +1,14 @@
 export default function Navbar () {
   return (
-    <nav className="mb-14 backdrop-blur-xl text-slate-300">
+    <nav className="mb-14 backdrop-blur-xl bg-fuchsia-950/10 border-b-2 border-b-fuchsia-950/25 text-slate-300">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap">Sol y Vinos</span>
         </a>
         <div className="md:flex items-center justify-between hidden" id="navbar-language">
           <ul className="flex flex-col md:flex-row text-xl font-medium p-4 md:p-0 mt-4 md:space-x-8 md:mt-0">
             <li>
-              <a href="#" className="block py-2 px-3 md:p-0 transition hover:text-amber-600 hover:font-semibold" aria-current="page">Inicio</a>
+              <a href="#" className="block py-2 px-3 md:p-0 transition hover:text-amber-600 hover:font-semibold">Inicio</a>
             </li>
             <li>
               <a href="#" className="block py-2 px-3 md:p-0 transition hover:text-amber-600 hover:font-semibold">Tours</a>
