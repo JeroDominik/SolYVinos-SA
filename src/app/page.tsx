@@ -24,18 +24,30 @@ export default function Home () {
             />
             <div className="w-[95%] sm:w-4/5 lg:w-3/5 text-pretty">
               <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2">
-                Lorem ipsum es el texto que se usa habitual mente en diseño gráfico en demostraciones de tipografías o de borra dores de diseño para probar el diseño visual antes de insertar del texto final.
+                Estamos dedicados a brindar traslados exclusivos y experiencias inolvidables en las bodegas de la región de Mendoza. Nos especializamos en ofrecer a nuestros clientes la oportunidad de descubrir la belleza del paisaje mendocino bajo el cálido sol, mientras disfrutan de la exquisita cultura del vino argentino.
               </p>
-              <p className="text-slate-300 text-base sm:text-lg lg:text-xl">
-                Lorem ipsum es el texto que se usa habitual mente en diseño gráfico en demostraciones de tipografías o de borra dores de diseño para probar el diseño visual antes de insertar del texto final.
+              <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2">
+                Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente!
               </p>
+              <div className="flex justify-center lg:justify-start mt-6 lg:mt-12 xl:mt-16 text-lg font-semibold text-slate-200 gap-4 backdrop-blur">
+                <a className="flex justify-center items-center rounded-full border border-white/40 gap-x-2 py-1 px-2 md:py-2 md:px-4 bg-white/5 sm:hover:scale-110 hover:scale-105 hover:bg-white/20 transition" href="#">
+                  <svg className="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                  </svg>
+                  WhatsApp
+                </a>
+                <a className="flex justify-center items-center rounded-full border border-white/40 gap-x-2 py-1 px-2 md:py-2 md:px-4 bg-white/5 sm:hover:scale-110 hover:scale-105 hover:bg-white/20 transition" href="#">
+                  <svg className="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" />
+                  </svg>
+                  Correo
+                </a>
+              </div>
             </div>
           </article>
         </section>
       </header>
       <section className="my-14 sm:my-20 mx-auto w-full sm:w-[90%] lg:max-w-6xl">
-        <h1 className="flex justify-center lg:justify-start items-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-10 text-slate-900 gap-2">
-          <svg className="size-7 md:size-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" /><path d="M9 4v13" /><path d="M15 7v13" /></svg>
+        <h1 className="flex justify-center lg:justify-start items-center text-3xl sm:text-4xl lg:text-5xl font-bold mb-10 text-slate-900 gap-2">
+          <svg className="size-7 sm:size-8 lg:size-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" /><path d="M9 4v13" /><path d="M15 7v13" /></svg>
           Nuestros Tours
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 border-slate-300 bg-slate-200 px-6 py-10 sm:px-10 xl:px-16 rounded-lg">

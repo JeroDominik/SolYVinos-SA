@@ -1,9 +1,16 @@
+import Image from 'next/image'
+
 export default function Navbar () {
   return (
     <nav className="mb-14 backdrop-blur-xl bg-fuchsia-950/10 border-b-2 border-b-fuchsia-950/25 text-slate-300">
-      <div className="max-w-screen-xl flex flex-col sm:flex-row items-center justify-center sm:justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
-          <span className="self-center text-xl lg:text-2xl font-semibold whitespace-nowrap">Sol y Vinos</span>
+          <Image className="rounded-full w-20 h-12 sm:w-24 sm:h-14 lg:w-28 lg:h-16"
+            src="/solYvinosOpti.jpg"
+            alt="Imagen Sol y Vinos"
+            width={190}
+            height={80}
+          />
         </a>
         <div className="md:flex items-center justify-between hidden" id="navbar-language">
           <ul className="flex flex-col md:flex-row text-base lg:text-xl font-medium p-4 md:p-0 mt-4 md:space-x-8 md:mt-0">
