@@ -1,12 +1,13 @@
 import Image from 'next/image'
 
+import Header from '@/components/header'
 import Navbar from '../components/navbar'
 import CardTour from '@/components/cardTour'
 import Footer from '@/components/footer'
 
 export default function Home () {
   return (
-    <main className="flex flex-col mx-auto items-center justify-center">
+    <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden">
       <header className="relative h-full w-full bg-neutral-900">
         <div className="absolute inset-0 bg-fuchsia-950/70 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
         <Navbar/>
@@ -45,6 +46,7 @@ export default function Home () {
           </article>
         </section>
       </header>
+      <Header/>
       <section className="my-14 sm:my-20 mx-auto w-full sm:w-[90%] lg:max-w-6xl">
         <h1 className="flex justify-center lg:justify-start items-center text-3xl sm:text-4xl lg:text-5xl font-bold mb-10 text-slate-900 gap-2">
           <svg className="size-7 sm:size-8 lg:size-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" /><path d="M9 4v13" /><path d="M15 7v13" /></svg>
