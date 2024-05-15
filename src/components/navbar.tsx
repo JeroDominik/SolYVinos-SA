@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Navbar () {
   return (
     <nav className="relative text-slate-200">
-      <div className="max-w-screen-xl flex items-center justify-between mx-auto py-2">
+      <div className="max-w-screen-xl flex items-center justify-between mx-auto py-2 w-[90%]">
         <a href="#" className="flex items-center">
           <Image className="rounded-full w-20 h-12 sm:w-24 sm:h-14 lg:w-40 lg:h-28 hover:scale-110 transition"
             src="/SolyVinosExperience.png"

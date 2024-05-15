@@ -2,22 +2,24 @@ import Image from 'next/image'
 
 export default function AboutUs () {
   return (
-    <section className="relative h-screen w-screen bg-neutral-950 border-y-2 border-y-fuchsia-950/60 py-14 sm:py-16 lg:py-20 sm:w-[90%] lg:max-w-6xl mx-auto">
-        <div className="absolute inset-0 bg-fuchsia-800/40 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
-        <article className="flex flex-col lg:flex-row gap-8 justify-center items-center">
-            <Image src="/tunelPotre2.webp"
+    <section className="flex flex-col justify-center relative h-full w-full md:h-screen md:w-screen bg-neutral-950 border-y-2 border-y-fuchsia-950/60 py-14 sm:py-16 lg:py-20">
+        <div className="absolute inset-0 bg-fuchsia-800/50 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
+        <h2 className="font-bold text-slate-200 text-2xl sm:text-3xl lg:text-4xl mb-10 sm:mb-16 lg:mb-20 text-center">
+            Somos Sol y Vino. Somos Mendoza
+        </h2>
+        <article className="flex flex-col lg:flex-row gap-8 sm:gap-12 justify-center items-center w-[90%] sm:w-[80%] lg:max-w-5xl mx-auto">
+            <Image src="/ImgAboutUs.webp"
             alt="Imagen Tunel Potrerillos"
             width={250}
             height={250}
-            className="rounded-full size-72"
+            className="rounded-xl h-60 w-52 sm:h-80 sm:w-72 order-2 lg:order-1 mr-5"
             />
-            <div className="text-pretty text-center">
-                <h2></h2>
-                <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2">
+            <div className="text-pretty text-center sm:text-start order-1 lg:order-2">
+                <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2 font-medium">
                     Estamos dedicados a brindar traslados exclusivos y experiencias inolvidables en las bodegas de la región de Mendoza. Nos especializamos en ofrecer a nuestros clientes la oportunidad de descubrir la belleza del paisaje mendocino bajo el cálido sol, mientras disfrutan de la exquisita cultura del vino argentino.
                 </p>
-                <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2">
-                    Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente!
+                <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2 font-medium">
+                    Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente! Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente! Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente!
                 </p>
             </div>
         </article>
