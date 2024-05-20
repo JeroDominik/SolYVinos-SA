@@ -9,7 +9,7 @@ export default function Header () {
         </video>
         <Navbar/>
         <section className="relative flex flex-col justify-around h-[90%] lg:h-5/6">
-            <h1 className="flex flex-col text-xl sm:text-2xl lg:text-2xl font-semibold text-slate-100 text-center mb-10 lg:mb-16 gap-y-2 lg:gap-y-4">
+            <h1 className="flex flex-col text-xl sm:text-2xl lg:text-2xl font-semibold text-slate-200 text-center mb-10 lg:mb-16 gap-y-2 lg:gap-y-4">
                 Disfrute de Mendoza y la mejor experiencia
                 <span className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-t from-[#f59b33] to-[#ad5e02] bg-clip-text text-transparent">Sol y Vinos</span>
             </h1>
