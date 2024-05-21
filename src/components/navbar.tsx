@@ -12,7 +12,7 @@ export default function Navbar () {
 
   return (
     <section className="sticky top-0 z-10 text-slate-200">
-      <section className={`${isOpen ? 'bg-black/95' : ''} mx-auto flex items-center justify-between p-4 max-w-screen-xl w-full`}>
+      <section className={`${isOpen ? 'bg-neutral-950' : ''} mx-auto flex items-center justify-between p-4 max-w-screen-xl w-full`}>
         <Image className="w-28 h-16 lg:w-40 lg:h-28 hover:scale-110 transition backdrop-blur-sm rounded-full ml-4"
           src="/SolyVinosExperience.png"
           alt="Imagen Sol y Vinos"
@@ -21,7 +21,7 @@ export default function Navbar () {
         />
         <div>
           <button onClick={toggleMenu} id="hamburger-button" className={`${isOpen ? 'toggle-btn' : ''} relative size-7 cursor-pointer text-2xl md:hidden mr-4`}>
-            <div className="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+            <div className="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-slate-300 transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-slate-300 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-slate-300 after:transition-all after:duration-500 after:content-['']">
             </div>
           </button>
           <nav className="md:block hidden space-x-8 text-xl font-medium" aria-label="main">
@@ -36,8 +36,8 @@ export default function Navbar () {
         </button>
       </section>
 
-      <section id="mobile-menu" className={`${isOpen ? 'flex' : 'hidden'} justify-center absolute w-full origin-top animate-open-menu flex-col text-3xl bg-black/95 `}>
-        <nav className="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+      <section id="mobile-menu" className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-full origin-top animate-open-menu flex-col text-3xl`}>
+        <nav className="flex h-[88%] flex-col bg-neutral-950 pt-8 relative -top-11">
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Inicio</a>
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Sol y Vinos</a>
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Tours</a>
