@@ -11,7 +11,7 @@ export default function Header () {
         <section className="relative flex flex-col justify-around h-[90%] lg:h-5/6">
             <h1 className="flex flex-col text-xl sm:text-2xl lg:text-2xl font-semibold text-slate-200 text-center mb-10 lg:mb-16 gap-y-2 lg:gap-y-4">
                 Disfrute de Mendoza y la mejor experiencia
-                <span className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-t from-[#f59b33] to-[#ad5e02] bg-clip-text text-transparent">Sol y Vinos</span>
+                <span className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-t from-slate-400 to-slate-200 bg-clip-text text-transparent">Sol y Vinos</span>
             </h1>
             <div className="flex justify-center items-center mt-10 text-lg font-semibold text-slate-200 gap-4">
                 <a className="flex justify-center items-center rounded-full border border-white/40 gap-x-2 py-1 px-2 md:py-2 md:px-4 bg-white/5 sm:hover:scale-110 hover:scale-105 hover:bg-white/20 transition" href="#">
