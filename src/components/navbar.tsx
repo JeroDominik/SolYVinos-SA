@@ -36,8 +36,8 @@ export default function Navbar () {
         </button>
       </section>
 
-      <section id="mobile-menu" className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-full origin-top animate-open-menu flex-col text-3xl`}>
-        <nav className="flex h-[88%] flex-col bg-neutral-950 pt-8 relative -top-11">
+      <section id="mobile-menu" className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-screen origin-top animate-open-menu flex-col text-3xl`}>
+        <nav className="flex h-[92%] flex-col bg-neutral-950 pt-8 relative -top-10 ">
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Inicio</a>
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Sol y Vinos</a>
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Tours</a>

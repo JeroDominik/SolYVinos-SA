@@ -47,7 +47,7 @@ export default function CardTour () {
 
         {modalVisible && (
             <div className="fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 bg-black bg-opacity-75 h-full overflow-y-auto container-snap" onClick={handleBackgroundClick}>
-                <div className="relative sm:w-[85%] lg:max-w-4xl mx-auto my-6">
+                <div className="relative w-[90%] sm:w-[85%] lg:max-w-4xl mx-auto my-6">
                     <div className="flex flex-col items-center relative rounded-lg shadow bg-stone-900">
                         <div className="flex items-center justify-between p-4 md:p-6 border-b rounded-t border-gray-500 gap-x-6 sm:gap-x-10 lg:gap-x-20">
                             <h3 className="text-xl font-semibold text-white">
