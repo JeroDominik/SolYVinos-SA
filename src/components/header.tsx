@@ -4,13 +4,13 @@ export default function Header () {
   return (
     <header className="relative h-screen w-screen">
         <video className="absolute h-full w-full object-center object-cover top-0 bottom-0 brightness-75"
-            playsInline
             width="1280"
             height="1085"
             autoPlay
             muted
-            loop>
-            <source src="/TunelOptimizado.webm" type="video/webm"/>
+            loop
+            playsInline>
+            <source src="/TunelOptimizadoMP4.mp4" type="video/webm"/>
         </video>
         <Navbar/>
         <section className="relative flex flex-col justify-evenly h-full -top-24">
