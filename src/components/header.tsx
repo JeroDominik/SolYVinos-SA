@@ -10,7 +10,7 @@ export default function Header () {
             muted
             loop
             playsInline>
-            <source src="/TunelOptimizadoMP4.mp4" type="video/webm"/>
+            <source src="/TunelOptimizadoMP4.mp4" type="video/mp4"/>
         </video>
         <Navbar/>
         <section className="relative flex flex-col justify-evenly h-full -top-24">
