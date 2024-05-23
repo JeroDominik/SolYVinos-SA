@@ -3,15 +3,14 @@ import Navbar from './navbar'
 export default function Header () {
   return (
     <header className="relative h-screen w-screen">
-        <video className="absolute h-full w-full object-center object-cover top-0 bottom-0 brightness-75"
-            width="1280"
-            height="1085"
+        <video src={require('../../public/TunelOptimizadoMP4.mp4') }
+            className="absolute h-full w-full object-center object-cover top-0 bottom-0 brightness-75"
             autoPlay
             muted
             loop
-            playsInline>
-            <source src="/TunelOptimizadoMP4.mp4" type="video/mp4"/>
-        </video>
+            playsInline
+        />
+            {/* <source src="/TunelOptimizadoMP4.mp4" type="video/mp4"/> */}
         <Navbar/>
         <section className="relative flex flex-col justify-evenly h-full -top-24">
             <h1 className="flex flex-col text-xl sm:text-2xl lg:text-2xl font-semibold text-slate-200 text-center mb-10 lg:mb-16 gap-y-2 lg:gap-y-4">
