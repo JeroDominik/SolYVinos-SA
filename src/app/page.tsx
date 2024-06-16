@@ -1,7 +1,7 @@
 import Header from '@/components/header'
 import AboutUs from '@/components/aboutUs'
-import CardTour from '@/components/cardTour'
 import Footer from '@/components/footer'
+import ExperienceLujan from '@/components/experienceLujan'
 
 export default function Home () {
   return (
@@ -14,11 +14,8 @@ export default function Home () {
           <svg className="size-7 sm:size-8 lg:size-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" /><path d="M9 4v13" /><path d="M15 7v13" /></svg>
           Nuestros Tours
         </h1>
+        <ExperienceLujan/>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
-          <CardTour/>
-          <CardTour/>
-          <CardTour/>
-          <CardTour/>
         </div>
       </section>
       <Footer />

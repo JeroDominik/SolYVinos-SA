@@ -5,7 +5,13 @@ import Image from 'next/image'
 
 import CardTourContent from './contentCardTour'
 
-export default function CardTour () {
+interface Tours {
+  title: string
+  description: string
+  image: string
+}
+
+export default function CardTour ({ title, description, image }: Tours) {
   const [modalVisible, setModalVisible] = useState(false)
 
   const showModal = () => {
@@ -20,9 +26,13 @@ export default function CardTour () {
     }
   }
 
+  const toursProps = { title, description, image }
+
   return (
     <>
-        <CardTourContent onButtonClick={showModal} />
+        <CardTourContent onButtonClick={showModal}
+            toursProps={toursProps}
+        />
 
         {modalVisible && (
             <div className="fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 bg-black bg-opacity-75 h-full overflow-y-auto" onClick={handleBackgroundClick}>
@@ -30,7 +40,7 @@ export default function CardTour () {
                     <div className="flex flex-col items-center relative rounded-lg shadow bg-stone-900">
                         <div className="flex items-center justify-between p-4 md:p-6 border-b rounded-t border-gray-500 gap-x-6 sm:gap-x-10 lg:gap-x-20">
                             <h3 className="text-xl font-semibold text-white">
-                                Bodega Flecha de los Andes
+                                {toursProps.title}
                             </h3>
                             <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-600 rounded-lg text-sm w-8 h-8 flex justify-center items-center dark:hover:text-white" onClick={hideModal}>
                                 <svg className="size-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
@@ -45,12 +55,7 @@ export default function CardTour () {
                         />
                         <div className="p-4 md:p-5 space-y-4">
                             <p className="text-base leading-relaxed text-gray-300 text-pretty">
-                                Bodega Flechas de los Andes goza de un entorno inigualable y un terroir único donde se dan dos condiciones esenciales para el buen desarrollo de la uva Malbec: clima seco y una gran altitud. Es aquí donde esta variedad tradicional de uva argentina, ha encontrado el lugar ideal para desarrollar todo su potencial.
-                                Bodega Flechas de los Andes goza de un entorno inigualable y un terroir único donde se dan dos condiciones esenciales para el buen desarrollo de la uva Malbec: clima seco y una gran altitud. Es aquí donde esta variedad tradicional de uva argentina, ha encontrado el lugar ideal para desarrollar todo su potencial.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-300 text-pretty">
-                                 Bodega Flechas de los Andes goza de un entorno inigualable y un terroir único donde se dan dos condiciones esenciales para el buen desarrollo de la uva Malbec: clima seco y una gran altitud. Es aquí donde esta variedad tradicional de uva argentina, ha encontrado el lugar ideal para desarrollar todo su potencial.
-                                 Bodega Flechas de los Andes goza de un entorno inigualable y un terroir único donde se dan dos condiciones esenciales para el buen desarrollo de la uva Malbec: clima seco y una gran altitud. Es aquí donde esta variedad tradicional de uva argentina, ha encontrado el lugar ideal para desarrollar todo su potencial.
+                                {toursProps.description}
                             </p>
                         </div>
                         <div className="flex justify-center gap-5 items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
