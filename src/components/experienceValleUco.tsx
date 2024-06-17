@@ -1,14 +1,7 @@
 import CardTour from './cardTour'
 import Image from 'next/image'
 
-interface Tours {
-  title: string
-  introduction: string
-  description: string
-  image: string
-}
-
-const toursValleUco: Tours[] = [
+const toursValleUco: any[] = [
   {
     title: 'Bodega Salentein',
     introduction: 'Ubicada en el Valle de Uco, en la Provincia de Mendoza. Ofrece visitas guiadas, degustaciones y actividades culturales, algunas como su "Casa Grande", una antigua casa de campo restaurada que funciona como hotel boutique; y su "Espacio Killka", un centro cultural y de arte contemporáneo. La Arquitectura de la bodega cuenta de un diseño innovador con forma de cruz, permitiendo un flujo eficiente del proceso de vinificación. Además cuenta con una cava subterránea que mantiene condiciones óptimas para el envejecimiento del vino. Destacan su Malbec, junto con otras variedades como Cabernet Sauvignon, Merlot, Pinot Noir, Chardonnay y Sauvignon Blanc. La línea de vinos incluye etiquetas reconocidas como Killka, Numina y Primus.',

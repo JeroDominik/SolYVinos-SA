@@ -3,6 +3,7 @@ import AboutUs from '@/components/aboutUs'
 import Footer from '@/components/footer'
 import ExperienceLujan from '@/components/experienceLujan'
 import ExperienceValleUco from '@/components/experienceValleUco'
+import ExperienceMaipu from '@/components/experienceMaipu'
 
 export default function Home () {
   return (
@@ -17,6 +18,7 @@ export default function Home () {
         </h1>
         <ExperienceValleUco/>
         <ExperienceLujan/>
+        <ExperienceMaipu/>
       </main>
       <Footer />
     </main>
