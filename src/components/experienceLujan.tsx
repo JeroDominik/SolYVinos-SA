@@ -1,14 +1,7 @@
 import CardTour from './cardTour'
 import Image from 'next/image'
 
-interface Tours {
-  title: string
-  introduction: string
-  description: string
-  image: string
-}
-
-const toursLujan: Tours[] = [
+const toursLujan: any[] = [
   {
     title: 'Bodega Catena Zapata',
     introduction: 'Se encuentra en el departamento mendocino Lujan de Cuyo. Ofrece visitas guiadas y degustaciones en un entorno deslumbrante. La bodega tiene un diseño icónico inspirado en las pirámides Mayas, combinando tecnología moderna con elementos tradicionales. Reconocida por su Malbec de clase mundial, también produce variedades como Cabernet Sauvignon, Chardonnay y Cabernet Franc. Cuenta de etiquetas emblemáticas tales como Catena, Catena Alta, y el prestigioso Nicolás Catena Zapata.',

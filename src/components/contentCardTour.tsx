@@ -1,8 +1,14 @@
 import Image from 'next/image'
 
+interface Tours {
+  title: string
+  image: string
+  introduction: string
+}
+
 interface CardTourContentProps {
   onButtonClick: () => void
-  toursProps: Tours[]
+  toursProps: Tours
 }
 
 export default function CardTourContent ({ onButtonClick, toursProps }: CardTourContentProps) {
