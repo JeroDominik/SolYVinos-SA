@@ -1,14 +1,8 @@
 import Image from 'next/image'
 
-interface Tour {
-  title: string
-  description: string
-  image: string
-}
-
 interface CardTourContentProps {
   onButtonClick: () => void
-  toursProps: Tour[]
+  toursProps: Tours[]
 }
 
 export default function CardTourContent ({ onButtonClick, toursProps }: CardTourContentProps) {
@@ -16,18 +10,18 @@ export default function CardTourContent ({ onButtonClick, toursProps }: CardTour
     <div className="relative h-auto w-auto overflow-hidden rounded-xl p-[1px] backdrop-blur-3xl">
       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#7F44C9_0%,#E2CBFF_50%,#7F44C9_100%)]" />
       <div className="flex flex-col h-full w-full items-center justify-center rounded-xl text-sm xl:text-base font-semibold backdrop-blur bg-stone-900">
-        <Image src="/bodegaFlechadelosAndes.webp"
-          alt="Imagen Bodega Flecha de los Andes"
+        <Image src={toursProps.image}
+          alt={toursProps.title}
           width={350}
           height={300}
-          className="rounded-t-xl w-full"
+          className="rounded-t-xl w-full h-auto sm:h-72 md:h-64 lg:h-60"
         />
         <div className="p-5 w-full">
           <h3 className="mb-2 text-xl xl:text-2xl font-bold tracking-tight text-gray-300">
             {toursProps.title}
           </h3>
           <p className="mb-3 text-gray-300 line-clamp-5 text-pretty">
-            {toursProps.description}
+            {toursProps.introduction}
           </p>
           <button onClick={onButtonClick} className="inline-flex items-center px-3 py-2 text-center text-base xl:text-lg text-stone-900 rounded-lg bg-gray-300 transition hover:scale-105 hover:text-stone-700">
             Vea Más

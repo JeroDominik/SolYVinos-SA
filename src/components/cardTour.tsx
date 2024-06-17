@@ -9,9 +9,10 @@ interface Tours {
   title: string
   description: string
   image: string
+  introduction: string
 }
 
-export default function CardTour ({ title, description, image }: Tours) {
+export default function CardTour ({ title, description, introduction, image }: Tours) {
   const [modalVisible, setModalVisible] = useState(false)
 
   const showModal = () => {
@@ -26,7 +27,7 @@ export default function CardTour ({ title, description, image }: Tours) {
     }
   }
 
-  const toursProps = { title, description, image }
+  const toursProps = { title, image, introduction }
 
   return (
     <>
@@ -40,22 +41,25 @@ export default function CardTour ({ title, description, image }: Tours) {
                     <div className="flex flex-col items-center relative rounded-lg shadow bg-stone-900">
                         <div className="flex items-center justify-between p-4 md:p-6 border-b rounded-t border-gray-500 gap-x-6 sm:gap-x-10 lg:gap-x-20">
                             <h3 className="text-xl font-semibold text-white">
-                                {toursProps.title}
+                                {title}
                             </h3>
                             <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-600 rounded-lg text-sm w-8 h-8 flex justify-center items-center dark:hover:text-white" onClick={hideModal}>
                                 <svg className="size-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                                 </svg>
                             </button>
                         </div>
-                        <Image src="/bodegaFlechadelosAndes.webp"
-                            alt="Imagen Bodega Flecha de los Andes"
+                        <Image src={image}
+                            alt={`Imagen de ${title}`}
                             width={350}
                             height={300}
                             className="flex justify-center rounded-sm w-96 h-72 mt-4"
                         />
                         <div className="p-4 md:p-5 space-y-4">
                             <p className="text-base leading-relaxed text-gray-300 text-pretty">
-                                {toursProps.description}
+                                {introduction}
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-300 text-pretty">
+                                {description}
                             </p>
                         </div>
                         <div className="flex justify-center gap-5 items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
