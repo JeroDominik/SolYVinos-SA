@@ -8,8 +8,8 @@ export default function AboutUs () {
             Somos Sol y Vino. Somos Mendoza
         </h2>
         <article className="flex flex-col lg:flex-row gap-8 sm:gap-12 justify-center items-center w-[90%] sm:w-[80%] lg:max-w-5xl mx-auto">
-            <Image src="/ImgAboutUs.webp"
-            alt="Imagen Tunel Potrerillos"
+            <Image src="/Img-AboutUs.webp"
+            alt="Imagen AboutUs"
             width={250}
             height={250}
             className="rounded-xl h-60 w-52 sm:h-80 sm:w-72 order-2 lg:order-1 mr-5"

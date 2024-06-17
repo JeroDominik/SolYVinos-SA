@@ -4,6 +4,7 @@ import Footer from '@/components/footer'
 import ExperienceLujan from '@/components/experienceLujan'
 import ExperienceValleUco from '@/components/experienceValleUco'
 import ExperienceMaipu from '@/components/experienceMaipu'
+import ExperienceAltaMontana from '@/components/experienceAltaMontana'
 
 export default function Home () {
   return (
@@ -19,6 +20,7 @@ export default function Home () {
         <ExperienceValleUco/>
         <ExperienceLujan/>
         <ExperienceMaipu/>
+        <ExperienceAltaMontana/>
       </main>
       <Footer />
     </main>
