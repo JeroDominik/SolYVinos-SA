@@ -33,11 +33,11 @@ export default function CardTour ({ title, description, introduction, image }: T
     <>
       <div className="relative h-auto w-auto overflow-hidden rounded-xl p-[1px] backdrop-blur-3xl">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#7F44C9_0%,#E2CBFF_50%,#7F44C9_100%)]" />
-        <div className="flex flex-col h-full w-full items-center justify-center rounded-xl text-sm xl:text-base font-semibold backdrop-blur bg-stone-900">
+        <div className="flex flex-col h-full w-full items-center justify-center rounded-xl text-sm xl:text-base font-semibold backdrop-blur bg-stone-900 relative">
           <Image src={image}
             alt={title}
-            width={350}
-            height={300}
+            width={675}
+            height={465}
             className="rounded-t-xl w-full h-auto sm:h-72 md:h-64 lg:h-60"
           />
           <div className="p-5 w-full">
@@ -72,8 +72,8 @@ export default function CardTour ({ title, description, introduction, image }: T
               </div>
               <Image src={image}
                 alt={`Imagen de ${title}`}
-                width={350}
-                height={300}
+                width={675}
+                height={465}
                 className="flex justify-center rounded-sm w-96 h-72 mt-4"
               />
               <div className="p-4 md:p-5 space-y-4">
