@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function AboutUs () {
   return (
-    <section className="flex flex-col justify-center relative h-full w-full lg:h-screen lg:w-screen bg-neutral-950 border-y-2 border-y-fuchsia-950/60 py-14 sm:py-16 lg:py-20">
+    <section id="aboutus" className="flex flex-col justify-center relative h-full w-full lg:h-screen lg:w-screen bg-neutral-950 border-y-2 border-y-fuchsia-950/60 py-14 sm:py-16 lg:py-20">
         <div className="absolute inset-0 bg-fuchsia-800/50 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
         <h2 className="font-bold text-slate-200 text-2xl sm:text-3xl lg:text-4xl mb-10 sm:mb-16 lg:mb-20 text-center">
             Somos Sol y Vino. Somos Mendoza

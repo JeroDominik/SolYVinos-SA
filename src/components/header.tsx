@@ -3,10 +3,10 @@ import VideoTunel from './videoTunel'
 
 export default function Header () {
   return (
-    <header className="relative h-screen w-screen">
+    <header className="relative h-screen w-screen" id="init">
         <VideoTunel/>
         <Navbar/>
-        <section className="relative flex flex-col justify-evenly h-full -top-24">
+        <section className="relative flex flex-col justify-center h-full gap-y-16">
             <h1 className="flex flex-col text-xl sm:text-2xl lg:text-2xl font-semibold text-slate-300 text-center mb-10 lg:mb-16 gap-y-2 lg:gap-y-4">
                 <span className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-t from-slate-400 to-slate-200 bg-clip-text text-transparent">Sol y Vinos</span>
                 Disfrute de Mendoza y la mejor experiencia

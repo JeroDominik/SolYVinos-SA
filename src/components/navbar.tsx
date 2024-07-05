@@ -11,9 +11,9 @@ export default function Navbar () {
   }
 
   return (
-    <section className="sticky top-0 z-10 text-slate-200">
-      <section className={`${isOpen ? 'bg-neutral-950' : ''} mx-auto flex items-center justify-between p-4 max-w-screen-xl w-full`}>
-        <Image className="w-28 h-16 lg:w-40 lg:h-28 hover:scale-110 transition backdrop-blur-sm rounded-full ml-4"
+    <section className="fixed top-0 z-40 text-slate-200 w-screen">
+      <section className={`${isOpen ? 'bg-neutral-950' : ''} mx-auto flex items-center justify-between pb-2 w-full custom-nav px-12`}>
+        <Image className="w-28 h-16 lg:w-40 lg:h-28 hover:scale-110 transition rounded-full ml-4"
           src="/SolyVinosExperience.png"
           alt="Imagen Sol y Vinos"
           width={190}
@@ -25,9 +25,9 @@ export default function Navbar () {
             </div>
           </button>
           <nav className="md:block hidden space-x-8 text-xl font-medium" aria-label="main">
-            <a href="#" className="py-1 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Inicio</a>
-            <a href="#" className="py-1 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vinos</a>
-            <a href="#" className="py-1 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Tours</a>
+            <a href="/#init" className="py-2 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Inicio</a>
+            <a href="/#aboutus" className="py-2 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vinos</a>
+            <a href="/#experience" className="py-2 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Experiences</a>
           </nav>
         </div>
         <button type="button" className="hidden md:inline-flex items-center font-medium justify-center px-4 py-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-xl">
@@ -40,7 +40,7 @@ export default function Navbar () {
         <nav className="flex h-[92%] flex-col bg-neutral-950 pt-8 relative -top-10 ">
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Inicio</a>
           <a href="#" className="w-full py-6 text-center hover:opacity-90">Sol y Vinos</a>
-          <a href="#" className="w-full py-6 text-center hover:opacity-90">Tours</a>
+          <a href="#" className="w-full py-6 text-center hover:opacity-90">Experiences</a>
         </nav>
       </section>
     </section>

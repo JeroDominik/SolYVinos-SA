@@ -17,10 +17,15 @@ const config: Config = {
           '0%': { transform: 'scaleY(0)' },
           '80%': { transform: 'scaleY(1.2)' },
           '100%': { transform: 'scaleY(1)' }
+        },
+        'nav-shadown': {
+          '0%': { transform: 'translateY(-100%)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' }
         }
       },
       animation: {
-        'open-menu': 'open-menu 0.5s ease-in-out forwards'
+        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+        'nav-shadown': 'nav-shadown 1s linear both'
       }
     }
   },
