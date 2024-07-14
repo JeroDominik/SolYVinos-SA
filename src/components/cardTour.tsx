@@ -2,8 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-
-// import CardTourContent from './contentCardTour'
+import { IconViewMore, IconX } from './Icons/Icons'
 
 interface Tours {
   title: string
@@ -27,8 +26,6 @@ export default function CardTour ({ title, description, introduction, image }: T
     }
   }
 
-  //   const toursProps = { title, image, introduction }
-
   return (
     <>
       <div className="relative h-auto w-auto overflow-hidden rounded-xl p-[1px] backdrop-blur-3xl">
@@ -49,9 +46,7 @@ export default function CardTour ({ title, description, introduction, image }: T
             </p>
             <button onClick={showModal} className="inline-flex items-center px-3 py-2 text-center text-base xl:text-lg text-stone-900 rounded-lg bg-gray-300 transition hover:scale-105 hover:text-stone-700">
               Vea Más
-              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
+              <IconViewMore/>
             </button>
           </div>
         </div>
@@ -66,8 +61,7 @@ export default function CardTour ({ title, description, introduction, image }: T
                   {title}
                 </h3>
                 <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-600 rounded-lg text-sm w-8 h-8 flex justify-center items-center dark:hover:text-white" onClick={hideModal}>
-                  <svg className="size-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                  </svg>
+                  <IconX/>
                 </button>
               </div>
               <Image src={image}

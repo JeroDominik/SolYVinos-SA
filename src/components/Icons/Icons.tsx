@@ -1,5 +1,6 @@
 export const IconUSA = () => (
-    <svg className="size-5 lg:size-6 rounded-full me-3" aria-hidden="true" viewBox="0 0 3900 3900">
+    <svg className="size-5 lg:size-6 rounded-full me-3"
+        viewBox="0 0 3900 3900">
         <path fill="#b22234" d="M0 0h7410v3900H0z"/>
         <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" strokeWidth="300"/>
         <path fill="#3c3b6e" d="M0 0h2964v2100H0z"/>
@@ -12,13 +13,58 @@ export const IconUSA = () => (
     </svg>
 )
 
-export const IconDelete = () => (
-    <svg className="size-7 text-gray-500"
+export const IconWsp = () => (
+    <svg className="size-6"
         viewBox="0 0 24 24"
-        strokeWidth="2"
+        fill="none"
         stroke="currentColor"
-        fill="none">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" />
+        strokeWidth="1.75"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+        <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+    </svg>
+)
+
+export const IconMail = () => (
+    <svg className="size-6"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" />
+    </svg>
+)
+
+export const IconIg = () => (
+    <svg className="size-6 stroke-slate-300 hover:stroke-slate-100"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+        <path d="M16.5 7.5l0 .01" />
+    </svg>
+)
+
+export const IconViewMore = () => (
+    <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" fill="none" viewBox="0 0 14 10">
+        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+    </svg>
+)
+
+export const IconX = () => (
+    <svg className="size-3"
+        fill="none"
+        viewBox="0 0 14 14">
+        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
     </svg>
 )
 
