@@ -20,7 +20,7 @@ export default function ExperienceAltaMontana () {
   return (
     <section className="py-12">
         <div className="relative w-full h-96 brightness-75 mb-12">
-            <Image src="/experiencesAltaMontana/Experience-AltaMontana.webp"
+            <Image src="/experiencesAltaMontana/Experience-AltaMontaña.webp"
                 alt="Imagen Experiences AltaMontana"
                 width={1280}
                 height={300}

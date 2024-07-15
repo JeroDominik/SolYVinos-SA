@@ -32,7 +32,7 @@ export default function Navbar () {
       </section>
 
       <section id="mobile-menu" className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-screen origin-top animate-open-menu flex-col text-3xl`}>
-        <nav className="flex h-[92%] flex-col bg-neutral-950 pt-8 relative -top-10 ">
+        <nav className="flex h-[92%] flex-col bg-neutral-950 pt-8 relative -top-8 ">
           <a href="/#init" className="w-full py-6 text-center hover:opacity-90" onClick={toggleMenu}>Inicio</a>
           <a href="/#aboutus" className="w-full py-6 text-center hover:opacity-90" onClick={toggleMenu}>Sol y Vinos</a>
           <a href="/#experience" className="w-full py-6 text-center hover:opacity-90" onClick={toggleMenu}>Experiences</a>
