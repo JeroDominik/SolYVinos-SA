@@ -8,7 +8,7 @@ export default function AboutUs () {
             Somos Sol y Vino. Somos Mendoza
         </h2>
         <article className="flex flex-col lg:flex-row gap-8 sm:gap-12 justify-center items-center w-[90%] sm:w-[80%] lg:max-w-5xl mx-auto mb-10 sm:mb-16">
-            <Image src="/Img-AboutUs.webp"
+            <Image src="/ImgAboutUs.webp"
             alt="Imagen AboutUs"
             width={250}
             height={250}
@@ -16,10 +16,10 @@ export default function AboutUs () {
             />
             <div className="text-pretty text-center sm:text-start order-1 lg:order-2">
                 <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2 font-medium">
-                    Estamos dedicados a brindar traslados exclusivos y experiencias inolvidables en las bodegas de la región de Mendoza. Nos especializamos en ofrecer a nuestros clientes la oportunidad de descubrir la belleza del paisaje mendocino bajo el cálido sol, mientras disfrutan de la exquisita cultura del vino argentino.
+                    Sol y Vino Experiences te invita a vivir momentos inolvidables en la encantadora región de Mendoza. Nos especializamos en ofrecer traslados exclusivos y aventuras cautivadoras que te permitirán explorar la belleza del paisaje mendocino mientras te sumerges en la fascinante cultura del vino y la gastronomía local.
                 </p>
                 <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-2 font-medium">
-                    Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente! Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente! Conta con nosotros para ofrecerte: Traslados privados, atención personalizada, excelente servicio, y siempre cuidando el impacto en el ambiente!
+                    Desde emocionantes recorridos por bodegas de prestigio hasta degustaciones culinarias en los rincones más encantadores, estamos aquí para hacer realidad tus sueños en Mendoza. Personalizamos cada experiencia según tus preferencias y deseos, asegurando que cada momento sea único y memorable. Únete a nosotros y descubre la verdadera esencia de Mendoza en un viaje lleno de aventura y deleite.
                 </p>
             </div>
         </article>

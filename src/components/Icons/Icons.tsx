@@ -13,6 +13,21 @@ export const IconUSA = () => (
     </svg>
 )
 
+export const IconExperience = () => (
+    <svg className="size-7 sm:size-8 lg:size-10"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" />
+        <path d="M9 4v13" />
+        <path d="M15 7v13" />
+    </svg>
+)
+
 export const IconWsp = () => (
     <svg className="size-6"
         viewBox="0 0 24 24"
