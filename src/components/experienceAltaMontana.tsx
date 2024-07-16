@@ -28,7 +28,7 @@ export default function ExperienceAltaMontana () {
             />
             <h2 className="absolute inset-0 flex flex-col items-center justify-center text-4xl font-semibold text-center text-gray-100">
                 Experiences
-                <span className="font-bold"> Alta Montaña</span>
+                <span className="font-bold"> Potrerillos</span>
             </h2>
         </div>
         <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">

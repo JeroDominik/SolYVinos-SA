@@ -38,7 +38,7 @@ export default function ExperienceValleUco () {
   return (
     <section className="py-12">
         <div className="relative w-full h-96 brightness-75 mb-12">
-            <Image src="/experiencesValleUco/Experience-ValleUco.webp"
+            <Image src="/experiencesValleUco/Experience-Uco.webp"
                 alt="Imagen Experiences Valle de Uco"
                 width={1280}
                 height={300}

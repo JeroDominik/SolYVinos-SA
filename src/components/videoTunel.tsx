@@ -5,7 +5,7 @@ export default function VideoTunel () {
       muted
       loop
       playsInline>
-      <source src="/TunelHD.mp4" type="video/mp4"/>
+      <source src="/VideoJuanchi.mp4" type="video/mp4"/>
     </video>
   )
 }

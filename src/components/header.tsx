@@ -9,7 +9,7 @@ export default function Header () {
         <Navbar/>
         <section className="relative flex flex-col justify-center h-full gap-y-16">
             <h1 className="flex flex-col text-xl sm:text-2xl lg:text-2xl font-semibold text-slate-300 text-center mb-10 lg:mb-16 gap-y-2 lg:gap-y-4">
-                <span className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-t from-slate-400 to-slate-200 bg-clip-text text-transparent">Sol y Vinos</span>
+                <span className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-t from-slate-400 to-slate-200 bg-clip-text text-transparent">Sol y Vino</span>
                 Disfrute de Mendoza y la mejor experiencia
             </h1>
             <div className="flex justify-center items-center mt-10 text-lg font-semibold text-slate-200 gap-4">

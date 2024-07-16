@@ -38,7 +38,7 @@ export default function ExperienceLujan () {
   return (
     <section className="py-12">
         <div className="relative w-full h-96 brightness-75 mb-12">
-            <Image src="/experiencesLujan/Experience-LujanCuyo.webp"
+            <Image src="/experiencesLujan/Experience-Lujan.webp"
                 alt="Imagen Experiences Lujan"
                 width={1280}
                 height={300}
