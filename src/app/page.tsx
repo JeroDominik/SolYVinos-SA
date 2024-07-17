@@ -9,7 +9,7 @@ import { IconExperience } from '@/components/Icons/Icons'
 
 export default function Home () {
   return (
-    <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden">
+    <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden overflow-y-auto">
       <Header/>
       <AboutUs/>
       <main className="relative h-full w-full py-14 sm:py-20 bg-neutral-900" id="experience">

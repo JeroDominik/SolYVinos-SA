@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Sol y Vinos',
-  description: 'Excursiones, tour, experiencias, Mendoza'
+  title: 'Sol y Vino',
+  description: 'Excursiones, experience, experiencias, tour, Mendoza, Lujan de Cuyo, Maipú, Valle de Uco, turismo, vacaciones, viñedos, bodegas, '
 }
 
 export default function RootLayout ({
