@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { LogoSolyVino, IconUSA } from './Icons/Icons'
+import { LogoSolyVino, IconUSA, IconSpain, IconBrasil } from './Icons/Icons'
 
 export default function Navbar () {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,7 +12,7 @@ export default function Navbar () {
 
   return (
     <section className="fixed top-0 z-40 text-slate-200 w-screen">
-      <section className={`${isOpen ? 'bg-neutral-950' : ''} mx-auto flex items-center justify-between py-2 w-full custom-nav px-12`}>
+      <section className={`${isOpen ? 'bg-neutral-950' : ''} mx-auto flex items-center justify-between py-2 w-full custom-nav px-6 md:px-2 lg:px-12`}>
         <LogoSolyVino/>
         <div>
           <button onClick={toggleMenu} id="hamburger-button" className={`${isOpen ? 'toggle-btn' : ''} relative size-7 cursor-pointer text-2xl md:hidden mr-4`}>
@@ -25,10 +25,17 @@ export default function Navbar () {
             <a href="/#experience" className="py-2 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Experiences</a>
           </nav>
         </div>
-        <button type="button" className="hidden md:inline-flex items-center font-medium justify-center px-4 py-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-xl">
-            <IconUSA/>
-            English
-        </button>
+        <div className="gap-x-2">
+          <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+              <IconUSA/>
+          </button>
+          <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+              <IconSpain/>
+          </button>
+          <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+            <IconBrasil/>
+          </button>
+        </div>
       </section>
 
       <section id="mobile-menu" className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-screen origin-top animate-open-menu flex-col text-3xl`}>

@@ -1,7 +1,7 @@
 import CardTour from './cardTour'
 import Image from 'next/image'
 
-const toursAltaMontana: any[] = [
+const toursPotrerillos: any[] = [
   {
     title: 'Experience Palapas',
     introduction: 'Situada en Maipú, Mendoza. Con más de 135 años de historia, es una de las bodegas más antiguas y prestigiosas de Argentina. Ofrece visitas guiadas, degustaciones, y experiencias gastronómicas en su restaurante gourmet  maridando comidas locales con los vinos de Trapiche. La bodega principal está situada en una histórica edificación del siglo XIX, que ha sido restaurada y modernizada. La Bodega es conocida por su Malbec, pero también produce variedades como Cabernet Sauvignon, Syrah, Merlot, y Chardonnay. Sus líneas de vinos destacadas incluyen Trapiche Medalla, Trapiche Broquel, Trapiche Gran Medalla, y su serie de vinos Single Vineyard, que destacan la expresión de terroirs unicos.',
@@ -33,11 +33,9 @@ export default function ExperienceAltaMontana () {
         </div>
         <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
             {
-                toursAltaMontana.map(tour => (
-                    <li key={tour.title}>
-                        <CardTour {...tour}/>
-                    </li>
-                ))
+              toursPotrerillos.map(tour => (
+                <CardTour key={tour.title} {...tour}/>
+              ))
             }
         </ol>
     </section>

@@ -4,7 +4,7 @@ export default function AboutUs () {
   return (
     <section id="aboutus" className="flex flex-col justify-center relative h-full w-full lg:h-screen lg:w-screen bg-neutral-950 border-y-2 border-y-fuchsia-950/60 py-14 sm:py-16 lg:py-20">
         <div className="absolute inset-0 bg-fuchsia-800/50 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
-        <h2 className="font-bold text-slate-200 text-2xl sm:text-3xl lg:text-4xl my-10 sm:my-16 lg:my-20 text-center">
+        <h2 className="font-bold text-slate-200 text-2xl sm:text-3xl lg:text-4xl my-10 sm:my-16 lg:mt-28 lg:mb-20 text-center">
             Somos Sol y Vino. Somos Mendoza
         </h2>
         <article className="flex flex-col lg:flex-row gap-8 sm:gap-12 justify-center items-center w-[90%] sm:w-[80%] lg:max-w-5xl mx-auto mb-10 sm:mb-16">

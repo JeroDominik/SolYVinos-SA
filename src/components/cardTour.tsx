@@ -28,7 +28,7 @@ export default function CardTour ({ title, description, introduction, image }: T
 
   return (
     <>
-      <div className="relative h-auto w-auto overflow-hidden rounded-xl p-[1px] backdrop-blur-3xl">
+      <li className="relative h-auto w-auto overflow-hidden rounded-xl p-[1px] backdrop-blur-3xl">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#7F44C9_0%,#E2CBFF_50%,#7F44C9_100%)]" />
         <div className="flex flex-col h-full w-full items-center justify-center rounded-xl text-sm xl:text-base font-semibold backdrop-blur bg-stone-900 relative">
           <Image src={image}
@@ -50,7 +50,7 @@ export default function CardTour ({ title, description, introduction, image }: T
             </button>
           </div>
         </div>
-      </div>
+      </li>
 
       {modalVisible && (
         <div className="fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 bg-black bg-opacity-75 h-full overflow-y-auto" onClick={handleBackgroundClick}>

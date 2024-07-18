@@ -51,11 +51,9 @@ export default function ExperienceLujan () {
         </div>
         <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
             {
-                toursLujan.map(tour => (
-                    <li key={tour.title}>
-                        <CardTour {...tour}/>
-                    </li>
-                ))
+              toursLujan.map(tour => (
+                <CardTour key={tour.title} {...tour}/>
+              ))
             }
         </ol>
     </section>
