@@ -13,7 +13,8 @@ export default function RootLayout ({
 }>) {
   return (
     <html lang="es">
-      <body>
+      <body className="relative h-full w-full bg-neutral-950">
+        <div className="absolute inset-0 bg-fuchsia-900/70 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
         {children}
       </body>
     </html>

@@ -105,7 +105,7 @@ export const IconX = () => (
 )
 
 export const LogoSolyVino = () => (
-    <svg className="w-24 h-16 md:w-32 md:h-20 lg:w-40 lg:h-24 hover:scale-110 transition rounded-full ml-4 text-slate-100"
+    <svg className="w-24 h-16 md:w-32 md:h-20 lg:w-40 lg:h-24 hover:scale-105 transition rounded-full ml-4 text-slate-100"
         viewBox="0 0 2048 1456"
         strokeWidth="6"
         stroke="currentColor"

@@ -12,8 +12,7 @@ export default function Home () {
     <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden overflow-y-auto">
       <Header/>
       <AboutUs/>
-      <main className="relative h-full w-full py-14 sm:py-20 bg-neutral-900" id="experience">
-        <div className="absolute inset-0 bg-fuchsia-400 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
+      <main className="w-full py-14 sm:py-20" id="experience">
         <h1 className="flex justify-center items-center text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-200 gap-2 my-10">
           <IconExperience/>
           Nuestros Tours

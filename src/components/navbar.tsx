@@ -14,15 +14,15 @@ export default function Navbar () {
     <section className="fixed top-0 z-40 text-slate-200 w-screen">
       <section className={`${isOpen ? 'bg-neutral-950' : ''} mx-auto flex items-center justify-between py-2 w-full custom-nav px-6 md:px-2 lg:px-12`}>
         <LogoSolyVino/>
-        <div>
+        <div className="order-3 md:order-none">
           <button onClick={toggleMenu} id="hamburger-button" className={`${isOpen ? 'toggle-btn' : ''} relative size-7 cursor-pointer text-2xl md:hidden mr-4`}>
             <div className="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-slate-300 transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-slate-300 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-slate-300 after:transition-all after:duration-500 after:content-['']">
             </div>
           </button>
-          <nav className="md:block hidden space-x-8 text-xl font-medium">
-            <a href="/#init" className="py-2 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Inicio</a>
-            <a href="/#aboutus" className="py-2 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vino</a>
-            <a href="/#experience" className="py-2 px-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Experiences</a>
+          <nav className="md:flex hidden gap-x-8 text-xl font-medium">
+            <a href="/#init" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Inicio</a>
+            <a href="/#aboutus" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vino</a>
+            <a href="/#experience" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Experiences</a>
           </nav>
         </div>
         <div className="gap-x-2">
