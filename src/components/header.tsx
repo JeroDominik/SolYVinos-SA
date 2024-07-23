@@ -1,4 +1,4 @@
-import { IconMail, IconWsp } from './Icons/Icons'
+import { IconIg, IconWsp } from './Icons/Icons'
 import Navbar from './navbar'
 import VideoTunel from './videoTunel'
 
@@ -18,8 +18,8 @@ export default function Header () {
                     WhatsApp
                 </a>
                 <a className="flex justify-center items-center rounded-full border border-white/40 gap-x-2 py-1 px-2 md:py-2 md:px-4 bg-white/5 sm:hover:scale-110 hover:scale-105 hover:bg-white/20 transition" href="#">
-                    <IconMail/>
-                    Correo
+                    <IconIg/>
+                    Instagram
                 </a>
             </div>
         </section>

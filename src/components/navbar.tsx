@@ -27,10 +27,10 @@ export default function Navbar () {
         </div>
         <div className="gap-x-2">
           <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
-              <IconUSA/>
+            <IconUSA/>
           </button>
           <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
-              <IconSpain/>
+            <IconSpain/>
           </button>
           <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
             <IconBrasil/>

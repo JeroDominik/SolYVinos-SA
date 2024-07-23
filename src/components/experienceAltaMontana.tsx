@@ -10,34 +10,34 @@ const toursPotrerillos: any[] = [
   },
   {
     title: 'Experience Velero',
-    introduction: 'Ubicada en el departamento mendocino Maipú. Ofrece visitas guiadas y degustaciones en un entorno atractivo, permitiendo a los visitantes conocer el proceso de elaboración del vino. Además cuenta con experiencias gastronómicas en el restaurante de la bodega, donde se maridan los vinos con cocina gourmet local. La bodega combina un diseño arquitectónico moderno y funcional, diseñado para optimizar el proceso de elaboración del vino. Las instalaciones incluyen una moderna sala de barricas y una cava subterránea para el envejecimiento de los vinos. Especializada en Malbec, Cabernet Sauvignon, Syrah, Bonarda, y Chardonnay, conocidos por su elegancia, frescura y carácter frutal. Las líneas de vinos incluyen Vistandes Reserva y Vistandes Gran Reserva, con un enfoque en la calidad y la expresión del terroir.',
+    introduction: 'Embárcate en una experiencia única navegando por el dique Potrerillos. Disfruta de un paseo en velero rodeado de impresionantes paisajes montañosos y el reflejo del cielo en el agua, mientras degustas comidas y bebidas a bordo. Admira las vistas panorámicas de la Cordillera de los Andes y los frondosos bosques que rodean el embalse, perfectos para capturar fotografías y disfrutar de un día al aire libre.',
     image: '/experiencesAltaMontana/AltaMontana-Velero.webp',
-    description: 'Con viñedos situados en el corazón de Maipú, una de las zonas vitivinícolas más tradicionales y prestigiosas de Mendoza. Los mismos están a una altitud de 850 metros sobre el nivel del mar, beneficiándose de un clima seco y suelos franco-arcillosos. La bodega es conocida tambien por Reconocimientos tales como "International Wine Challenge": Premios obtenidos en varias ediciones de este concurso, destacándose sus vinos Reserva y Gran Reserva. "Decanter World Wine Awards": Medallas de plata y bronce para varios de sus vinos, reconocidos por su calidad y expresión. "Wine Enthusiast": Buenas puntuaciones para sus vinos en esta revista estadounidense, resaltando la consistencia y elegancia de sus productos.'
+    description: 'Este paseo en velero es ideal para celebraciones especiales, escapadas en pareja, o simplemente para relajarse con amigos y familia en un entorno natural incomparable.'
   }
 ]
 
 export default function ExperienceAltaMontana () {
   return (
     <section className="py-12">
-        <div className="relative w-full h-96 brightness-75 mb-12">
-            <Image src="/experiencesAltaMontana/Experience-AltaMontaña.webp"
-                alt="Imagen Experiences AltaMontana"
-                width={1280}
-                height={300}
-                className="absolute object-center object-cover w-full h-full"
-            />
-            <h2 className="absolute inset-0 flex flex-col items-center justify-center text-4xl font-semibold text-center text-gray-100">
-                Experiences
-                <span className="font-bold"> Potrerillos</span>
-            </h2>
-        </div>
-        <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
-            {
-              toursPotrerillos.map(tour => (
-                <CardTour key={tour.title} {...tour}/>
-              ))
-            }
-        </ol>
+      <div className="relative w-full h-96 brightness-75 mb-12">
+        <Image src="/experiencesAltaMontana/Experience-AltaMontaña.webp"
+          alt="Imagen Experiences AltaMontana"
+          width={1280}
+          height={300}
+          className="absolute object-center object-cover w-full h-full"
+        />
+        <h2 className="absolute inset-0 flex flex-col items-center justify-center text-4xl font-semibold text-center text-gray-100">
+          Experiences
+          <span className="font-bold"> Potrerillos</span>
+        </h2>
+      </div>
+      <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
+        {
+          toursPotrerillos.map(tour => (
+            <CardTour key={tour.title} {...tour}/>
+          ))
+        }
+      </ol>
     </section>
   )
 }
