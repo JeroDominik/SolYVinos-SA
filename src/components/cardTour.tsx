@@ -78,11 +78,11 @@ export default function CardTour ({ title, description, introduction, image }: T
                   {description}
                 </p>
               </div>
-              <div className="flex justify-center gap-5 items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
-                <button onClick={hideModal} type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
-                  Contactenos para mas Info
+              <div className="flex justify-center gap-5 items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+                <button onClick={hideModal} type="button" className="py-2.5 px-4 ms-3 text-sm font-medium rounded-lg bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 border-b-2">
+                  Contáctenos para más Info
                 </button>
-                <button onClick={hideModal} type="button" className="py-2.5 px-5 ms-3 text-sm font-medium focus:outline-none rounded-lg border focus:z-10 focus:ring-4 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700">
+                <button onClick={hideModal} type="button" className="py-2.5 px-4 ms-3 text-sm font-medium rounded-lg bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 border-b-2">
                   Contact us for more Info
                 </button>
               </div>
