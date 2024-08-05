@@ -1,9 +1,18 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { LogoSolyVino, IconUSA, IconSpain, IconBrasil } from './Icons/Icons'
 
-export default function Navbar () {
+interface HeaderDictionary {
+  NavInit: string
+  NavExperiences: string
+}
+interface HeaderProps {
+  header: HeaderDictionary
+}
+
+export default function Navbar ({ header }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -20,21 +29,21 @@ export default function Navbar () {
             </div>
           </button>
           <nav className="md:flex hidden gap-x-8 text-xl font-medium">
-            <a href="/#init" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Inicio</a>
-            <a href="/#aboutus" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vino</a>
-            <a href="/#experience" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Experiences</a>
+            <a href="#init" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavInit}</a>
+            <a href="#aboutus" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vino</a>
+            <a href="#experience" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavExperiences}</a>
           </nav>
         </div>
         <div className="gap-x-2">
-          <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
-            <IconUSA/>
-          </button>
-          <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+          <Link href="/es" className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
             <IconSpain/>
-          </button>
-          <button className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+          </Link>
+          <Link href="/en" className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+            <IconUSA/>
+          </Link>
+          <Link href="/pt" className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
             <IconBrasil/>
-          </button>
+          </Link>
         </div>
       </section>
 

@@ -7,20 +7,24 @@ import ExperienceMaipu from '@/components/experienceMaipu'
 import ExperienceAltaMontana from '@/components/experienceAltaMontana'
 import { IconExperience } from '@/components/Icons/Icons'
 
-export default function Home () {
+type Lang = 'es' | 'en' | 'pt'
+
+export default async function Home ({ params: { lang } }: { params: { lang: Lang } }) {
+  const dictionary = await import(`@/app/dictionaries/${lang}.json`).then(m => m.default)
+
   return (
     <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden overflow-y-auto">
-      <Header/>
-      <AboutUs/>
+      <Header dictionary={dictionary}/>
+      <AboutUs dictionary={dictionary}/>
       <main className="w-full py-14 sm:py-20" id="experience">
         <h1 className="flex justify-center items-center text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-200 gap-2 my-10">
           <IconExperience/>
-          Nuestros Tours
+          {dictionary.title}
         </h1>
-        <ExperienceValleUco/>
-        <ExperienceLujan/>
-        <ExperienceMaipu/>
-        <ExperienceAltaMontana/>
+        <ExperienceValleUco dictionary={dictionary}/>
+        <ExperienceLujan dictionary={dictionary}/>
+        <ExperienceMaipu dictionary={dictionary}/>
+        <ExperienceAltaMontana dictionary={dictionary}/>
       </main>
       <Footer />
     </main>
