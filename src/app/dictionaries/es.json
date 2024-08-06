@@ -114,5 +114,9 @@
             "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
             "ExperiencesDesc": "Este paseo en velero es ideal para celebraciones especiales, escapadas en pareja, o simplemente para relajarse con amigos y familia en un entorno natural incomparable."
         }
-    ]
+    ],
+    "footer": {
+        "FooterRights": ". Todos los Derechos Reservados.",
+        "FooterContact" : "Contactanos"
+    }
 }

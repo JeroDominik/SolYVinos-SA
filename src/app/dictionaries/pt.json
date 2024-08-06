@@ -114,5 +114,9 @@
             "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
             "ExperiencesDesc": "Este passeio de barco é ideal para celebrações especiais, escapadelas a dois ou simplesmente para relaxar com amigos e família num ambiente natural incomparável."
         }
-    ]
+    ],
+    "footer": {
+        "FooterRights": ". Todos os direitos reservados.",
+        "FooterContact" : "Contate-nos"
+    }
 }

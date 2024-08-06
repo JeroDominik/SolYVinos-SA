@@ -34,24 +34,35 @@ export default function Navbar ({ header }: HeaderProps) {
             <a href="#experience" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavExperiences}</a>
           </nav>
         </div>
-        <div className="gap-x-2">
-          <Link href="/es" className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+        <div className="gap-x-2 hidden md:flex">
+          <Link href="/es" className="p-2 transition hover:bg-white/10 rounded-full">
             <IconSpain/>
           </Link>
-          <Link href="/en" className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+          <Link href="/en" className="p-2 transition hover:bg-white/10 rounded-full">
             <IconUSA/>
           </Link>
-          <Link href="/pt" className="hidden md:inline-flex items-center font-medium justify-center p-2 text-base sm:text-lg lg:text-xl transition hover:bg-white/10 hover:font-semibold rounded-full">
+          <Link href="/pt" className="p-2 transition hover:bg-white/10 rounded-full">
             <IconBrasil/>
           </Link>
         </div>
       </section>
 
-      <section id="mobile-menu" className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-screen origin-top animate-open-menu flex-col text-3xl`}>
-        <nav className="flex h-[92%] flex-col bg-neutral-950 pt-8 relative -top-8 ">
-          <a href="/#init" className="w-full py-6 text-center hover:opacity-90" onClick={toggleMenu}>Inicio</a>
-          <a href="/#aboutus" className="w-full py-6 text-center hover:opacity-90" onClick={toggleMenu}>Sol y Vinos</a>
-          <a href="/#experience" className="w-full py-6 text-center hover:opacity-90" onClick={toggleMenu}>Experiences</a>
+      <section className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-screen origin-top animate-open-menu flex-col text-3xl`}>
+        <nav className="flex h-[92%] flex-col bg-neutral-950 pt-8 relative -top-8">
+          <a href="#init" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavInit}</a>
+          <a href="#aboutus" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>Sol y Vinos</a>
+          <a href="#experience" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavExperiences}</a>
+          <div className="flex gap-x-4 justify-center relative py-6">
+            <Link href="/es" className="size-14 transition hover:bg-white/5 p-2 rounded-full">
+              <IconSpain/>
+            </Link>
+            <Link href="/en" className="size-14 transition hover:bg-white/5 p-2 rounded-full">
+              <IconUSA/>
+            </Link>
+            <Link href="/pt" className="size-14 transition hover:bg-white/5 p-2 rounded-full">
+              <IconBrasil/>
+            </Link>
+        </div>
         </nav>
       </section>
     </section>

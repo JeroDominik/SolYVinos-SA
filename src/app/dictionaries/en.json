@@ -114,5 +114,9 @@
             "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
             "ExperiencesDesc": "This sailing trip is ideal for special celebrations, getaways for couples, or simply to relax with friends and family in an incomparable natural setting."
         }
-    ]
+    ],
+    "footer": {
+        "FooterRights": ". All rights reserved.",
+        "FooterContact" : "Contact Us"
+    }
 }
