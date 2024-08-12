@@ -5,7 +5,7 @@ export default function VideoTunel () {
       muted
       loop
       playsInline>
-      <source src="/VideoJuanchi1.mp4" type="video/mp4"/>
+      <source src="/videoTesla.webm" type="video/mp4"/>
     </video>
   )
 }
