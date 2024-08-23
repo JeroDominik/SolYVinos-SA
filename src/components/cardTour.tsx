@@ -71,7 +71,7 @@ export default function CardTour ({ experience }: ExperienceProps) {
                 alt={`Imagen de ${experience.ExperiencesTitle}`}
                 width={675}
                 height={465}
-                className="flex justify-center rounded-sm w-96 h-72 mt-4"
+                className="flex justify-center rounded-md w-96 h-72 mt-4"
               />
               <div className="p-4 md:p-5 space-y-4">
                 <p className="text-base leading-relaxed text-gray-300 text-pretty">
