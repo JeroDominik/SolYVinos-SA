@@ -1,4 +1,4 @@
-const videoSolyVino = process.env.VIDEO_URL
+// const videoSolyVino = process.env.VIDEO_URL
 
 export default function VideoTunel () {
   return (
@@ -7,7 +7,7 @@ export default function VideoTunel () {
       muted
       loop
       playsInline>
-      <source src={videoSolyVino} type="video/mp4"/>
+      <source src="/VideoJuanchi1.mp4" type="video/mp4"/>
     </video>
   )
 }
