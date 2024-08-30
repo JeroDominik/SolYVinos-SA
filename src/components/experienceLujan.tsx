@@ -1,4 +1,5 @@
 import CardTour from './cardTour'
+import CardBoutique from './cardBoutique'
 import Image from 'next/image'
 
 interface ExperienceDictionary {
@@ -8,14 +9,16 @@ interface ExperienceDictionary {
   ExperiencesDesc: string
 }
 interface ExperienceProps {
-  experiencesLujan: [ExperienceDictionary]
+  experiencesLujan: ExperienceDictionary []
+  experiencesBoutiqueLujan: ExperienceDictionary[]
 }
 interface Dictionary {
   dictionary: ExperienceProps
 }
 
 export default function ExperienceLujan ({ dictionary }: Dictionary) {
-  const { experiencesLujan } = dictionary
+  const { experiencesLujan, experiencesBoutiqueLujan } = dictionary
+  const experiencesBoutique = experiencesBoutiqueLujan
 
   return (
     <section className="py-12">
@@ -40,6 +43,9 @@ export default function ExperienceLujan ({ dictionary }: Dictionary) {
           ))
         }
       </ol>
+      <CardBoutique
+        experiencesBoutique={experiencesBoutique}
+      />
     </section>
   )
 }

@@ -10,25 +10,25 @@ interface ExperienceDictionary {
   ExperiencesDesc: string
 }
 interface ExperienceProps {
-  experiencesBoutiqueUco: ExperienceDictionary[]
+  experiencesBoutique: ExperienceDictionary[]
 }
 
-export default function CardBoutique ({ experiencesBoutiqueUco }: ExperienceProps) {
+export default function CardBoutique ({ experiencesBoutique }: ExperienceProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [animateSlide, setAnimateSlide] = useState(false)
   const prevSlide = () => {
     setAnimateSlide(false)
-    const index = currentIndex === 0 ? experiencesBoutiqueUco.length - 1 : currentIndex - 1
+    const index = currentIndex === 0 ? experiencesBoutique.length - 1 : currentIndex - 1
     setCurrentIndex(index)
     setTimeout(() => { setAnimateSlide(true) }, 0)
   }
   const nextSlide = () => {
     setAnimateSlide(false)
-    const index = currentIndex === experiencesBoutiqueUco.length - 1 ? 0 : currentIndex + 1
+    const index = currentIndex === experiencesBoutique.length - 1 ? 0 : currentIndex + 1
     setCurrentIndex(index)
     setTimeout(() => { setAnimateSlide(true) }, 0)
   }
-  const currentExperience = experiencesBoutiqueUco[currentIndex]
+  const currentExperience = experiencesBoutique[currentIndex]
 
   return (
         <li className="flex items-center justify-center relative w-[90%] mx-auto h-64 md:h-80 bg-neutral-900 rounded-md border-2 border-fuchsia-950/30 hover:shadow-[0_0_10px_4px_rgba(74,4,78,0.3)] transition">

@@ -96,6 +96,33 @@
             "ExperiencesDesc": "Viñedos ubicados en Vistalba, Agrelo (Luján de Cuyo) y el Valle de Uco. A altitudes que van desde los 950 y 1,200 metros sobre el nivel del mar, aprovechando el clima seco y los suelos diversos para cultivar uvas de alta calidad. La Bodega ha sido reconocida con premios como 'Decanter World Wine Awards': Medallas de oro y plata para varios de sus vinos, destacándose Kaiken Ultra Malbec y Kaiken Obertura. 'Wine Spectator y Wine Enthusiast': Altas puntuaciones para vinos como Kaiken Malbec y Kaiken Cabernet Sauvignon, que resaltan por su calidad y consistencia. 'Tim Atkin': Reconocimientos en sus informes anuales de vinos argentinos, destacando la línea Kaiken Mai por su complejidad y elegancia. 'James Suckling': Altas calificaciones para vinos como Kaiken Terroir Series y Kaiken Ultra, con menciones especiales para su estructura y potencial de envejecimiento."
         }
     ],
+    "experiencesBoutiqueLujan" : [
+        {
+            "ExperiencesTitle": "Susana Balbo",
+            "ExperiencesDesc": "Fundada por la famosa enóloga Susana Balbo, esta bodega es un referente en Luján de Cuyo. Desde 1999, se ha ganado una reputación por sus vinos elegantes y complejos, que reflejan la experiencia y pasión de Susana en cada copa.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "A16",
+            "ExperiencesDesc": "En A16, la esencia del Valle de Uco se convierte en arte. Desde su apertura, han buscado el equilibrio perfecto entre modernidad y tradición, creando vinos que son una verdadera obra maestra en cada botella.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Penedo Borges",
+            "ExperiencesDesc": "Desde 2004, Penedo Borges ha estado perfeccionando sus vinos con una atención meticulosa a la selección de uvas y técnicas de vinificación. Sus etiquetas ofrecen sabores intensos y bien estructurados, mostrando lo mejor del terroir mendocino.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Martino Wines",
+            "ExperiencesDesc": "Fundada en 2003, Martino Wines destaca por su enfoque innovador y sus vinos únicos. Cada etiqueta cuenta una historia, reflejando la pasión de la familia por el vino desde el viñedo hasta la botella.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Durigutti",
+            "ExperiencesDesc": "La familia Durigutti ha dejado su marca en la viticultura mendocina desde 2002. Sus vinos robustos y bien equilibrados son conocidos por su capacidad de envejecimiento, ofreciendo un equilibrio perfecto entre potencia y sutileza. Cruzat: Especializada en espumosos desde 2002, Cruzat es conocida por sus burbujas elegantes y refinadas.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        }
+    ],
     "experiencesMaipu" : [
         {
             "ExperiencesTitle": "Bodega Trapiche",
@@ -120,6 +147,28 @@
             "ExperiencesIntro": "Se encuentra en el departamento mendocino Maipú. Ofrece visitas guiadas a los olivares y a la planta de producción, permitiendo a los visitantes conocer el proceso de elaboración del aceite de oliva, junto con experiencias gastronómicas donde se maridan los aceites con cocina local. Sus Olivares se encuentran a una altitud de 700 metros sobre el nivel del mar, con un clima seco y suelos aluvionales, ideales para la producción de aceitunas de alta calidad. El Aceite de oliva extra virgen es el principal producto, reconocido por su sabor y calidad. También producen aceites saborizados y productos derivados del aceite de oliva.",
             "ExperiencesImg": "/experiencesMaipu/Olivicola-Maguay.webp",
             "ExperiencesDesc": "Ha recibido reconocimientos tales como 'Sol De Oro': Premios en esta competencia internacional de aceites de oliva, destacándose por la calidad de sus productos. 'Premios Olivinus': Reconocimientos en una de las competiciones más importantes de aceites de oliva de América Latina, con medallas de oro y plata para sus aceites extra virgen. 'Terra Olivo': Premios obtenidos en este concurso internacional celebrado en Israel, destacando la calidad y sabor de sus aceites."
+        }
+    ],
+    "experiencesBoutiqueMaipu" : [
+        {
+            "ExperiencesTitle": "Flichman",
+            "ExperiencesDesc": "Un clásico en Maipú, Flichman ofrece vinos que mezclan lo tradicional con un toque moderno. Fundada en 1993, esta bodega es conocida por su compromiso con la calidad y su habilidad para capturar la esencia del terroir mendocino en cada botella.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Finca Savina",
+            "ExperiencesDesc": "En Finca Savina, se centran en vinos con carácter. Desde sus inicios en 2005, han sido reconocidos por su atención al detalle y su capacidad para resaltar la riqueza del suelo local, resultando en vinos con sabores auténticos y atractivos.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Santa Julia",
+            "ExperiencesDesc": "Parte del grupo Zuccardi, Santa Julia ha estado en el negocio desde 1990 y es conocida por sus vinos equilibrados y accesibles. Ofrecen una gran variedad de opciones que van desde vinos frescos y frutales hasta los más complejos.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Trivento",
+            "ExperiencesDesc": "Fundada en 1996, Trivento se destaca por sus vinos robustos y bien estructurados. La bodega combina técnicas modernas con un profundo respeto por la tradición, resultando en vinos sofisticados que son perfectos para cualquier ocasión.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
         }
     ],
     "experiencesPotrerillos" : [

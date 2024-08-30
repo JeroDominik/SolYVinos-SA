@@ -96,6 +96,33 @@
             "ExperiencesDesc": "Vinhedos localizados em Vistalba, Agrelo (Luján de Cuyo) e Vale do Uco. Em altitudes que variam de 950 a 1.200 metros acima do nível do mar, aproveitando o clima seco e a diversidade de solos para cultivar uvas de alta qualidade. A Vinícola tem sido reconhecida com prêmios como o 'Decanter World Wine Awards': medalhas de ouro e prata para vários de seus vinhos, com destaque para Kaiken Ultra Malbec e Kaiken Obertura. 'Wine Spectator and Wine Enthusiast': Altas pontuações para vinhos como Kaiken Malbec e Kaiken Cabernet Sauvignon, que se destacam pela qualidade e consistência. 'Tim Atkin': Reconhecimentos em seus relatórios anuais de vinhos argentinos, destacando a linha Kaiken Mai por sua complexidade e elegância. 'James Suckling': Notas altas para vinhos como Kaiken Terroir Series e Kaiken Ultra, com menções especiais pela sua estrutura e potencial de envelhecimento."
         }
     ],
+    "experiencesBoutiqueLujan" : [
+        {
+            "ExperiencesTitle": "Susana Balbo",
+            "ExperiencesDesc": "Fundada pela famosa enóloga Susana Balbo, esta vinícola é uma referência em Luján de Cuyo. Desde 1999 que ganhou reputação pelos seus vinhos elegantes e complexos, que refletem a experiência e paixão de Susana em cada copo.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "A16",
+            "ExperiencesDesc": "Na A16, a essência do Vale do Uco se transforma em arte. Desde a sua abertura procuram o equilíbrio perfeito entre modernidade e tradição, criando vinhos que são uma verdadeira obra-prima em cada garrafa.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Penedo Borges",
+            "ExperiencesDesc": "Desde 2004 que Penedo Borges tem vindo a aperfeiçoar os seus vinhos com uma atenção meticulosa à selecção das uvas e às técnicas de vinificação. Seus rótulos oferecem sabores intensos e bem estruturados, mostrando o melhor do terroir de Mendoza.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Martino Wines",
+            "ExperiencesDesc": "Fundada em 2003, a Martino Wines destaca-se pela sua abordagem inovadora e vinhos únicos. Cada rótulo conta uma história, refletindo a paixão da família pelo vinho, do vinhedo à garrafa.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Durigutti",
+            "ExperiencesDesc": "A família Durigutti deixou sua marca na viticultura mendoza desde 2002. Seus vinhos robustos e equilibrados são conhecidos pela capacidade de envelhecimento, oferecendo um equilíbrio perfeito entre potência e sutileza. Cruzat: Especializada em vinhos espumantes desde 2002, a Cruzat é conhecida por suas bolhas elegantes e refinadas.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        }
+    ],
     "experiencesMaipu" : [
         {
             "ExperiencesTitle": "Bodega Trapiche",
@@ -120,6 +147,28 @@
             "ExperiencesIntro": "Está localizado no departamento de Maipú, em Mendoza. Oferece visitas guiadas aos olivais e à unidade de produção, permitindo aos visitantes conhecer o processo de produção do azeite, bem como experiências gastronómicas onde os azeites são harmonizados com a gastronomia local. Os seus olivais situam-se a uma altitude de 700 metros acima do nível do mar, com clima seco e solos aluviais, ideais para a produção de azeitona de elevada qualidade. O azeite virgem extra é o principal produto, reconhecido pelo seu sabor e qualidade. Eles também produzem óleos aromatizados e produtos de azeite.",
             "ExperiencesImg": "/experiencesMaipu/Olivicola-Maguay.webp",
             "ExperiencesDesc": "Recebeu reconhecimentos como 'Sol De Oro': Prémios neste concurso internacional de azeite, destacando-se pela qualidade dos seus produtos. 'Prémios Olivinus': Reconhecimentos num dos mais importantes concursos de azeite da América Latina, com medalhas de ouro e prata pelos seus azeites virgens extra. 'Terra Olivo': Prémios obtidos neste concurso internacional realizado em Israel, destacando a qualidade e o sabor dos seus azeites."
+        }
+    ],
+    "experiencesBoutiqueMaipu" : [
+        {
+            "ExperiencesTitle": "Flichman",
+            "ExperiencesDesc": "Clássico em Maipú, Flichman oferece vinhos que misturam o tradicional com um toque moderno. Fundada em 1993, esta vinícola é conhecida por seu compromisso com a qualidade e sua capacidade de capturar a essência do terroir mendoza em cada garrafa.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Finca Savina",
+            "ExperiencesDesc": "Na Finca Savina apostam em vinhos com carácter. Desde a sua criação em 2005, são reconhecidos pela atenção aos detalhes e pela capacidade de realçar a riqueza do solo local, resultando em vinhos com sabores autênticos e atrativos.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Santa Julia",
+            "ExperiencesDesc": "Parte do grupo Zuccardi, a Santa Julia está em atividade desde 1990 e é conhecida por seus vinhos equilibrados e acessíveis. Oferecem uma grande variedade de opções que vão desde vinhos frescos e frutados até aos mais complexos.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Trivento",
+            "ExperiencesDesc": "Fundada em 1996, a Trivento destaca-se pelos seus vinhos robustos e bem estruturados. A adega combina técnicas modernas com um profundo respeito pela tradição, resultando em vinhos sofisticados e perfeitos para qualquer ocasião.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
         }
     ],
     "experiencesPotrerillos" : [

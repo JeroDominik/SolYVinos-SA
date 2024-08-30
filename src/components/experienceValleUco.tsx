@@ -18,6 +18,7 @@ interface Dictionary {
 
 export default function ExperienceValleUco ({ dictionary }: Dictionary) {
   const { experiencesUco, experiencesBoutiqueUco } = dictionary
+  const experiencesBoutique = experiencesBoutiqueUco
 
   return (
     <section className="py-12">
@@ -44,7 +45,7 @@ export default function ExperienceValleUco ({ dictionary }: Dictionary) {
         }
       </ol>
       <CardBoutique
-        experiencesBoutiqueUco={experiencesBoutiqueUco}
+        experiencesBoutique={experiencesBoutique}
       />
     </section>
   )
