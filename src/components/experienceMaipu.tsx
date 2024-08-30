@@ -2,6 +2,8 @@ import CardTour from './cardTour'
 import CardBoutique from './cardBoutique'
 import Image from 'next/image'
 
+// Add Images Boutique
+
 interface ExperienceDictionary {
   ExperiencesTitle: string
   ExperiencesIntro: string
