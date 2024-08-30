@@ -42,6 +42,28 @@
             "ExperiencesDesc": "Vineyards located at 1,100 meters above sea level in the Uco Valley, one of the most prestigious areas of Mendoza. The alluvial soils and the cool high mountain climate allow the production of grapes with excellent acidity and concentration. The winery has obtained recognitions such as 'Worlds Best Vineyards': It has been listed among the best wineries in the world, standing out for its wine tourism experience and the quality of its wines. 'Decanter World Wine Awards': Gold and silver medals for wines such as DiamAndes de Uco and Perlita de DiamAndes. 'Wine Spectator': High ratings for its wines, with special mentions for its Malbec and Cabernet Sauvignon."
         }
     ],
+    "experiencesBoutiqueUco" : [
+        {
+            "ExperiencesTitle": "Finca Adelma",
+            "ExperiencesDesc": "Finca Adelma stands out for its wines that reflect the purity of the Uco Valley. Since its opening in 2005, it has earned a reputation for its attention to detail and commitment to quality, offering wines that capture the authentic essence of the terroir.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Azul Winery",
+            "ExperiencesDesc": "At Azul Winery, elegance and balance are the norm. Since its founding, the winery has been known for its sophisticated, well-crafted wines, combining modern techniques with a deep respect for winemaking tradition.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Domaine Bousquet",
+            "ExperiencesDesc": "Founded with a focus on organic production, Domaine Bousquet has established a solid reputation for pure, high-quality wines. Since its inception in 1997, it has been committed to offering wines that reflect the purity and richness of Valle de Uco.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Giménez Riili",
+            "ExperiencesDesc": "Giménez Riili specializes in wines that capture the character of the Uco Valley. Since its creation, the winery has been known for its passion and authenticity, producing wines that stand out for their depth and quality.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        }
+    ],
     "experiencesLujan" : [
         {
             "ExperiencesTitle": "Catena Zapata Winery",

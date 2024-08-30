@@ -96,6 +96,22 @@ export const IconViewMore = () => (
     </svg>
 )
 
+export const IconNextView = () => (
+    <span className="inline-flex items-center justify-center size-10 rounded-full bg-white/10 group-hover:bg-white/20">
+        <svg className="size-4 text-gray-100 rtl:rotate-180" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor"strokeLinecap="round"strokeLinejoin="round"strokeWidth="2"d="m1 9 4-4-4-4"/>
+        </svg>
+    </span>
+)
+
+export const IconPreView = () => (
+    <span className="inline-flex items-center justify-center size-10 rounded-full bg-white/10 group-hover:bg-white/20">
+        <svg className="size-4 text-gray-100 rtl:rotate-180" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor"strokeLinecap="round"strokeLinejoin="round"strokeWidth="2"d="M5 1 1 5l4 4"/>
+        </svg>
+    </span>
+)
+
 export const IconX = () => (
     <svg className="size-3"
         fill="none"

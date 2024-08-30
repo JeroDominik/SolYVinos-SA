@@ -1,4 +1,5 @@
 import CardTour from './cardTour'
+import CardBoutique from './cardBoutique'
 import Image from 'next/image'
 
 interface ExperienceDictionary {
@@ -8,14 +9,15 @@ interface ExperienceDictionary {
   ExperiencesDesc: string
 }
 interface ExperienceProps {
-  experiencesUco: [ExperienceDictionary]
+  experiencesUco: ExperienceDictionary[]
+  experiencesBoutiqueUco: ExperienceDictionary[]
 }
 interface Dictionary {
   dictionary: ExperienceProps
 }
 
 export default function ExperienceValleUco ({ dictionary }: Dictionary) {
-  const { experiencesUco } = dictionary
+  const { experiencesUco, experiencesBoutiqueUco } = dictionary
 
   return (
     <section className="py-12">
@@ -30,16 +32,20 @@ export default function ExperienceValleUco ({ dictionary }: Dictionary) {
           Experiences
           <span className="font-bold"> Valle de Uco</span>
         </h2>
-        </div>
-        <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
-          {
-            experiencesUco.map(experience => (
-              <CardTour key={experience.ExperiencesTitle}
+      </div>
+      <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 py-10 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
+        {
+          experiencesUco.map(experience => (
+            <CardTour
+              key={experience.ExperiencesTitle}
               experience={experience}
-              />
-            ))
-          }
-        </ol>
+            />
+          ))
+        }
+      </ol>
+      <CardBoutique
+        experiencesBoutiqueUco={experiencesBoutiqueUco}
+      />
     </section>
   )
 }
