@@ -46,22 +46,22 @@
         {
             "ExperiencesTitle": "Finca Adelma",
             "ExperiencesDesc": "Finca Adelma se destaca pelos seus vinhos que refletem a pureza do Vale do Uco. Desde a sua abertura em 2005, ganhou reputação pela sua atenção aos detalhes e compromisso com a qualidade, oferecendo vinhos que captam a essência autêntica do terroir.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Adelma.webp"
         },
         {
             "ExperiencesTitle": "Vinícola Azul",
             "ExperiencesDesc": "Na Vinícola Azul a elegância e o equilíbrio são a norma. Desde a sua fundação, a adega é conhecida pelos seus vinhos sofisticados e bem elaborados, aliando técnicas modernas a um profundo respeito pela tradição vitivinícola.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Azul.webp"
         },
         {
             "ExperiencesTitle": "Domaine Bousquet",
             "ExperiencesDesc": "Fundada com foco na produção orgânica, a Domaine Bousquet estabeleceu uma forte reputação pelos seus vinhos puros e de alta qualidade. Desde a sua criação em 1997, está comprometida em oferecer vinhos que reflitam a pureza e a riqueza do Vale do Uco.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Bousquet.webp"
         },
         {
             "ExperiencesTitle": "Giménez Riili",
             "ExperiencesDesc": "Giménez Riili é especializada em vinhos que capturam o caráter do Vale do Uco. Desde a sua criação, a adega é conhecida pela sua paixão e autenticidade, produzindo vinhos que se destacam pela profundidade e qualidade.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-GimenezRiili.webp"
         }
     ],
     "experiencesLujan" : [
@@ -88,12 +88,6 @@
             "ExperiencesIntro": "Localizado no departamento de Luján de Cuyo, em Mendoza. Oferece visitas guiadas e degustações, permitindo aos visitantes conhecer o processo de vinificação. Também oferece experiências gastronômicas em seu restaurante, onde os vinhos são harmonizados com a culinária gourmet local e tradicional argentina. A adega combina elementos históricos e modernos, com instalações que permitem a produção de vinhos de elevada qualidade graças à sua cave subterrânea que proporciona condições óptimas para o envelhecimento dos vinhos em barricas de carvalho. Especializada em Malbec, Cabernet Sauvignon, Bonarda e Chardonnay, seus vinhos são conhecidos pela elegância, complexidade e capacidade de envelhecimento.",
             "ExperiencesImg": "/experiencesLujan/Bodega-NietoSenetiner.webp",
             "ExperiencesDesc": "Seus vinhedos estão localizados principalmente em Vistalba, Luján de Cuyo e também em Agrelo. As vinhas situam-se em altitudes que variam entre os 950 e os 1.050 metros acima do nível do mar, beneficiando de um clima óptimo e de solos aluviais. Seus vinhos a levaram a ganhar reconhecimentos como o 'Decanter World Wine Awards': medalhas de ouro e prata por seus vinhos, especialmente seu Nieto Senetiner Reserva Malbec. 'Wine Advocate': Notas altas de críticos como Robert Parker, destacando a qualidade e consistência dos seus vinhos. 'Tim Atkin': Reconhecimentos em reportagens de vinhos argentinos, com destaque para a linha Don Nicanor e Cadus."
-        },
-        {
-            "ExperiencesTitle": "Vinícola Kaiken",
-            "ExperiencesIntro": "Localizado em Vistalba, Luján de Cuyo. Oferece visitas guiadas e degustações, permitindo aos visitantes conhecer o processo de vinificação; e oferece experiências gastronômicas na vinícola, onde os vinhos são harmonizados com pratos locais e gourmet. A sua arquitetura moderna e funcional, pensada para otimizar o processo de vinificação. Construção integrada com a paisagem, utilizando materiais locais e sustentáveis. Especializada em Malbec, Cabernet Sauvignon, Bonarda e Chardonnay, as linhas de vinhos incluem Kaiken Ultra, Kaiken Terroir Series, Kaiken Obertura e Kaiken Mai, com foco na qualidade e expressão do terroir.",
-            "ExperiencesImg": "/experiencesLujan/Bodega-Kaiken.webp",
-            "ExperiencesDesc": "Vinhedos localizados em Vistalba, Agrelo (Luján de Cuyo) e Vale do Uco. Em altitudes que variam de 950 a 1.200 metros acima do nível do mar, aproveitando o clima seco e a diversidade de solos para cultivar uvas de alta qualidade. A Vinícola tem sido reconhecida com prêmios como o 'Decanter World Wine Awards': medalhas de ouro e prata para vários de seus vinhos, com destaque para Kaiken Ultra Malbec e Kaiken Obertura. 'Wine Spectator and Wine Enthusiast': Altas pontuações para vinhos como Kaiken Malbec e Kaiken Cabernet Sauvignon, que se destacam pela qualidade e consistência. 'Tim Atkin': Reconhecimentos em seus relatórios anuais de vinhos argentinos, destacando a linha Kaiken Mai por sua complexidade e elegância. 'James Suckling': Notas altas para vinhos como Kaiken Terroir Series e Kaiken Ultra, com menções especiais pela sua estrutura e potencial de envelhecimento."
         }
     ],
     "experiencesBoutiqueLujan" : [
@@ -119,8 +113,18 @@
         },
         {
             "ExperiencesTitle": "Durigutti",
-            "ExperiencesDesc": "A família Durigutti deixou sua marca na viticultura mendoza desde 2002. Seus vinhos robustos e equilibrados são conhecidos pela capacidade de envelhecimento, oferecendo um equilíbrio perfeito entre potência e sutileza. Cruzat: Especializada em vinhos espumantes desde 2002, a Cruzat é conhecida por suas bolhas elegantes e refinadas.",
+            "ExperiencesDesc": "A família Durigutti deixou sua marca na viticultura mendoza desde 2002. Seus vinhos robustos e equilibrados são conhecidos pela capacidade de envelhecimento, oferecendo um equilíbrio perfeito entre potência e sutileza.",
             "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Cruzat",
+            "ExperiencesDesc": "Especializada em vinhos espumantes desde 2002, a Cruzat é conhecida por suas bolhas elegantes e refinadas. Perfeitos para qualquer celebração, seus espumantes dão um toque sofisticado a qualquer brinde.",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Cruzat.webp"
+        },
+        {
+            "ExperiencesTitle": "Kaiken",
+            "ExperiencesDesc": "Com arquitetura moderna e funcional, integrando-se harmoniosamente com a paisagem, a vinícola foi projetada para otimizar o processo de vinificação, Kaiken é especializada em Malbec, Cabernet Sauvignon, Bonarda e Chardonnay; aliando a qualidade e a expressão do terroir",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Kaiken.webp"
         }
     ],
     "experiencesMaipu" : [
@@ -153,22 +157,22 @@
         {
             "ExperiencesTitle": "Flichman",
             "ExperiencesDesc": "Clássico em Maipú, Flichman oferece vinhos que misturam o tradicional com um toque moderno. Fundada em 1993, esta vinícola é conhecida por seu compromisso com a qualidade e sua capacidade de capturar a essência do terroir mendoza em cada garrafa.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Flichman.webp"
         },
         {
             "ExperiencesTitle": "Finca Savina",
             "ExperiencesDesc": "Na Finca Savina apostam em vinhos com carácter. Desde a sua criação em 2005, são reconhecidos pela atenção aos detalhes e pela capacidade de realçar a riqueza do solo local, resultando em vinhos com sabores autênticos e atrativos.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Savina.webp"
         },
         {
             "ExperiencesTitle": "Santa Julia",
             "ExperiencesDesc": "Parte do grupo Zuccardi, a Santa Julia está em atividade desde 1990 e é conhecida por seus vinhos equilibrados e acessíveis. Oferecem uma grande variedade de opções que vão desde vinhos frescos e frutados até aos mais complexos.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-SantaJulia.webp"
         },
         {
             "ExperiencesTitle": "Trivento",
             "ExperiencesDesc": "Fundada em 1996, a Trivento destaca-se pelos seus vinhos robustos e bem estruturados. A adega combina técnicas modernas com um profundo respeito pela tradição, resultando em vinhos sofisticados e perfeitos para qualquer ocasião.",
-            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Trivento.webp"
         }
     ],
     "experiencesPotrerillos" : [
