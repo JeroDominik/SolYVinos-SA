@@ -175,8 +175,7 @@
             "ExperiencesIntro": "Sumérgete en la magia de Las Palapas, un bar de montaña ubicado en la inmensidad del dique Potrerillos. Disfruta de atardeceres espectaculares con música en vivo y una conexión profunda con la naturaleza. Rodeado por la imponente Cordillera de los Andes, este espacio ofrece una experiencia sensorial única que combina gastronomía, coctelería de autor y actividades culturales.",
             "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Palapas.webp",
             "ExperiencesDesc": "Las Palapas es el lugar perfecto para relajarse entre amigos, celebrar ocasiones especiales o simplemente disfrutar de la tranquilidad y belleza del entorno natural. Con una capacidad limitada, se recomienda reservar con anticipación para asegurar un lugar en esta experiencia inolvidable."
-        }
-        ,
+        },
         {
             "ExperiencesTitle": "Aventura Velero",
             "ExperiencesIntro": "Embárcate en una experiencia única navegando por el dique Potrerillos. Disfruta de un paseo en velero rodeado de impresionantes paisajes montañosos y el reflejo del cielo en el agua, mientras degustas comidas y bebidas a bordo. Admira las vistas panorámicas de la Cordillera de los Andes y los frondosos bosques que rodean el embalse, perfectos para capturar fotografías y disfrutar de un día al aire libre.",
@@ -184,6 +183,21 @@
             "ExperiencesDesc": "Este paseo en velero es ideal para celebraciones especiales, escapadas en pareja, o simplemente para relajarse con amigos y familia en un entorno natural incomparable."
         }
     ],
+    "experiencesMas" : [
+        {
+            "ExperiencesTitle": "Día de Campo en el Valle de Uco",
+            "ExperiencesIntro": "Disfruta de una vivencia única en la naturaleza en una finca en el Valle de Uco. Vive un día perfecto rodeado de espléndidos paisajes rurales y la tranquilidad del campo, con la comodidad de un traslado incluido desde tu lugar de hospedaje.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Palapas.webp",
+            "ExperiencesDesc": "Itinerario del Día: Traslado de Ida y Vuelta: Para tu comodidad, el servicio de traslado recogerá a los participantes en el lugar de hospedaje por la mañana. Relájate durante el viaje y disfruta de las vistas panorámicas mientras te diriges al Valle de Uco. Al finalizar la experiencia, te llevarán de regreso a tu alojamiento, asegurando una jornada sin preocupaciones. Recepción y Aperitivos: Al llegar a la finca, te darán la bienvenida con una exquisita variedad de aperitivos, que incluye empanadas al disco, pastelitos y una selección de fiambres. Estos bocados iniciales están pensados para deleitarte y prepararte para una experiencia gastronómica en el entorno campestre. Visita a los Viñedos: Antes del almuerzo, disfrutarás de una encantadora visita a los viñedos de la finca. Conoce más sobre el proceso de cultivo y la producción de vinos en la región, y sumérgete en la belleza del paisaje vitivinícola. Almuerzo a la Parrilla: El almuerzo se centrará en un asado a la parrilla. Disfruta de una variedad de carnes, acompañadas de guarniciones tradicionales y ensaladas frescas. Bebidas Selectas: Acompaña tu comida con una cuidada selección de vinos de prestigio y espumantes. Tendrás la oportunidad de brindar y disfrutar de bebidas de alta calidad, elegidas para realzar tu experiencia gastronómica. Disfrute del Entorno: Después del almuerzo, tómate un tiempo para relajarte y disfrutar del paisaje. Puedes explorar la finca, caminar por los viñedos o simplemente relajarte y absorber la belleza del entorno natural. Este día está pensado para ofrecerte no solo un festín para los sentidos, sino también una experiencia de conexión con la naturaleza y la compañía de tus seres queridos, todo con la comodidad de un traslado sin complicaciones."
+        },
+        {
+            "ExperiencesTitle": "Día de Montaña a orillas del Dique Potrerillos",
+            "ExperiencesIntro": "Disfruta de una experiencia única en las orillas del Dique Potrerillos. Vive un día perfecto rodeado de magníficos paisajes montañosos y la tranquilidad de las aguas del dique, con la comodidad de un traslado incluido desde tu lugar de hospedaje.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Itinerario del Día: Traslado de Ida y Vuelta: Para tu comodidad, el servicio de traslado recogerá a los participantes en el lugar de hospedaje por la mañana. Relájate durante el viaje en un cómodo vehículo y disfruta de las vistas panorámicas mientras te diriges al Dique Potrerillos. Al finalizar la experiencia, te llevarán de regreso a tu alojamiento, asegurando una jornada sin preocupaciones. Recepción y Aperitivos: Al llegar al dique, te recibirán con una deliciosa selección de aperitivos, que incluye empanadas al disco, pastelitos y una variedad de fiambres. Estos bocados iniciales están diseñados para despertar tus sentidos mientras te acomodas en el entorno natural. Almuerzo a la Parrilla: El almuerzo se centrará en un asado a la parrilla. Disfruta de una variedad de carnes asadas a la perfección, acompañadas de guarniciones tradicionales y ensaladas frescas. Bebidas Premium: Acompaña tu comida con una selección de vinos de prestigio y espumantes. Tendrás la oportunidad de brindar y celebrar en grande con bebidas de alta calidad, perfectamente elegidas para complementar tu almuerzo. Disfrute del Entorno: Después del almuerzo, tómate un tiempo para relajarte y disfrutar del paisaje. Puedes explorar la zona, caminar por la orilla del dique o simplemente relajarte y absorber la belleza del entorno natural."
+        }
+    ],
+    "masTitle": "Más Experiences",
     "footer": {
         "FooterRights": ". Todos los Derechos Reservados.",
         "FooterContact" : "Contactanos"

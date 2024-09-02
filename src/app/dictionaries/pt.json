@@ -184,6 +184,21 @@
             "ExperiencesDesc": "Este passeio de barco é ideal para celebrações especiais, escapadelas a dois ou simplesmente para relaxar com amigos e família num ambiente natural incomparável."
         }
     ],
+    "experiencesMas" : [
+        {
+            "ExperiencesTitle": "Dia de Piquenique no Valle de Uco",
+            "ExperiencesIntro": "Desfrute de uma experiência única na natureza em uma fazenda no vale de Uco. Viva um dia perfeito cercado por esplêndidas paisagens rurais e a tranquilidade do campo, com o conforto de uma transferência incluída de seu alojamento.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Palapas.webp",
+            "ExperiencesDesc": "Itinerário do dia: transferência de ida e volta: para o seu conforto, o serviço de transferência coletará os participantes no local de hospedagem pela manhã. Relaxe durante a viagem e aprecie as vistas panorâmicas enquanto dirige para o vale da UCO. No final da experiência, eles o levarão de volta à sua acomodação, garantindo um dia sem preocupações. Recepção e lanches: Ao chegar à fazenda, eles o receberão com uma variedade requintada de lanches, que inclui empanadas no disco, bolos e uma seleção de cortes frios. Esses lanches iniciais são projetados para se deleitar e se preparar para uma experiência gastronômica no ambiente do país. Visite às vinhas: antes do almoço, você desfrutará de uma linda visita às vinhas da fazenda. Saiba mais sobre o processo de cultivo e a produção de vinhos na região e mergulhe na beleza da paisagem do vinho. Almoço grelhado: o almoço se concentrará no assado grelhado. Desfrute de uma variedade de carnes, acompanhada de guarnições tradicionais e saladas frescas. Bebidas selecionadas: acompanhe sua comida com uma seleção cuidadosa de vinhos de prestígio e vinhos espumantes. Você terá a oportunidade de fornecer e desfrutar de bebidas de alta qualidade, escolhidas para melhorar sua experiência gastronômica. Aproveite o meio ambiente: depois do almoço, reserve um tempo para relaxar e aproveitar a paisagem. Você pode explorar a fazenda, atravessar as vinhas ou simplesmente relaxar e absorver a beleza do ambiente natural. Este dia foi projetado para oferecer não apenas um banquete para os sentidos, mas também uma experiência de conexão com a natureza e a companhia de seus entes queridos, tudo com o conforto de uma transferência sem complicações."
+        },
+        {
+            "ExperiencesTitle": "Dia da Montanha nas margens do Dique Potreillos",
+            "ExperiencesIntro": "Desfrute de uma experiência única nas margens do dique Potreillos. Viva um dia perfeito cercado por magníficas paisagens montanhosas e a tranquilidade das águas do dique, com o conforto de uma transferência incluída de sua hospedagem.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Itinerário do dia: transferência de ida e volta: para o seu conforto, o serviço de transferência coletará os participantes no local de hospedagem pela manhã. Relaxe durante a viagem em um veículo confortável e aprecie as vistas panorâmicas enquanto ia ao dique Potrerillos. No final da experiência, eles o levarão de volta à sua acomodação, garantindo um dia sem preocupações. Recepção e aperitivos: Ao chegar ao dique, eles o receberão com uma deliciosa seleção de lanches, que inclui desânimo, bolos e uma variedade de cortes frios. Esses lanches iniciais foram projetados para despertar seus sentidos enquanto você acomoda no ambiente natural. Almoço grelhado: o almoço se concentrará no assado grelhado. Desfrute de uma variedade de carnes assadas perfeitas, acompanhadas de guarnições tradicionais e saladas frescas. Bebidas premium: acompanhe sua comida com uma seleção de vinhos de prestígio e vinhos espumantes. Você terá a oportunidade de fornecer e comemorar grandes com bebidas de alta qualidade, perfeitamente escolhidas para complementar seu almoço. Aproveite o meio ambiente: depois do almoço, reserve um tempo para relaxar e aproveitar a paisagem. Você pode explorar a área, caminhar na costa do dique ou simplesmente relaxar e absorver a beleza do ambiente natural."
+        }
+    ],
+    "masTitle": "Mais Experiências",
     "footer": {
         "FooterRights": ". Todos os direitos reservados.",
         "FooterContact" : "Contate-nos"

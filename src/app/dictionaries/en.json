@@ -184,6 +184,21 @@
             "ExperiencesDesc": "This sailing trip is ideal for special celebrations, getaways for couples, or simply to relax with friends and family in an incomparable natural setting."
         }
     ],
+    "experiencesMas" : [
+        {
+            "ExperiencesTitle": "Picnic Day in Valle de Uco",
+            "ExperiencesIntro": "Enjoy a unique experience in nature on a farm in the Uco Valley. Live a perfect day surrounded by splendid rural landscapes and the tranquility of the field, with the comfort of a transfer included from your lodging.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Palapas.webp",
+            "ExperiencesDesc": "Itinerary of the day: round trip transfer: For your comfort, the transfer service will collect participants in the place of lodging in the morning. Relax during the trip and enjoy the panoramic views while heading to the Uco Valley. At the end of the experience, they will take you back to your accommodation, ensuring a day without worries. Reception and snacks: Upon arriving at the farm, they will welcome you with an exquisite variety of snacks, which includes empanadas to the disc, cakes and a selection of cold cuts. These initial snacks are designed to delight and prepare for a gastronomic experience in the country environment. Visit to the vineyards: before lunch, you will enjoy a lovely visit to the farm vineyards. Know more about the cultivation process and the production of wines in the region, and immerse yourself in the beauty of the wine landscape. Grilled lunch: lunch will focus on grilled roast. Enjoy a variety of meats, accompanied by traditional garrisons and fresh salads. Selected drinks: Accompany your food with a careful selection of prestigious wines and foaming wines. You will have the opportunity to provide and enjoy high quality drinks, chosen to enhance your gastronomic experience. Enjoy the environment: after lunch, take time to relax and enjoy the landscape. You can explore the farm, walk through the vineyards or simply relax and absorb the beauty of the natural environment. This day is designed to offer you not only a feast for the senses, but also an experience of connection with the nature and company of your loved ones, all with the comfort of a transfer without complications."
+        },
+        {
+            "ExperiencesTitle": "Mountain day on the shores of Dique Potrerillos",
+            "ExperiencesIntro": "Enjoy a unique experience on the shores of the Potrerillos dike. Live a perfect day surrounded by magnificent mountain landscapes and the tranquility of the dike's waters, with the comfort of a transfer included from your lodging.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Itinerary of the day: round trip transfer: For your comfort, the transfer service will collect participants in the place of lodging in the morning. Relax during the trip in a comfortable vehicle and enjoy the panoramic views while going to the Potrerillos dike. At the end of the experience, they will take you back to your accommodation, ensuring a day without worries. Reception and appetizers: Upon arriving at the dike, they will receive you with a delicious selection of snacks, which includes discouragement, cakes and a variety of cold cuts. These initial snacks are designed to awaken your senses while you accommodate in the natural environment. Grilled lunch: lunch will focus on grilled roast. Enjoy a variety of perfect roasted meats, accompanied by traditional garrisons and fresh salads. Premium drinks: Accompany your food with a selection of prestigious wines and foaming wines. You will have the opportunity to provide and celebrate large with high quality drinks, perfectly chosen to complement your lunch. Enjoy the environment: after lunch, take time to relax and enjoy the landscape. You can explore the area, walk on the shore of the dike or simply relax and absorb the beauty of the natural environment."
+        }
+    ],
+    "masTitle": "More Experiences",
     "footer": {
         "FooterRights": ". All rights reserved.",
         "FooterContact" : "Contact Us"
