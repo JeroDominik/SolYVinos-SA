@@ -13,7 +13,7 @@ export default async function Home ({ params: { lang } }: { params: { lang: Lang
   const dictionary = await import(`@/app/dictionaries/${lang}.json`).then(m => m.default)
 
   return (
-    <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden overflow-y-auto">
+    <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden overflow-y-auto scroll-smooth">
       <Header dictionary={dictionary}/>
       <AboutUs dictionary={dictionary}/>
       <main className="w-full py-14 sm:py-20" id="experience">
