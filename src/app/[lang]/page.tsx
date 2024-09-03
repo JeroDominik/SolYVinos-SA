@@ -6,6 +6,7 @@ import ExperienceValleUco from '@/components/experienceValleUco'
 import ExperienceMaipu from '@/components/experienceMaipu'
 import ExperienceAltaMontana from '@/components/experienceAltaMontana'
 import ExperienceMas from '@/components/experienceMas'
+import Beneficios from '@/components/beneficios'
 import { IconExperience } from '@/components/Icons/Icons'
 
 type Lang = 'es' | 'en' | 'pt'
@@ -27,6 +28,7 @@ export default async function Home ({ params: { lang } }: { params: { lang: Lang
         <ExperienceMaipu dictionary={dictionary}/>
         <ExperienceAltaMontana dictionary={dictionary}/>
         <ExperienceMas dictionary={dictionary}/>
+        <Beneficios/>
       </main>
       <Footer dictionary={dictionary}/>
     </main>

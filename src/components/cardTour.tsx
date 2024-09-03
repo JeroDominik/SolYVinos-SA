@@ -31,7 +31,7 @@ export default function CardTour ({ experience }: ExperienceProps) {
 
   return (
     <>
-      <li className="relative h-auto w-auto overflow-hidden rounded-xl p-[1px] backdrop-blur-3xl">
+      <li className="relative h-auto w-auto overflow-hidden rounded-xl p-[2px] backdrop-blur-3xl">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#7F44C9_0%,#E2CBFF_50%,#7F44C9_100%)]" />
         <div className="flex flex-col h-full w-full justify-star rounded-xl text-sm xl:text-base font-semibold backdrop-blur bg-stone-900 relative">
           <Image src={experience.ExperiencesImg}
