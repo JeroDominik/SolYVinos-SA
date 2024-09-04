@@ -35,7 +35,7 @@ export const IconBrasil = () => (
 )
 
 export const IconExperience = () => (
-    <svg className="size-7 sm:size-8 lg:size-10"
+    <svg className="size-8 lg:size-10"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -50,7 +50,7 @@ export const IconExperience = () => (
 )
 
 export const IconMoreExperience = () => (
-    <svg className="size-7 sm:size-8 lg:size-11"
+    <svg className="size-8 lg:size-11"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
