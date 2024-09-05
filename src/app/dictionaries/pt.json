@@ -208,7 +208,8 @@
     "masTitle": "Mais Experiências",
     "beneficios" : {
         "BeneficiosTitle": "Benefícios",
-        "BeneficiosDesc": "Viva momentos inesquecíveis conosco e ganhe descontos exclusivos em:"
+        "BeneficiosDesc": "Viva momentos inesquecíveis conosco e ganhe descontos exclusivos em:",
+        "BeneficiosRentLogo": "Aluguel Apartamento"
     },
     "footer": {
         "FooterRights": ". Todos os direitos reservados.",

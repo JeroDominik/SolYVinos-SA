@@ -207,7 +207,8 @@
     "masTitle": "Más Experiences",
     "beneficios" : {
         "BeneficiosTitle": "Benefícios",
-        "BeneficiosDesc": "Viví momentos inolvidables con nosotros y obtené descuentos exclusivos en:"
+        "BeneficiosDesc": "Viví momentos inolvidables con nosotros y obtené descuentos exclusivos en:",
+        "BeneficiosRentLogo": "Alquiler Departamento"
     },
     "footer": {
         "FooterRights": ". Todos los Derechos Reservados.",

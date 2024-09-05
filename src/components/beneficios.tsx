@@ -4,6 +4,7 @@ import { LogoEntreDos, LogoMaguay, LogoAlquiler, LogoWineShop } from './Icons/Ic
 interface ExperienceDictionary {
   BeneficiosTitle: string
   BeneficiosDesc: string
+  BeneficiosRentLogo: string
 }
 interface ExperienceProps {
   beneficios: ExperienceDictionary
@@ -28,7 +29,7 @@ export default function Beneficios ({ dictionary }: Dictionary) {
         </a>
         <a className="flex flex-col justify-center items-center h-28 md:h-36 bg-gradient-to-b from-fuchsia-950/20 via-transparent to-transparent" href="#">
           <LogoAlquiler/>
-          <p className="text-center text-xs text-slate-300 font-extrabold">Rent Department</p>
+          <p className="text-center text-xs text-slate-300 font-extrabold">{beneficios.BeneficiosRentLogo}</p>
         </a>
         <a className="flex justify-center items-center h-28 md:h-36 bg-gradient-to-b from-fuchsia-950/20 via-transparent to-transparent" href="#">
           <LogoMaguay/>
