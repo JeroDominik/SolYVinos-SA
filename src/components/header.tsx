@@ -6,6 +6,7 @@ interface HeaderDictionary {
   HeaderTitle: string
   NavInit: string
   NavExperiences: string
+  NavBeneficios: string
 }
 interface HeaderProps {
   header: HeaderDictionary
