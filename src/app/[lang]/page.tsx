@@ -28,7 +28,7 @@ export default async function Home ({ params: { lang } }: { params: { lang: Lang
         <ExperienceMaipu dictionary={dictionary}/>
         <ExperienceAltaMontana dictionary={dictionary}/>
         <ExperienceMas dictionary={dictionary}/>
-        <Beneficios/>
+        <Beneficios dictionary={dictionary}/>
       </main>
       <Footer dictionary={dictionary}/>
     </main>

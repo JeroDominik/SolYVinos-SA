@@ -7,6 +7,7 @@ import { LogoSolyVino, IconUSA, IconSpain, IconBrasil } from './Icons/Icons'
 interface HeaderDictionary {
   NavInit: string
   NavExperiences: string
+  NavBeneficios: string
 }
 interface HeaderProps {
   header: HeaderDictionary
@@ -28,10 +29,11 @@ export default function Navbar ({ header }: HeaderProps) {
             <div className="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-slate-300 transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-slate-300 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-slate-300 after:transition-all after:duration-500 after:content-['']">
             </div>
           </button>
-          <nav className="md:flex hidden gap-x-8 text-xl font-medium">
+          <nav className="md:flex hidden gap-x-5 lg:gap-x-8 text-lg lg:text-xl font-medium">
             <a href="#init" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavInit}</a>
             <a href="#aboutus" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vino</a>
             <a href="#experience" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavExperiences}</a>
+            <a href="#beneficios" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavBeneficios}</a>
           </nav>
         </div>
         <div className="gap-x-2 hidden md:flex">
@@ -52,6 +54,7 @@ export default function Navbar ({ header }: HeaderProps) {
           <a href="#init" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavInit}</a>
           <a href="#aboutus" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>Sol y Vinos</a>
           <a href="#experience" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavExperiences}</a>
+          <a href="#beneficios" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavBeneficios}</a>
           <div className="flex gap-x-4 justify-center relative py-6">
             <Link href="/es" className="size-14 transition hover:bg-white/5 p-2 rounded-full">
               <IconSpain/>

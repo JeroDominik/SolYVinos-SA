@@ -180,7 +180,7 @@ export const LogoSolyVino = () => (
 )
 
 export const LogoEntreDos = () => (
-    <svg className="size-44 md:size-52 text-slate-100"
+    <svg className="h-auto w-40 text-slate-100"
         viewBox="0 0 900 900"
         strokeWidth="3"
         stroke="currentColor"
@@ -238,7 +238,7 @@ export const LogoEntreDos = () => (
 )
 
 export const LogoAlquiler = () => (
-    <svg className="size-44 md:size-52 text-slate-100"
+    <svg className="h-auto w-40 text-slate-100"
         viewBox="0 0 2048 1361"
         strokeWidth="5"
         stroke="currentColor"
@@ -253,7 +253,7 @@ export const LogoAlquiler = () => (
 )
 
 export const LogoMaguay = () => (
-    <svg className="size-44 md:size-52 text-slate-100"
+    <svg className="h-auto w-40 text-slate-100"
         viewBox="0 0 900 900"
         strokeWidth="3"
         stroke="currentColor"
@@ -288,7 +288,7 @@ export const LogoMaguay = () => (
 )
 
 export const LogoWineShop = () => (
-    <svg className="size-28 md:size-32 text-slate-100"
+    <svg className="h-full w-32 text-slate-100"
         viewBox="0 0 900 900"
         strokeWidth="3"
         stroke="currentColor"

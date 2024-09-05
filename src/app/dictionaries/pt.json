@@ -3,7 +3,8 @@
     "header": {
         "HeaderTitle": "Aproveite Mendoza e a melhor experiência",
         "NavInit": "Início",
-        "NavExperiences": "Experiences"
+        "NavExperiences": "Experiences",
+        "NavBeneficios": "Benefícios"
     },
     "aboutUs": {
         "AboutTitle": "Somos Sol y Vino. Somos Mendoza",
@@ -205,6 +206,10 @@
         }
     ],
     "masTitle": "Mais Experiências",
+    "beneficios" : {
+        "BeneficiosTitle": "Benefícios",
+        "BeneficiosDesc": "Viva momentos inesquecíveis conosco e ganhe descontos exclusivos em:"
+    },
     "footer": {
         "FooterRights": ". Todos os direitos reservados.",
         "FooterContact" : "Contate-nos"
