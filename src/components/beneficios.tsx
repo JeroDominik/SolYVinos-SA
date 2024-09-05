@@ -24,16 +24,17 @@ export default function Beneficios ({ dictionary }: Dictionary) {
       </p>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 px-2 sm:px-10 xl:px-16 rounded-lg sm:w-[90%] lg:max-w-6xl mx-auto">
         <a className="flex justify-center items-center h-28 md:h-36 bg-gradient-to-b from-fuchsia-950/20 via-transparent to-transparent" href="#">
-            <LogoEntreDos/>
+          <LogoEntreDos/>
+        </a>
+        <a className="flex flex-col justify-center items-center h-28 md:h-36 bg-gradient-to-b from-fuchsia-950/20 via-transparent to-transparent" href="#">
+          <LogoAlquiler/>
+          <p className="text-center text-xs text-slate-300 font-extrabold">Rent Department</p>
         </a>
         <a className="flex justify-center items-center h-28 md:h-36 bg-gradient-to-b from-fuchsia-950/20 via-transparent to-transparent" href="#">
-            <LogoAlquiler/>
+          <LogoMaguay/>
         </a>
         <a className="flex justify-center items-center h-28 md:h-36 bg-gradient-to-b from-fuchsia-950/20 via-transparent to-transparent" href="#">
-            <LogoMaguay/>
-        </a>
-        <a className="flex justify-center items-center h-28 md:h-36 bg-gradient-to-b from-fuchsia-950/20 via-transparent to-transparent" href="#">
-            <LogoWineShop/>
+          <LogoWineShop/>
         </a>
       </div>
     </section>
