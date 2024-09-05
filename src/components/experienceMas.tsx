@@ -20,7 +20,7 @@ export default function ExperienceMas ({ dictionary }: Dictionary) {
 
   return (
     <section className="py-12 border-t-4 border-t-fuchsia-950/60">
-      <h1 className="flex justify-center items-center text-4xl lg:text-5xl font-bold text-gray-200 gap-4 my-10">
+      <h1 className="flex justify-center items-center text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-200 gap-2 sm:gap-4 my-10 mx-auto">
         <IconMoreExperience/>
         {masTitle}
       </h1>

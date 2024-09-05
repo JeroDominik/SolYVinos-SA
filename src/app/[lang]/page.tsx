@@ -19,7 +19,7 @@ export default async function Home ({ params: { lang } }: { params: { lang: Lang
       <Header dictionary={dictionary}/>
       <AboutUs dictionary={dictionary}/>
       <main className="w-full py-14 sm:py-20" id="experience">
-        <h1 className="flex justify-center items-center text-4xl lg:text-5xl font-bold text-gray-200 gap-4 my-10">
+        <h1 className="flex justify-center items-center text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-200 gap-2 sm:gap-4 my-10 mx-auto">
           <IconExperience/>
           {dictionary.title}
         </h1>
