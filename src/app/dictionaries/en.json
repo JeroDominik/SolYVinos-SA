@@ -65,6 +65,10 @@
             "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-GimenezRiili.webp"
         }
     ],
+    "boutiqueUco": {
+        "boutiqueTitle": "Discover the magic of Boutique Wineries in Valle de Uco",
+        "boutiqueDesc": "Valle de Uco is a true paradise for wine lovers. In this region, winemaking tradition meets the innovation and art of boutique wineries. We invite you to discover some of the most outstanding wineries in this region:"
+    },
     "experiencesLujan" : [
         {
             "ExperiencesTitle": "Catena Zapata Winery",
@@ -134,6 +138,10 @@
             "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Kaiken.webp"
         }
     ],
+    "boutiqueLujan": {
+        "boutiqueTitle": "Discover the magic of Boutique Wineries in Luján de Cuyo",
+        "boutiqueDesc": "Luján de Cuyo is a true paradise for wine lovers. Here, winemaking tradition meets the innovation and art of boutique wineries. We invite you to discover some of the outstanding ones in this region:"
+    },
     "experiencesMaipu" : [
         {
             "ExperiencesTitle": "Trapiche Winery",
@@ -176,6 +184,10 @@
             "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Trivento.webp"
         }
     ],
+    "boutiqueMaipu": {
+        "boutiqueTitle": "Discover the magic of the Boutique Wineries in Maipú",
+        "boutiqueDesc": "Maipú is a true paradise for wine lovers. Here, winemaking tradition meets the innovation and art of boutique wineries. We invite you to discover some of the most outstanding wineries in this region:"
+    },
     "experiencesPotrerillos" : [
         {
             "ExperiencesTitle": "The Palapas",

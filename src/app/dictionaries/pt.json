@@ -65,6 +65,10 @@
             "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-GimenezRiili.webp"
         }
     ],
+    "boutiqueUco": {
+        "boutiqueTitle": "Descubra a magia das Vinícolas Boutique do Valle de Uco",
+        "boutiqueDesc": "O Valle do Uco é um verdadeiro paraíso para os amantes do vinho. Nesta região, a tradição vitivinícola encontra-se com a inovação e a arte das adegas boutique. Convidamos você a descobrir algumas das vinícolas mais destacadas desta região:"
+    },
     "experiencesLujan" : [
         {
             "ExperiencesTitle": "Vinícola Catena Zapata",
@@ -134,6 +138,10 @@
             "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Kaiken.webp"
         }
     ],
+    "boutiqueLujan": {
+        "boutiqueTitle": "Descubra a magia das vinícolas boutique em Luján de Cuyo",
+        "boutiqueDesc": "Luján de Cuyo é um verdadeiro paraíso para os amantes do vinho. Aqui, a tradição vinícola encontra a inovação e a arte das vinícolas boutique. Convidamo-lo a descobrir alguns dos destaques desta região:"
+    },
     "experiencesMaipu" : [
         {
             "ExperiencesTitle": "Bodega Trapiche",
@@ -176,6 +184,10 @@
             "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Trivento.webp"
         }
     ],
+    "boutiqueMaipu": {
+        "boutiqueTitle": "Descubra a magia das Vinícolas Boutique de Maipú",
+        "boutiqueDesc": "Maipú é um verdadeiro paraíso para os amantes do vinho. Aqui, a tradição vinícola encontra a inovação e a arte das vinícolas boutique. Convidamos você a descobrir algumas das vinícolas mais destacadas desta região:"
+    },
     "experiencesPotrerillos" : [
         {
             "ExperiencesTitle": "Os Palapas",

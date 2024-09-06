@@ -8,16 +8,21 @@ interface ExperienceDictionary {
   ExperiencesImg: string
   ExperiencesDesc: string
 }
+interface BoutiqueDictionary {
+  boutiqueTitle: string
+  boutiqueDesc: string
+}
 interface ExperienceProps {
   experiencesMaipu: ExperienceDictionary []
   experiencesBoutiqueMaipu: ExperienceDictionary []
+  boutiqueMaipu: BoutiqueDictionary
 }
 interface Dictionary {
   dictionary: ExperienceProps
 }
 
 export default function ExperienceMaipu ({ dictionary }: Dictionary) {
-  const { experiencesMaipu, experiencesBoutiqueMaipu } = dictionary
+  const { experiencesMaipu, experiencesBoutiqueMaipu, boutiqueMaipu } = dictionary
   const experiencesBoutique = experiencesBoutiqueMaipu
 
   return (
@@ -43,9 +48,13 @@ export default function ExperienceMaipu ({ dictionary }: Dictionary) {
           ))
         }
       </ol>
-      <CardBoutique
-        experiencesBoutique={experiencesBoutique}
-      />
+      <div className="mx-auto pt-6 sm:pt-10 text-gray-300 w-[90%]">
+        <h2 className="text-pretty sm:text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4">{boutiqueMaipu.boutiqueTitle}</h2>
+        <p className="text-pretty text-base sm:text-lg lg:text-xl font-semibold mb-8 sm:mb-10">{boutiqueMaipu.boutiqueDesc}</p>
+        <CardBoutique
+          experiencesBoutique={experiencesBoutique}
+        />
+      </div>
     </section>
   )
 }
