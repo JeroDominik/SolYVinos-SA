@@ -1,0 +1,230 @@
+{
+    "title": "Our Experiences",
+    "header": {
+        "HeaderTitle": "Enjoy Mendoza and the best experience",
+        "NavInit": "Home",
+        "NavExperiences": "Experiences",
+        "NavBeneficios": "Benefits"
+    },
+    "aboutUs": {
+        "AboutTitle": "We are Sol y Vino, We are Mendoza",
+        "FirstParagraph" : "Sol y Vino Experiences invites you to live unforgettable moments in the charming region of Mendoza. We specialize in offering exclusive transfers and captivating adventures that will allow you to explore the beauty of the Mendoza landscape while immersing yourself in the fascinating culture of wine and local gastronomy.",
+        "SecondParagraph": "From exciting tours of prestigious wineries to culinary tastings in the most charming corners, we are here to make your dreams come true in Mendoza. We customize each experience according to your preferences and desires, ensuring that every moment is unique and memorable. Join us and discover the true essence of Mendoza on a journey full of adventure and delight."
+    },
+    "experiencesUco" : [
+        {
+            "ExperiencesTitle": "Salentein Winery",
+            "ExperiencesIntro": "Located in the Uco Valley, in the Province of Mendoza. It offers guided tours, tastings and cultural activities, some like its 'Casa Grande', an old restored country house that functions as a boutique hotel; and its 'Espacio Killka', a cultural and contemporary art center. The architecture of the winery has an innovative cross-shaped design, allowing an efficient flow of the winemaking process. It also has an underground cellar that maintains optimal conditions for the aging of the wine. Its Malbec stands out, along with other varieties such as Cabernet Sauvignon, Merlot, Pinot Noir, Chardonnay and Sauvignon Blanc. The line of wines includes recognized labels such as Killka, Numina and Primus.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Salentein.webp",
+            "ExperiencesDesc": "It has around 800 hectares of vineyards located between 1,050 and 1,700 meters above sea level. The climate and altitude of the Uco Valley are ideal for the production of high quality wines. Its wines have received multiple awards and recognitions internationally for their quality and distinctive character."
+        },
+        {
+            "ExperiencesTitle": "Zuccardi Winery",
+            "ExperiencesIntro": "Located in the Uco Valley, Mendoza Province, the winery offers wine tourism experiences that include guided tours, tastings, and educational activities. The winery's restaurant offers exquisite pairings with Zuccardi wines. The main winery, known as 'Piedra Infinita,' is famous for its innovative and environmentally friendly architectural design. Built with local materials and using sustainable techniques, its structure blends perfectly with the Andean landscape. It has an outstanding line of Malbec, Cabernet Sauvignon, Syrah, and Torrontés that express the terroir of the Uco Valley, with high-quality wines and great personality.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Zuccardi.webp",
+            "ExperiencesDesc": "Its vineyards are located in the Uco Valley, known for their altitude and alluvial soils. Its Piedra Infinita estate, in Paraje Altamira, is one of its most outstanding vineyards. The winery has achieved recognition as 'Best Winery and Vineyard in the World' at the Worlds Best Vineyards in 2019, 2020, and 2021. Its wines have received multiple awards and high ratings from international critics such as Jacques Dupont and Tim Atkin."
+        },
+        {
+            "ExperiencesTitle": "Andeluna Winery",
+            "ExperiencesIntro": "It is located in the Uco Valley, Mendoza Province. It offers wine tourism experiences that include guided tours, tastings and lunches in its gourmet restaurant, where wines can be paired with local cuisine. Activities such as walks through the vineyards and blind tastings are part of the tourist offer. The winery combines a modern architectural design with rustic elements, harmoniously integrating with the Andean landscape. Its facilities include an underground cellar ideal for aging wines in oak barrels. Specialized in Malbec, Cabernet Sauvignon, Merlot, Chardonnay and other varieties. Some of its outstanding lines are Andeluna Altitud, Andeluna Pasionado and Andeluna Raíces, focused on expressing the character of the Gualtallary terroir in each bottle.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp",
+            "ExperiencesDesc": "Its vineyards are located at more than 1,300 meters above sea level in Gualtallary, a subregion of the Uco Valley. The stony soils and the cool high mountain climate allow the production of wines with a notable acidity and mineral character. Among its awards we can find the 'Decanter World Wine Awards': Andeluna has received gold and silver medals in these awards for its Andeluna Altitud Malbec and other wines. 'International Wine Challenge': for its Pasionado line. 'Wine Advocate': High scores from critics such as Robert Parker, especially for its high-end wines."
+        },
+        {
+            "ExperiencesTitle": "Alfa Crux Winery",
+            "ExperiencesIntro": "Located in the Uco Valley, in the Province of Mendoza. It offers guided tours and tastings in a stunning setting, highlighting the beauty of the Andean landscape. Its restaurant, O. Fournier, offers exquisite pairings with the winery's wines, enhancing the gastronomic experience. The winery has a modern and functional architecture, designed to optimize the winemaking process. Construction integrated with the landscape, using local and sustainable materials. Specializing in Malbec, Tempranillo, Cabernet Sauvignon, Syrah and Sauvignon Blanc. Its wine lines include Alfa Crux, Beta Crux, and Crux, each representing different levels of complexity, character and the expression of terroir.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp",
+            "ExperiencesDesc": "Vineyards located in La Consulta, a sub-region of the Uco Valley, at an altitude of approximately 1,200 meters above sea level. The cool climate and alluvial soils of the Uco Valley are ideal for the production of high quality wines with great concentration of flavor. The Winery has been recognized by Sommerliers as 'James Suckling': Outstanding scores for wines such as Alfa Crux Malbec and Beta Crux, with ratings above 90 points and 'Tim Atkin': Recognitions in the Argentine wine reports of this British critic, highlighting the quality and complexity of its wines."
+        },
+        {
+            "ExperiencesTitle": "DiamAndes Winery",
+            "ExperiencesIntro": "Located in the Uco Valley, Mendoza, it offers guided tours and tastings in a spectacular setting, allowing visitors to learn about the winemaking process. It features gastronomic experiences at the winery's restaurant, where wines are paired with local gourmet cuisine. The winery features modern and elegant architecture, designed to blend harmoniously with the Andean landscape. Built sustainably to optimize winemaking. Specializing in Malbec, Cabernet Sauvignon, Merlot, Syrah and Chardonnay. Its wine lines include DiamAndes de Uco and Perlita de DiamAndes, with a focus on quality and terroir expression.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-DiamAndes.webp",
+            "ExperiencesDesc": "Vineyards located at 1,100 meters above sea level in the Uco Valley, one of the most prestigious areas of Mendoza. The alluvial soils and the cool high mountain climate allow the production of grapes with excellent acidity and concentration. The winery has obtained recognitions such as 'Worlds Best Vineyards': It has been listed among the best wineries in the world, standing out for its wine tourism experience and the quality of its wines. 'Decanter World Wine Awards': Gold and silver medals for wines such as DiamAndes de Uco and Perlita de DiamAndes. 'Wine Spectator': High ratings for its wines, with special mentions for its Malbec and Cabernet Sauvignon."
+        }
+    ],
+    "experiencesBoutiqueUco" : [
+        {
+            "ExperiencesTitle": "Finca Adelma",
+            "ExperiencesDesc": "Finca Adelma stands out for its wines that reflect the purity of the Uco Valley. Since its opening in 2005, it has earned a reputation for its attention to detail and commitment to quality, offering wines that capture the authentic essence of the terroir.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Adelma.webp"
+        },
+        {
+            "ExperiencesTitle": "Azul Winery",
+            "ExperiencesDesc": "At Azul Winery, elegance and balance are the norm. Since its founding, the winery has been known for its sophisticated, well-crafted wines, combining modern techniques with a deep respect for winemaking tradition.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Azul.webp"
+        },
+        {
+            "ExperiencesTitle": "Domaine Bousquet",
+            "ExperiencesDesc": "Founded with a focus on organic production, Domaine Bousquet has established a solid reputation for pure, high-quality wines. Since its inception in 1997, it has been committed to offering wines that reflect the purity and richness of Valle de Uco.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Bousquet.webp"
+        },
+        {
+            "ExperiencesTitle": "Giménez Riili",
+            "ExperiencesDesc": "Giménez Riili specializes in wines that capture the character of the Uco Valley. Since its creation, the winery has been known for its passion and authenticity, producing wines that stand out for their depth and quality.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-GimenezRiili.webp"
+        }
+    ],
+    "boutiqueUco": {
+        "boutiqueTitle": "Discover the magic of Boutique Wineries in Valle de Uco",
+        "boutiqueDesc": "Valle de Uco is a true paradise for wine lovers. In this region, winemaking tradition meets the innovation and art of boutique wineries. We invite you to discover some of the most outstanding wineries in this region:"
+    },
+    "experiencesLujan" : [
+        {
+            "ExperiencesTitle": "Catena Zapata Winery",
+            "ExperiencesIntro": "Located in the Mendoza department of Luján de Cuyo, the winery offers guided tours and tastings in a stunning setting. The winery has an iconic design inspired by the Mayan pyramids, combining modern technology with traditional elements. Renowned for its world-class Malbec, it also produces varieties such as Cabernet Sauvignon, Chardonnay and Cabernet Franc. It has emblematic labels such as Catena, Catena Alta, and the prestigious Nicolás Catena Zapata.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-CatenaZapata.webp",
+            "ExperiencesDesc": "Their vineyards are located in various areas of Mendoza, including Luján de Cuyo and the Uco Valley. Some within their renowned high-altitude estates, such as Adrianna and Nicasia, are renowned for their unique terroir. Catena Zapata wines have received countless awards and high ratings from international critics. In 2023, Catena Zapata received the prestigious recognition as 'Best Vineyard in the World' by Worlds Best Vineyards."
+        },
+        {
+            "ExperiencesTitle": "Vistalba Winery",
+            "ExperiencesIntro": "Located in the Mendoza department of Luján de Cuyo, it offers guided tours and tastings in an attractive environment, allowing visitors to learn about the winemaking process. It also has a restaurant that offers gastronomic experiences pairing its wines with local gourmet cuisine. The winery has a modern and functional architecture, designed to optimize the winemaking process. Specialized in Malbec, Cabernet Sauvignon, Merlot and Chardonnay. The wine lines include 'Corte A', 'Corte B' and 'Corte C', each representing different levels of complexity and aging.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-Vistalba.webp",
+            "ExperiencesDesc": "Their vineyards are located in Luján de Cuyo, one of the most prestigious wine-growing areas in Mendoza, known for its excellent conditions for growing grapes. The vineyards are at an altitude of 980 metres above sea level, benefiting from a dry climate and sandy-loam soils. Their wines have received recognitions such as 'Wine Spectator': High scores for wines such as Corte A and Corte B, which stand out for their elegance and structure. 'Descorchados': Recognitions in this annual guide to South American wines, highlighting the quality and expression of the terroir in their wines. 'Tim Atkin': High ratings in Argentine wine reports, especially for their high-end wines."
+        },
+        {
+            "ExperiencesTitle": "Chandon Winery",
+            "ExperiencesIntro": "Located in the Mendoza department of Luján de Cuyo, it offers guided tours and tastings in an elegant setting, allowing visitors to learn about the sparkling winemaking process. It also features gastronomic experiences at the winery's restaurant, where sparkling wines are paired with local gourmet cuisine. The winery combines modern architectural design with cutting-edge facilities for the production of sparkling wines. The facilities include specific areas for fermentation, bottling, and aging in underground cellars. Specialized in the production of sparkling wines. Its wine lines include Chandon Brut, Chandon Extra Brut, Chandon Rosé, and Chandon Delice, known for their elegance, freshness, and the consistency of their fine bubbles.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-Chandon.webp",
+            "ExperiencesDesc": "Its vineyards are located in Agrelo and Ugarteche, within Luján de Cuyo. The vineyards are at altitudes ranging from 1,000 to 1,200 meters above sea level, benefiting from the dry climate and sandy loam soils. The winery is also known for awards such as 'Effervescents du Monde': Gold and silver medals for its sparkling wines, standing out in this international sparkling wine competition. 'International Wine & Spirit Competition (IWSC)': Recognition for the quality of its sparkling wines, with awards for Chandon Brut and Chandon Rosé. 'Wine Enthusiast and Wine Spectator': High ratings in these magazines, consolidating its reputation as one of the best sparkling wine producers in Argentina."
+        },
+        {
+            "ExperiencesTitle": "Nieto Senetiner Winery",
+            "ExperiencesIntro": "Located in the Mendoza department of Luján de Cuyo, it offers guided tours and tastings, allowing visitors to learn about the winemaking process. It also has gastronomic experiences in its restaurant, where wines are paired with local and traditional Argentine gourmet cuisine. The winery combines historical and modern elements, with facilities that allow the production of high-quality wines thanks to its underground cellar that provides optimal conditions for aging wines in oak barrels. Specializing in Malbec, Cabernet Sauvignon, Bonarda and Chardonnay, its wines are known for their elegance, complexity and aging capacity.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-NietoSenetiner.webp",
+            "ExperiencesDesc": "Their vineyards are located mainly in Vistalba, Luján de Cuyo, and also in Agrelo. The vineyards are located at altitudes ranging from 950 to 1,050 metres above sea level, benefiting from an optimal climate and alluvial soils. Their wines have earned them recognitions such as 'Decanter World Wine Awards': Gold and silver medals for their wines, especially their Nieto Senetiner Reserva Malbec. 'Wine Advocate': High scores from critics such as Robert Parker, highlighting the quality and consistency of their wines. 'Tim Atkin': Recognitions in Argentine wine reports, highlighting the Don Nicanor and Cadus range."
+        },
+        {
+            "ExperiencesTitle": "Septima Winery",
+            "ExperiencesIntro": "Located in the Mendoza department of Luján de Cuyo, the winery was founded in 1999 by the Codorníu Raventós group, one of the oldest and most prestigious wine companies in Spain. It offers guided tours that include tours of the vineyards and the winery, with detailed explanations about the winemaking process. The proximity to the Andes mountain range provides an excellent range of day and night temperatures, favoring slow maturation and the development of complexity in the wines, such as 'Séptima Obra', 'Séptima Gran Reserva', 'Séptima Malbec' and 'Séptima Chardonnay'.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-Septima.webp",
+            "ExperiencesDesc": "Its vineyards are located at an altitude of 1,050 metres above sea level, with a dry climate and stony soils, ideal for growing varieties such as Malbec, Cabernet Sauvignon, Syrah, Tempranillo and Chardonnay. Its awards include the 'Decanter World Wine Awards': Medals for several of its wines, including Séptima Gran Reserva Malbec and Séptima Obra Malbec, highlighting their exceptional quality. 'International Wine & Spirit Competition (IWSC)': Awards obtained in various categories, consolidating its international reputation."
+        }
+    ],
+    "experiencesBoutiqueLujan" : [
+        {
+            "ExperiencesTitle": "Susana Balbo",
+            "ExperiencesDesc": "Founded by renowned winemaker Susana Balbo, this winery is a benchmark in Luján de Cuyo. Since 1999, it has earned a reputation for its elegant and complex wines, which reflect Susana's experience and passion in every glass.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "A16",
+            "ExperiencesDesc": "At A16, the essence of the Uco Valley is transformed into art. Since its opening, they have sought the perfect balance between modernity and tradition, creating wines that are a true masterpiece in every bottle.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Penedo Borges",
+            "ExperiencesDesc": "Since 2004, Penedo Borges has been perfecting its wines with meticulous attention to grape selection and winemaking techniques. Its labels offer intense and well-structured flavours, showcasing the best of Mendoza's terroir.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Martino Wines",
+            "ExperiencesDesc": "Founded in 2003, Martino Wines stands out for its innovative approach and unique wines. Each label tells a story, reflecting the family's passion for wine from the vineyard to the bottle.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Durigutti",
+            "ExperiencesDesc": "Durigutti family has made its mark on Mendoza viticulture since 2002. Their robust and well-balanced wines are known for their ageing capacity, offering a perfect balance between power and subtlety.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Cruzat",
+            "ExperiencesDesc": "Specializing in sparkling wines since 2002, Cruzat is known for its elegant and refined bubbles. Perfect for any celebration, its sparkling wines add a sophisticated touch to any toast.",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Cruzat.webp"
+        },
+        {
+            "ExperiencesTitle": "Kaiken",
+            "ExperiencesDesc": "With modern and functional architecture, harmoniously integrated with the landscape, the winery is designed to optimize the winemaking process. Kaiken specializes in Malbec, Cabernet Sauvignon, Bonarda and Chardonnay; combining quality and the expression of the terroir.",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Kaiken.webp"
+        }
+    ],
+    "boutiqueLujan": {
+        "boutiqueTitle": "Discover the magic of Boutique Wineries in Luján de Cuyo",
+        "boutiqueDesc": "Luján de Cuyo is a true paradise for wine lovers. Here, winemaking tradition meets the innovation and art of boutique wineries. We invite you to discover some of the outstanding ones in this region:"
+    },
+    "experiencesMaipu" : [
+        {
+            "ExperiencesTitle": "Trapiche Winery",
+            "ExperiencesIntro": "Located in Maipú, Mendoza. With over 135 years of history, it is one of the oldest and most prestigious wineries in Argentina. It offers guided tours, tastings, and gastronomic experiences in its gourmet restaurant pairing local foods with Trapiche wines. The main winery is located in a historic 19th century building, which has been restored and modernized. The winery is known for its Malbec, but also produces varieties such as Cabernet Sauvignon, Syrah, Merlot, and Chardonnay. Its featured wine lines include Trapiche Medalla, Trapiche Broquel, Trapiche Gran Medalla, and its Single Vineyard series of wines, which highlight the expression of unique terroirs.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Trapiche.webp",
+            "ExperiencesDesc": "Vineyards located in various areas of Mendoza, including the Uco Valley and Maipú, which cover a wide variety of terroirs, allowing the production of a diverse range of wines. Their wines have received awards such as 'World Best Vineyards': Trapiche has been consistently recognized as one of the best wineries in the world, appearing on the annual list of World Best Vineyards. 'Decanter Awards': Their wines have won multiple awards at the Decanter World Wine Awards, including gold medals for wines such as Trapiche Medalla and Trapiche Gran Medalla. 'Wine Spectator and Wine Enthusiast': It has received high ratings, standing out for its Malbec and other varieties."
+        },
+        {
+            "ExperiencesTitle": "Vistandes Winery",
+            "ExperiencesIntro": "Located in the Maipú department of Mendoza, it offers guided tours and tastings in an attractive setting, allowing visitors to learn about the winemaking process. It also has gastronomic experiences in the winery's restaurant, where wines are paired with local gourmet cuisine. The winery combines a modern and functional architectural design, designed to optimize the winemaking process. The facilities include a modern barrel room and an underground cellar for aging the wines. Specializing in Malbec, Cabernet Sauvignon, Syrah, Bonarda, and Chardonnay, known for their elegance, freshness, and fruity character. The wine lines include Vistandes Reserva and Vistandes Gran Reserva, with a focus on quality and terroir expression.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Vistandes.webp",
+            "ExperiencesDesc": "With vineyards located in the heart of Maipú, one of the most traditional and prestigious wine-growing areas of Mendoza. They are at an altitude of 850 meters above sea level, benefiting from a dry climate and clay-loam soils. The winery is also known for Awards such as 'International Wine Challenge': Awards obtained in several editions of this competition, highlighting its Reserva and Gran Reserva wines. 'Decanter World Wine Awards': Silver and bronze medals for several of its wines, recognized for their quality and expression. 'Wine Enthusiast': Good scores for its wines in this American magazine, highlighting the consistency and elegance of its products."
+        },
+        {
+            "ExperiencesTitle": "Vigil House",
+            "ExperiencesIntro": "Located in the Maipú department of Mendoza, it offers guided tours and tastings, allowing visitors to learn about the winemaking process and enjoy Mendoza hospitality. Gastronomic experiences at the restaurant 'Casa Vigil,' where wines are paired with local gourmet cuisine. The main winery is famous for its innovative and environmentally friendly architectural design. Built with local materials and using sustainable techniques, its structure blends perfectly with the Andean landscape. Specializing in Malbec, Cabernet Franc, Cabernet Sauvignon and Chardonnay. Wine lines include 'El Enemigo,' 'Gran Enemigo,' and 'Chachingo,' standing out for their high quality and distinctive character.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Vigil.webp",
+            "ExperiencesDesc": "Their vineyards are located in Maipú and other selected areas of Mendoza. They benefit from altitudes varying between 800 and 1,100 metres above sea level, alluvial soils and a dry climate, ideal for growing high quality grapes. The winery has won awards such as 'Wine Advocate': High scores from critics such as Robert Parker, especially for the El Enemigo line. 'Decanter World Wine Awards': Gold and silver medals for several of their wines, highlighting Gran Enemigo and El Enemigo Malbec. 'James Suckling': Outstanding scores for their wines, with special mentions for their elegance and complexity. 'Tim Atkin': Recognitions in their annual Argentine wine reports, highlighting Casa Vigil's innovation and consistent quality."
+        }
+    ],
+    "experiencesBoutiqueMaipu" : [
+        {
+            "ExperiencesTitle": "Flichman",
+            "ExperiencesDesc": "A classic in Maipú, Flichman offers wines that blend tradition with a modern twist. Founded in 1993, this winery is known for its commitment to quality and its ability to capture the essence of Mendoza's terroir in each bottle.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Flichman.webp"
+        },
+        {
+            "ExperiencesTitle": "Finca Savina",
+            "ExperiencesDesc": "At Finca Savina, they focus on wines with character. Since their beginnings in 2005, they have been recognized for their attention to detail and their ability to highlight the richness of the local soil, resulting in wines with authentic and appealing flavors.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Savina.webp"
+        },
+        {
+            "ExperiencesTitle": "Santa Julia",
+            "ExperiencesDesc": "Part of the Zuccardi group, Santa Julia has been in business since 1990 and is known for its balanced and approachable wines. They offer a wide variety of options ranging from fresh and fruity wines to more complex ones.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-SantaJulia.webp"
+        },
+        {
+            "ExperiencesTitle": "Trivento",
+            "ExperiencesDesc": "Founded in 1996, Trivento stands out for its robust and well-structured wines. The winery combines modern techniques with a deep respect for tradition, resulting in sophisticated wines that are perfect for any occasion.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Trivento.webp"
+        }
+    ],
+    "boutiqueMaipu": {
+        "boutiqueTitle": "Discover the magic of the Boutique Wineries in Maipú",
+        "boutiqueDesc": "Maipú is a true paradise for wine lovers. Here, winemaking tradition meets the innovation and art of boutique wineries. We invite you to discover some of the most outstanding wineries in this region:"
+    },
+    "experiencesPotrerillos" : [
+        {
+            "ExperiencesTitle": "The Palapas",
+            "ExperiencesIntro": "Immerse yourself in the magic of Las Palapas, a mountain bar located in the vastness of the Potrerillos Dam. Enjoy spectacular sunsets with live music and a deep connection with nature. Surrounded by the imposing Andes Mountains, this space offers a unique sensory experience that combines gastronomy, signature cocktails and cultural activities.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Palapas.webp",
+            "ExperiencesDesc": "Las Palapas is the perfect place to relax with friends, celebrate special occasions or simply enjoy the tranquility and beauty of the natural surroundings. With limited capacity, it is recommended to book in advance to secure a spot on this unforgettable experience."
+        }
+        ,
+        {
+            "ExperiencesTitle": "Sailing Adventure",
+            "ExperiencesIntro": "Embark on a unique experience sailing along the Potrerillos Dam. Enjoy a sailboat ride surrounded by impressive mountain landscapes and the reflection of the sky in the water, while enjoying food and drinks on board. Admire the panoramic views of the Andes Mountains and the lush forests surrounding the reservoir, perfect for capturing photographs and enjoying a day outdoors.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "This sailing trip is ideal for special celebrations, getaways for couples, or simply to relax with friends and family in an incomparable natural setting."
+        }
+    ],
+    "experiencesMas" : [
+        {
+            "ExperiencesTitle": "Picnic Day in Valle de Uco",
+            "ExperiencesIntro": "Enjoy a unique experience in nature on a farm in the Uco Valley. Live a perfect day surrounded by splendid rural landscapes and the tranquility of the field, with the comfort of a transfer included from your lodging.",
+            "ExperiencesImg": "/experiencesMas/DiaCampoUco.webp",
+            "ExperiencesDesc": "Itinerary of the day: round trip transfer: For your comfort, the transfer service will collect participants in the place of lodging in the morning. Relax during the trip and enjoy the panoramic views while heading to the Uco Valley. At the end of the experience, they will take you back to your accommodation, ensuring a day without worries. Reception and snacks: Upon arriving at the farm, they will welcome you with an exquisite variety of snacks, which includes empanadas to the disc, cakes and a selection of cold cuts. These initial snacks are designed to delight and prepare for a gastronomic experience in the country environment. Visit to the vineyards: before lunch, you will enjoy a lovely visit to the farm vineyards. Know more about the cultivation process and the production of wines in the region, and immerse yourself in the beauty of the wine landscape. Grilled lunch: lunch will focus on grilled roast. Enjoy a variety of meats, accompanied by traditional garrisons and fresh salads. Selected drinks: Accompany your food with a careful selection of prestigious wines and foaming wines. You will have the opportunity to provide and enjoy high quality drinks, chosen to enhance your gastronomic experience. Enjoy the environment: after lunch, take time to relax and enjoy the landscape. You can explore the farm, walk through the vineyards or simply relax and absorb the beauty of the natural environment. This day is designed to offer you not only a feast for the senses, but also an experience of connection with the nature and company of your loved ones, all with the comfort of a transfer without complications."
+        },
+        {
+            "ExperiencesTitle": "Mountain day on the shores of Dique Potrerillos",
+            "ExperiencesIntro": "Enjoy a unique experience on the shores of the Potrerillos dike. Live a perfect day surrounded by magnificent mountain landscapes and the tranquility of the dike's waters, with the comfort of a transfer included from your lodging.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Itinerary of the day: round trip transfer: For your comfort, the transfer service will collect participants in the place of lodging in the morning. Relax during the trip in a comfortable vehicle and enjoy the panoramic views while going to the Potrerillos dike. At the end of the experience, they will take you back to your accommodation, ensuring a day without worries. Reception and appetizers: Upon arriving at the dike, they will receive you with a delicious selection of snacks, which includes discouragement, cakes and a variety of cold cuts. These initial snacks are designed to awaken your senses while you accommodate in the natural environment. Grilled lunch: lunch will focus on grilled roast. Enjoy a variety of perfect roasted meats, accompanied by traditional garrisons and fresh salads. Premium drinks: Accompany your food with a selection of prestigious wines and foaming wines. You will have the opportunity to provide and celebrate large with high quality drinks, perfectly chosen to complement your lunch. Enjoy the environment: after lunch, take time to relax and enjoy the landscape. You can explore the area, walk on the shore of the dike or simply relax and absorb the beauty of the natural environment."
+        }
+    ],
+    "masTitle": "More Experiences",
+    "beneficios" : {
+        "BeneficiosTitle": "Benefits",
+        "BeneficiosDesc": "Live unforgettable moments with us and get exclusive discounts on:",
+        "BeneficiosRentLogo": "Rent Department"
+    },
+    "footer": {
+        "FooterRights": ". All rights reserved.",
+        "FooterContact" : "Contact Us"
+    }
+}

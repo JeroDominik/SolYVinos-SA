@@ -1,0 +1,230 @@
+{
+    "title": "Nossas Experiências",
+    "header": {
+        "HeaderTitle": "Aproveite Mendoza e a melhor experiência",
+        "NavInit": "Início",
+        "NavExperiences": "Experiences",
+        "NavBeneficios": "Benefícios"
+    },
+    "aboutUs": {
+        "AboutTitle": "Somos Sol y Vino. Somos Mendoza",
+        "FirstParagraph" : "Sol y Vino Experiences convida você a viver momentos inesquecíveis na encantadora região de Mendoza. Somos especializados em oferecer traslados exclusivos e aventuras cativantes que lhe permitirão explorar a beleza da paisagem de Mendoza enquanto mergulha na fascinante cultura do vinho e da região. gastronomia.",
+        "SecondParagraph": "Desde emocionantes passeios por vinícolas de prestígio até degustações culinárias nos recantos mais charmosos, estamos aqui para realizar seus sonhos em Mendoza. Personalizamos cada experiência de acordo com as suas preferências e desejos, garantindo que cada momento seja único e memorável. Junte-se a nós e descubra a verdadeira essência de Mendoza em uma viagem cheia de aventura e deleite."
+    },
+    "experiencesUco" : [
+        {
+            "ExperiencesTitle": "Vinícola Salentein",
+            "ExperiencesIntro": "Localizada no Vale do Uco, na província de Mendoza. Oferece visitas guiadas, degustações e atividades culturais, algumas como a 'Casa Grande', uma antiga casa de campo restaurada que funciona como um hotel boutique; e seu 'Espacio Killka', um centro cultural e de arte contemporânea. A arquitetura da vinícola apresenta um design inovador em forma de cruz, permitindo um fluxo eficiente do processo de vinificação. Possui ainda uma cave subterrânea que mantém condições óptimas para o envelhecimento do vinho. Destaca-se seu Malbec, junto com outras variedades como Cabernet Sauvignon, Merlot, Pinot Noir, Chardonnay e Sauvignon Blanc. A linha de vinhos inclui rótulos consagrados como Killka, Numina e Primus.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Salentein.webp",
+            "ExperiencesDesc": "Possui cerca de 800 hectares de vinhas localizadas entre 1.050 e 1.700 metros acima do nível do mar. O clima e a altitude do Vale do Uco são ideais para a produção de vinhos de alta qualidade. Os seus vinhos receberam múltiplos prémios e reconhecimentos internacionais pela sua qualidade e carácter distintivo."
+        },
+        {
+            "ExperiencesTitle": "Vinícola Zuccardi",
+            "ExperiencesIntro": "Com sede no Vale do Uco, província de Mendoza. Oferece experiências de enoturismo que incluem visitas guiadas, degustações e atividades educativas. O restaurante da vinícola oferece combinações requintadas com vinhos Zuccardi. A vinícola principal, conhecida como 'Piedra Infinita', é famosa por seu projeto arquitetônico inovador que respeita o meio ambiente. Construída com materiais locais e utilizando técnicas sustentáveis, sua estrutura integra-se perfeitamente com a paisagem andina. Possui uma linha destacada de Malbec, Cabernet Sauvignon, Syrah e Torrontés que expressam o terroir do Vale do Uco, com vinhos de alta qualidade e grande personalidade.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Zuccardi.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados no Vale do Uco, reconhecidos por sua altitude e solos aluviais. Sua propriedade Piedra Infinita, em Paraje Altamira, é um de seus vinhedos mais notáveis. A Vinícola alcançou o reconhecimento como 'Melhor Vinícola e Vinhedo do Mundo' nos Melhores Vinhedos do Mundo em 2019, 2020 e 2021. Seus vinhos obtiveram diversos prêmios e altas classificações de críticos internacionais como Jacques Dupont e Tim Atkin."
+        },
+        {
+            "ExperiencesTitle": "Vinícola Andeluna",
+            "ExperiencesIntro": "Está localizado no Vale do Uco, província de Mendoza. Oferece experiências de enoturismo que incluem visitas guiadas, degustações e almoços no seu restaurante gourmet, onde os vinhos podem ser harmonizados com a gastronomia local. Atividades como passeios pelas vinhas e provas cegas fazem parte da oferta turística. A vinícola combina um projeto arquitetônico moderno com elementos rústicos, integrando-se harmoniosamente com a paisagem andina. As suas instalações incluem uma cave subterrânea ideal para o envelhecimento de vinhos em barricas de carvalho. Especializado em Malbec, Cabernet Sauvignon, Merlot, Chardonnay e outras variedades. Algumas de suas linhas notáveis são Andeluna Altitud, Andeluna Pasionado e Andeluna Raíces, focadas em expressar o caráter do terroir Gualtallary em cada garrafa.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados a mais de 1.300 metros acima do nível do mar em Gualtallary, sub-região do Vale do Uco. Os solos pedregosos e o clima fresco de alta montanha permitem a produção de vinhos com notável acidez e carácter mineral. Nos seus reconhecimentos podemos encontrar os 'Decanter World Wine Awards': Andeluna recebeu medalhas de ouro e prata nestes prémios pelo seu Andeluna Altitud Malbec e outros vinhos. 'International Wine Challenge': pela linha Pasionado. 'Wine Advocate': altas pontuações de críticos como Robert Parker, especialmente por seus vinhos de alta qualidade."
+        },
+        {
+            "ExperiencesTitle": "Vinícola Alfa Crux",
+            "ExperiencesIntro": "Localizada no Vale do Uco, na província de Mendoza. Oferece visitas guiadas e degustações em um cenário deslumbrante, destacando a beleza da paisagem andina. Seu restaurante O. Fournier oferece excelentes combinações com os vinhos da vinícola, enriquecendo a experiência gastronômica. A adega possui uma arquitetura moderna e funcional, pensada para otimizar o processo de vinificação. Construção integrada com a paisagem, utilizando materiais locais e sustentáveis. Especializado em Malbec, Tempranillo, Cabernet Sauvignon, Syrah e Sauvignon Blanc. Suas linhas de vinhos incluem Alfa Crux, Beta Crux e Crux, cada uma representando diferentes níveis de complexidade, caráter e expressão do terroir.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp",
+            "ExperiencesDesc": "Vinhedos localizados em La Consulta, sub-região do Vale do Uco, a uma altitude de aproximadamente 1.200 metros acima do nível do mar. O clima fresco e os solos aluviais do Vale do Uco são ideais para a produção de vinhos de alta qualidade e grande concentração de sabor. A Vinícola foi reconhecida pela Sommerliers como 'James Suckling': Notas destacadas para vinhos como Alfa Crux Malbec e Beta Crux, com pontuações acima de 90 pontos e 'Tim Atkin': Reconhecimentos nos relatórios de vinhos argentinos deste crítico britânico, destacando a qualidade e complexidade dos seus vinhos."
+        },
+        {
+            "ExperiencesTitle": "Vinícola DiamAndes",
+            "ExperiencesIntro": "Está localizado no Vale do Uco, Mendoza. Oferece visitas guiadas e degustações em um cenário espetacular, permitindo ao visitante conhecer o processo de vinificação. Realiza experiências gastronômicas no restaurante da vinícola, onde os vinhos são harmonizados com a culinária gourmet local. A vinícola possui arquitetura moderna e elegante, projetada para se integrar harmoniosamente à paisagem andina. Construído de forma sustentável para otimizar a vinificação. Especializado em Malbec, Cabernet Sauvignon, Merlot, Syrah e Chardonnay. Suas linhas de vinhos incluem DiamAndes de Uco e Perlita de DiamAndes, com foco na qualidade e expressão do terroir.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-DiamAndes.webp",
+            "ExperiencesDesc": "Vinhedos localizados a 1.100 metros acima do nível do mar no Vale do Uco, uma das áreas mais prestigiadas de Mendoza. Os solos aluviais e o clima fresco de alta montanha permitem a produção de uvas com excelente acidez e concentração. A adega obteve o reconhecimento como 'Worlds Best Vineyards': apareceu na lista das melhores adegas do mundo, destacando-se pela experiência de enoturismo e pela qualidade dos seus vinhos. 'Decanter World Wine Awards': Medalhas de ouro e prata para vinhos como DiamAndes de Uco e Perlita de DiamAndes. 'Wine Spectator': Altas classificações para seus vinhos, com menções especiais para seu Malbec e Cabernet Sauvignon."
+        }
+    ],
+    "experiencesBoutiqueUco" : [
+        {
+            "ExperiencesTitle": "Finca Adelma",
+            "ExperiencesDesc": "Finca Adelma se destaca pelos seus vinhos que refletem a pureza do Vale do Uco. Desde a sua abertura em 2005, ganhou reputação pela sua atenção aos detalhes e compromisso com a qualidade, oferecendo vinhos que captam a essência autêntica do terroir.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Adelma.webp"
+        },
+        {
+            "ExperiencesTitle": "Vinícola Azul",
+            "ExperiencesDesc": "Na Vinícola Azul a elegância e o equilíbrio são a norma. Desde a sua fundação, a adega é conhecida pelos seus vinhos sofisticados e bem elaborados, aliando técnicas modernas a um profundo respeito pela tradição vitivinícola.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Azul.webp"
+        },
+        {
+            "ExperiencesTitle": "Domaine Bousquet",
+            "ExperiencesDesc": "Fundada com foco na produção orgânica, a Domaine Bousquet estabeleceu uma forte reputação pelos seus vinhos puros e de alta qualidade. Desde a sua criação em 1997, está comprometida em oferecer vinhos que reflitam a pureza e a riqueza do Vale do Uco.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Bousquet.webp"
+        },
+        {
+            "ExperiencesTitle": "Giménez Riili",
+            "ExperiencesDesc": "Giménez Riili é especializada em vinhos que capturam o caráter do Vale do Uco. Desde a sua criação, a adega é conhecida pela sua paixão e autenticidade, produzindo vinhos que se destacam pela profundidade e qualidade.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-GimenezRiili.webp"
+        }
+    ],
+    "boutiqueUco": {
+        "boutiqueTitle": "Descubra a magia das Vinícolas Boutique do Valle de Uco",
+        "boutiqueDesc": "O Valle do Uco é um verdadeiro paraíso para os amantes do vinho. Nesta região, a tradição vitivinícola encontra-se com a inovação e a arte das adegas boutique. Convidamos você a descobrir algumas das vinícolas mais destacadas desta região:"
+    },
+    "experiencesLujan" : [
+        {
+            "ExperiencesTitle": "Vinícola Catena Zapata",
+            "ExperiencesIntro": "Está localizado no departamento de Luján de Cuyo, em Mendoza. Oferece visitas guiadas e degustações em um cenário deslumbrante. A vinícola possui um design icônico inspirado nas pirâmides maias, combinando tecnologia moderna com elementos tradicionais. Reconhecida por seu Malbec de classe mundial, também produz variedades como Cabernet Sauvignon, Chardonnay e Cabernet Franc. Possui marcas emblemáticas como Catena, Catena Alta e o prestigiado Nicolás Catena Zapata.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-CatenaZapata.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados em diversas áreas de Mendoza, incluindo Luján de Cuyo e Vale de Uco. Alguns em suas renomadas propriedades de alta altitude, como Adrianna e Nicasia, que são celebradas por seu terroir único. Os vinhos Catena Zapata receberam inúmeros prêmios e altas classificações da crítica internacional. Em 2023, Catena Zapata recebeu o prestigiado reconhecimento como 'Melhor Vinha do Mundo' pela Worlds Best Vineyards."
+        },
+        {
+            "ExperiencesTitle": "Vinícola Vistalba",
+            "ExperiencesIntro": "Localizado no departamento de Luján de Cuyo, em Mendoza. Oferece visitas guiadas e degustações num ambiente atrativo, permitindo aos visitantes conhecer o processo de vinificação. Possui também um Restaurante que oferece experiências gastronómicas harmonizando os seus vinhos com a cozinha gourmet local. A vinícola possui arquitetura moderna e funcional, pensada para otimizar o processo de vinificação. Especializado em Malbec, Cabernet Sauvignon, Merlot e Chardonnay. As linhas de vinhos incluem 'Corte A', 'Corte B' e 'Corte C', cada uma representando diferentes níveis de complexidade e envelhecimento.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-Vistalba.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados em Luján de Cuyo, uma das zonas vitivinícolas mais prestigiadas de Mendoza, conhecida por suas excelentes condições para o cultivo da uva. As vinhas situam-se a uma altitude de 980 metros acima do nível do mar, beneficiando de um clima seco e de solos franco-arenosos. Os seus vinhos têm recebido reconhecimentos como o 'Wine Spectator': pontuações elevadas para vinhos como Corte A e Corte B, que se destacam pela elegância e estrutura. 'Descorchados': Reconhecimentos neste guia anual de vinhos sul-americanos, destacando a qualidade e expressão do terroir em seus vinhos. 'Tim Atkin': Altas classificações nas reportagens de vinhos argentinos, especialmente por seus vinhos de alta qualidade."
+        },
+        {
+            "ExperiencesTitle": "Vinícola Chandon",
+            "ExperiencesIntro": "Localizado no departamento de Luján de Cuyo, em Mendoza. Oferece visitas guiadas e degustações em um ambiente elegante, permitindo ao visitante conhecer o processo de elaboração do vinho espumante. E conta com experiências gastronômicas no restaurante da vinícola, onde os espumantes acompanham a culinária gourmet local. A vinícola combina projeto arquitetônico moderno com instalações de última geração para a produção de vinhos espumantes. As instalações incluem áreas específicas para fermentação, engarrafamento e envelhecimento em caves subterrâneas. Especializada na produção de vinhos espumantes. Suas linhas de vinhos incluem Chandon Brut, Chandon Extra Brut, Chandon Rosé e Chandon Delice, conhecidos por sua elegância, frescor e consistência de suas bolhas finas.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-Chandon.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados em Agrelo e Ugarteche, em Luján de Cuyo. As vinhas situam-se em altitudes que variam entre os 1.000 e os 1.200 metros acima do nível do mar, beneficiando do clima seco e dos solos franco-arenosos. A vinícola também é conhecida por reconhecimentos como o ‘Effervescents du Monde’: Medalhas de ouro e prata pelos seus vinhos espumantes, destacando-se neste concurso internacional de espumantes. 'International Wine & Spirit Competition (IWSC)': Reconhecimento pela qualidade dos seus vinhos espumantes, com prémios para Chandon Brut e Chandon Rosé 'Wine Enthusiast and Wine Spectator': Altas classificações nestas revistas, consolidando a sua reputação como uma das. melhores produtores de espumantes da Argentina."
+        },
+        {
+            "ExperiencesTitle": "Vinícola Nieto Senetiner",
+            "ExperiencesIntro": "Localizado no departamento de Luján de Cuyo, em Mendoza. Oferece visitas guiadas e degustações, permitindo aos visitantes conhecer o processo de vinificação. Também oferece experiências gastronômicas em seu restaurante, onde os vinhos são harmonizados com a culinária gourmet local e tradicional argentina. A adega combina elementos históricos e modernos, com instalações que permitem a produção de vinhos de elevada qualidade graças à sua cave subterrânea que proporciona condições óptimas para o envelhecimento dos vinhos em barricas de carvalho. Especializada em Malbec, Cabernet Sauvignon, Bonarda e Chardonnay, seus vinhos são conhecidos pela elegância, complexidade e capacidade de envelhecimento.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-NietoSenetiner.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados principalmente em Vistalba, Luján de Cuyo e também em Agrelo. As vinhas situam-se em altitudes que variam entre os 950 e os 1.050 metros acima do nível do mar, beneficiando de um clima óptimo e de solos aluviais. Seus vinhos a levaram a ganhar reconhecimentos como o 'Decanter World Wine Awards': medalhas de ouro e prata por seus vinhos, especialmente seu Nieto Senetiner Reserva Malbec. 'Wine Advocate': Notas altas de críticos como Robert Parker, destacando a qualidade e consistência dos seus vinhos. 'Tim Atkin': Reconhecimentos em reportagens de vinhos argentinos, com destaque para a linha Don Nicanor e Cadus."
+        },
+        {
+            "ExperiencesTitle": "Vinícola Septima",
+            "ExperiencesIntro": "Localizado no departamento de Luján de Cuyo, em Mendoza. A Adega foi fundada em 1999, pelo grupo Codorníu Raventós, uma das empresas vinícolas mais antigas e prestigiadas de Espanha. Oferece visitas guiadas que incluem visitas às vinhas e à adega, com explicações detalhadas sobre o processo de vinificação. A proximidade com a cordilheira dos Andes proporciona uma excelente amplitude térmica diurna e noturna, favorecendo a maturação lenta e o desenvolvimento da complexidade em vinhos como 'Séptima Obra', 'Séptima Gran Reserva', 'Séptima Malbec' e 'Séptima Chardonnay'.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-Septima.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados a 1.050 metros de altitude acima do nível do mar, com clima seco e solos pedregosos, ideais para o cultivo de variedades como Malbec, Cabernet Sauvignon, Syrah, Tempranillo e Chardonnay. Entre os seus reconhecimentos estão alguns como o 'Decanter World Wine Awards': Medalhas para vários dos seus vinhos, incluindo Séptima Gran Reserva Malbec e Séptima Obra Malbec, destacando a sua qualidade excepcional. 'International Wine & Spirit Competition (IWSC)': Prémios obtidos em diversas categorias, consolidando a sua reputação internacional."
+        }
+    ],
+    "experiencesBoutiqueLujan" : [
+        {
+            "ExperiencesTitle": "Susana Balbo",
+            "ExperiencesDesc": "Fundada pela famosa enóloga Susana Balbo, esta vinícola é uma referência em Luján de Cuyo. Desde 1999 que ganhou reputação pelos seus vinhos elegantes e complexos, que refletem a experiência e paixão de Susana em cada copo.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "A16",
+            "ExperiencesDesc": "Na A16, a essência do Vale do Uco se transforma em arte. Desde a sua abertura procuram o equilíbrio perfeito entre modernidade e tradição, criando vinhos que são uma verdadeira obra-prima em cada garrafa.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Penedo Borges",
+            "ExperiencesDesc": "Desde 2004 que Penedo Borges tem vindo a aperfeiçoar os seus vinhos com uma atenção meticulosa à selecção das uvas e às técnicas de vinificação. Seus rótulos oferecem sabores intensos e bem estruturados, mostrando o melhor do terroir de Mendoza.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-AlfaCrux.webp"
+        },
+        {
+            "ExperiencesTitle": "Martino Wines",
+            "ExperiencesDesc": "Fundada em 2003, a Martino Wines destaca-se pela sua abordagem inovadora e vinhos únicos. Cada rótulo conta uma história, refletindo a paixão da família pelo vinho, do vinhedo à garrafa.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Durigutti",
+            "ExperiencesDesc": "A família Durigutti deixou sua marca na viticultura mendoza desde 2002. Seus vinhos robustos e equilibrados são conhecidos pela capacidade de envelhecimento, oferecendo um equilíbrio perfeito entre potência e sutileza.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Andeluna.webp"
+        },
+        {
+            "ExperiencesTitle": "Cruzat",
+            "ExperiencesDesc": "Especializada em vinhos espumantes desde 2002, a Cruzat é conhecida por suas bolhas elegantes e refinadas. Perfeitos para qualquer celebração, seus espumantes dão um toque sofisticado a qualquer brinde.",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Cruzat.webp"
+        },
+        {
+            "ExperiencesTitle": "Kaiken",
+            "ExperiencesDesc": "Com arquitetura moderna e funcional, integrando-se harmoniosamente com a paisagem, a vinícola foi projetada para otimizar o processo de vinificação, Kaiken é especializada em Malbec, Cabernet Sauvignon, Bonarda e Chardonnay; aliando a qualidade e a expressão do terroir",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-Kaiken.webp"
+        }
+    ],
+    "boutiqueLujan": {
+        "boutiqueTitle": "Descubra a magia das vinícolas boutique em Luján de Cuyo",
+        "boutiqueDesc": "Luján de Cuyo é um verdadeiro paraíso para os amantes do vinho. Aqui, a tradição vinícola encontra a inovação e a arte das vinícolas boutique. Convidamo-lo a descobrir alguns dos destaques desta região:"
+    },
+    "experiencesMaipu" : [
+        {
+            "ExperiencesTitle": "Bodega Trapiche",
+            "ExperiencesIntro": "Localizado em Maipú, Mendoza. Com mais de 135 anos de história, é uma das vinícolas mais antigas e prestigiadas da Argentina. Oferece visitas guiadas, degustações e experiências gastronômicas em seu restaurante gourmet, harmonizando comidas locais com vinhos Trapiche. A adega principal está instalada num edifício histórico do século XIX, que foi restaurado e modernizado. A Vinícola é conhecida por seu Malbec, mas também produz variedades como Cabernet Sauvignon, Syrah, Merlot e Chardonnay. Suas linhas de vinhos em destaque incluem Trapiche Medalla, Trapiche Broquel, Trapiche Gran Medalla e sua série de vinhos Single Vineyard, que destacam a expressão de terroirs únicos.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Trapiche.webp",
+            "ExperiencesDesc": "Vinhedos localizados em diversas áreas de Mendoza, incluindo Vale de Uco e Maipú, que cobrem uma grande variedade de terroirs, permitindo a produção de uma diversificada gama de vinhos. Seus vinhos têm recebido reconhecimentos como 'World Best Vineyards': Trapiche tem sido consistentemente reconhecido como uma das melhores vinícolas do mundo, aparecendo na lista anual dos World Best Vineyards. 'Decanter Awards': Seus vinhos ganharam vários prêmios no Decanter World Wine Awards, incluindo medalhas de ouro para vinhos como Trapiche Medalla e Trapiche Gran Medalla. 'Wine Spectator e Wine Enthusiast': Recebeu altas classificações, destacando-se pelo seu Malbec e outras variedades."
+        },
+        {
+            "ExperiencesTitle": "Bodega Vistandes",
+            "ExperiencesIntro": "Localizado no departamento de Maipú, Mendoza. Oferece visitas guiadas e degustações num ambiente atrativo, permitindo aos visitantes conhecer o processo de vinificação. Também conta com experiências gastronômicas no restaurante da vinícola, onde os vinhos são harmonizados com a culinária gourmet local. A vinícola combina um projeto arquitetônico moderno e funcional, pensado para otimizar o processo de vinificação. As instalações incluem uma moderna sala de barricas e uma adega subterrânea para envelhecimento dos vinhos. Especializado em Malbec, Cabernet Sauvignon, Syrah, Bonarda e Chardonnay, conhecidos por sua elegância, frescor e caráter frutado. As linhas de vinhos incluem Vistandes Reserva e Vistandes Gran Reserva, com foco na qualidade e expressão do terroir.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Vistandes.webp",
+            "ExperiencesDesc": "Com vinhedos localizados no coração de Maipú, uma das zonas vitivinícolas mais tradicionais e prestigiadas de Mendoza. Situam-se a uma altitude de 850 metros acima do nível do mar, beneficiando de um clima seco e de solos franco-argilosos. A adega é também conhecida por reconhecimentos como o 'International Wine Challenge': Prémios obtidos em diversas edições deste concurso, destacando-se os seus vinhos Reserva e Gran Reserva. 'Decanter World Wine Awards': Medalhas de prata e bronze para vários dos seus vinhos, reconhecidos pela sua qualidade e expressão. 'Wine Enthusiast': Boas pontuações para os seus vinhos nesta revista americana, destacando a consistência e elegância dos seus produtos."
+        },
+        {
+            "ExperiencesTitle": "Casa Vigil",
+            "ExperiencesIntro": "Localizado no departamento de Maipú, Mendoza. Oferece visitas guiadas e degustações, permitindo aos visitantes conhecer o processo de vinificação e desfrutar da hospitalidade mendoza. Experiências gastronómicas no restaurante 'Casa Vigil', onde os vinhos se harmonizam com a cozinha gourmet local. A vinícola principal é famosa por seu projeto arquitetônico inovador e que respeita o meio ambiente. Construída com materiais locais e utilizando técnicas sustentáveis, sua estrutura integra-se perfeitamente com a paisagem andina. Especializado em Malbec, Cabernet Franc, Cabernet Sauvignon e Chardonnay. As linhas de vinhos incluem 'El Enemigo', 'Gran Enemigo' e 'Chachingo', destacando-se pela sua elevada qualidade e carácter distintivo.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Vigil.webp",
+            "ExperiencesDesc": "Seus vinhedos estão localizados em Maipú e outras áreas selecionadas de Mendoza. Beneficiam de altitudes que variam entre 800 e 1.100 metros acima do nível do mar, solos aluviais e clima seco, ideais para o cultivo de uvas de alta qualidade. La Bodega ganhou prêmios como 'Wine Advocate': altas pontuações de críticos como Robert Parker, especialmente para a linha El Enemigo. 'Decanter World Wine Awards': Medalhas de ouro e prata para vários dos seus vinhos, com destaque para Gran Enemigo e El Enemigo Malbec. 'James Suckling': Excelentes pontuações pelos seus vinhos, com menções especiais pela elegância e complexidade. 'Tim Atkin': Reconhecimentos em seus relatórios anuais de vinhos argentinos, destacando a inovação e a qualidade constante da Casa Vigil."
+        }
+    ],
+    "experiencesBoutiqueMaipu" : [
+        {
+            "ExperiencesTitle": "Flichman",
+            "ExperiencesDesc": "Clássico em Maipú, Flichman oferece vinhos que misturam o tradicional com um toque moderno. Fundada em 1993, esta vinícola é conhecida por seu compromisso com a qualidade e sua capacidade de capturar a essência do terroir mendoza em cada garrafa.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Flichman.webp"
+        },
+        {
+            "ExperiencesTitle": "Finca Savina",
+            "ExperiencesDesc": "Na Finca Savina apostam em vinhos com carácter. Desde a sua criação em 2005, são reconhecidos pela atenção aos detalhes e pela capacidade de realçar a riqueza do solo local, resultando em vinhos com sabores autênticos e atrativos.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Savina.webp"
+        },
+        {
+            "ExperiencesTitle": "Santa Julia",
+            "ExperiencesDesc": "Parte do grupo Zuccardi, a Santa Julia está em atividade desde 1990 e é conhecida por seus vinhos equilibrados e acessíveis. Oferecem uma grande variedade de opções que vão desde vinhos frescos e frutados até aos mais complexos.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-SantaJulia.webp"
+        },
+        {
+            "ExperiencesTitle": "Trivento",
+            "ExperiencesDesc": "Fundada em 1996, a Trivento destaca-se pelos seus vinhos robustos e bem estruturados. A adega combina técnicas modernas com um profundo respeito pela tradição, resultando em vinhos sofisticados e perfeitos para qualquer ocasião.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Trivento.webp"
+        }
+    ],
+    "boutiqueMaipu": {
+        "boutiqueTitle": "Descubra a magia das Vinícolas Boutique de Maipú",
+        "boutiqueDesc": "Maipú é um verdadeiro paraíso para os amantes do vinho. Aqui, a tradição vinícola encontra a inovação e a arte das vinícolas boutique. Convidamos você a descobrir algumas das vinícolas mais destacadas desta região:"
+    },
+    "experiencesPotrerillos" : [
+        {
+            "ExperiencesTitle": "Os Palapas",
+            "ExperiencesIntro": "Mergulhe na magia de Las Palapas, um bar de montanha localizado na imensidão da barragem de Potrerillos. Desfrute do pôr do sol espetacular com música ao vivo e uma profunda conexão com a natureza. Rodeado pela imponente Cordilheira dos Andes, este espaço oferece uma experiência sensorial única que combina gastronomia, coquetéis exclusivos e atividades culturais.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Palapas.webp",
+            "ExperiencesDesc": "Las Palapas é o lugar perfeito para relaxar com amigos, celebrar ocasiões especiais ou simplesmente desfrutar da tranquilidade e beleza do ambiente natural. Com capacidade limitada, recomenda-se reserva antecipada para garantir lugar nesta experiência inesquecível."
+        }
+        ,
+        {
+            "ExperiencesTitle": "Aventura em Veleiro",
+            "ExperiencesIntro": "Embarque em uma experiência única navegando pela Barragem de Potrerillos. Desfrute de um passeio de barco rodeado de impressionantes paisagens montanhosas e do reflexo do céu na água, enquanto saboreia comidas e bebidas a bordo. Admire as vistas panorâmicas da Cordilheira dos Andes e das exuberantes florestas que circundam o reservatório, perfeitas para tirar fotografias e desfrutar de um dia ao ar livre.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Este passeio de barco é ideal para celebrações especiais, escapadelas a dois ou simplesmente para relaxar com amigos e família num ambiente natural incomparável."
+        }
+    ],
+    "experiencesMas" : [
+        {
+            "ExperiencesTitle": "Dia de Piquenique no Valle de Uco",
+            "ExperiencesIntro": "Desfrute de uma experiência única na natureza em uma fazenda no vale de Uco. Viva um dia perfeito cercado por esplêndidas paisagens rurais e a tranquilidade do campo, com o conforto de uma transferência incluída de seu alojamento.",
+            "ExperiencesImg": "/experiencesMas/DiaCampoUco.webp",
+            "ExperiencesDesc": "Itinerário do dia: transferência de ida e volta: para o seu conforto, o serviço de transferência coletará os participantes no local de hospedagem pela manhã. Relaxe durante a viagem e aprecie as vistas panorâmicas enquanto dirige para o vale da UCO. No final da experiência, eles o levarão de volta à sua acomodação, garantindo um dia sem preocupações. Recepção e lanches: Ao chegar à fazenda, eles o receberão com uma variedade requintada de lanches, que inclui empanadas no disco, bolos e uma seleção de cortes frios. Esses lanches iniciais são projetados para se deleitar e se preparar para uma experiência gastronômica no ambiente do país. Visite às vinhas: antes do almoço, você desfrutará de uma linda visita às vinhas da fazenda. Saiba mais sobre o processo de cultivo e a produção de vinhos na região e mergulhe na beleza da paisagem do vinho. Almoço grelhado: o almoço se concentrará no assado grelhado. Desfrute de uma variedade de carnes, acompanhada de guarnições tradicionais e saladas frescas. Bebidas selecionadas: acompanhe sua comida com uma seleção cuidadosa de vinhos de prestígio e vinhos espumantes. Você terá a oportunidade de fornecer e desfrutar de bebidas de alta qualidade, escolhidas para melhorar sua experiência gastronômica. Aproveite o meio ambiente: depois do almoço, reserve um tempo para relaxar e aproveitar a paisagem. Você pode explorar a fazenda, atravessar as vinhas ou simplesmente relaxar e absorver a beleza do ambiente natural. Este dia foi projetado para oferecer não apenas um banquete para os sentidos, mas também uma experiência de conexão com a natureza e a companhia de seus entes queridos, tudo com o conforto de uma transferência sem complicações."
+        },
+        {
+            "ExperiencesTitle": "Dia da Montanha nas margens do Dique Potreillos",
+            "ExperiencesIntro": "Desfrute de uma experiência única nas margens do dique Potreillos. Viva um dia perfeito cercado por magníficas paisagens montanhosas e a tranquilidade das águas do dique, com o conforto de uma transferência incluída de sua hospedagem.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Itinerário do dia: transferência de ida e volta: para o seu conforto, o serviço de transferência coletará os participantes no local de hospedagem pela manhã. Relaxe durante a viagem em um veículo confortável e aprecie as vistas panorâmicas enquanto ia ao dique Potrerillos. No final da experiência, eles o levarão de volta à sua acomodação, garantindo um dia sem preocupações. Recepção e aperitivos: Ao chegar ao dique, eles o receberão com uma deliciosa seleção de lanches, que inclui desânimo, bolos e uma variedade de cortes frios. Esses lanches iniciais foram projetados para despertar seus sentidos enquanto você acomoda no ambiente natural. Almoço grelhado: o almoço se concentrará no assado grelhado. Desfrute de uma variedade de carnes assadas perfeitas, acompanhadas de guarnições tradicionais e saladas frescas. Bebidas premium: acompanhe sua comida com uma seleção de vinhos de prestígio e vinhos espumantes. Você terá a oportunidade de fornecer e comemorar grandes com bebidas de alta qualidade, perfeitamente escolhidas para complementar seu almoço. Aproveite o meio ambiente: depois do almoço, reserve um tempo para relaxar e aproveitar a paisagem. Você pode explorar a área, caminhar na costa do dique ou simplesmente relaxar e absorver a beleza do ambiente natural."
+        }
+    ],
+    "masTitle": "Mais Experiências",
+    "beneficios" : {
+        "BeneficiosTitle": "Benefícios",
+        "BeneficiosDesc": "Viva momentos inesquecíveis conosco e ganhe descontos exclusivos em:",
+        "BeneficiosRentLogo": "Aluguel Apartamento"
+    },
+    "footer": {
+        "FooterRights": ". Todos os direitos reservados.",
+        "FooterContact" : "Contate-nos"
+    }
+}
