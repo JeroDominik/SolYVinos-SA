@@ -83,10 +83,18 @@ export default function CardTour ({ experience }: ExperienceProps) {
               </div>
               <div className="flex justify-center gap-5 items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
                 <button onClick={hideModal} type="button" className="py-2.5 px-4 ms-3 text-sm font-medium rounded-lg bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 border-b-2">
-                  Contáctenos para más Info
+                  <a href="https://wa.me/5492615078890?text=Gracias%20por%20contactarnos%21%20Somos%20Sol%20y%20Vino%20Experiences.%0ADejanos%20tu%20consulta%20y%20en%20un%20momento%20te%20respondemos%21"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Contáctenos para más Info
+                  </a>
                 </button>
                 <button onClick={hideModal} type="button" className="py-2.5 px-4 ms-3 text-sm font-medium rounded-lg bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 border-b-2">
-                  Contact us for more Info
+                  <a href="https://wa.me/5492615078890?text=Thanks%20for%20contact%20us%21%20We%20are%20Sol%20y%20Vino%20Experiences.%0ALeave%20us%20your%20question%20and%20we%20will%20respond%20you%20shortly%21"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      Contact us for more Info
+                  </a>
                 </button>
               </div>
             </div>

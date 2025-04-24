@@ -23,7 +23,7 @@ export default function Footer ({ dictionary }: any) {
                     <IconIg/>
                 </a>
                 <a className="size-6 text-slate-300 hover:text-slate-100"
-                   href="https://wa.me/5492613473988?text=Gracias%20por%20contactarnos%21%20Somos%20Sol%20y%20Vino%20Experiences.%0ADejanos%20tu%20consulta%20y%20en%20un%20momento%20te%20respondemos%21"
+                   href="https://wa.me/5492615078890?text=Gracias%20por%20contactarnos%21%20Somos%20Sol%20y%20Vino%20Experiences.%0ADejanos%20tu%20consulta%20y%20en%20un%20momento%20te%20respondemos%21"
                    target="_blank"
                    rel="noopener noreferrer">
                     <IconWsp/>

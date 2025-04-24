@@ -29,7 +29,7 @@ export default function Header ({ dictionary }: Dictionary) {
             </h1>
             <div className="flex justify-center items-center mt-10 text-lg font-semibold text-slate-200 gap-4">
                 <a className="flex justify-center items-center rounded-full border border-white/40 gap-x-2 py-1 px-2 md:py-2 md:px-4 bg-white/5 sm:hover:scale-110 hover:scale-105 hover:bg-white/20 transition"
-                  href="https://wa.me/5492613473988?text=Gracias%20por%20contactarnos%21%20Somos%20Sol%20y%20Vino%20Experiences.%0ADejanos%20tu%20consulta%20y%20en%20un%20momento%20te%20respondemos%21"
+                  href="https://wa.me/5492615078890?text=Gracias%20por%20contactarnos%21%20Somos%20Sol%20y%20Vino%20Experiences.%0ADejanos%20tu%20consulta%20y%20en%20un%20momento%20te%20respondemos%21"
                   target="_blank"
                   rel="noopener noreferrer">
                     <IconWsp/>
