@@ -1,20 +1,23 @@
-import { IconIg, IconMail, IconWsp } from './Icons/Icons'
+import { IconIg, IconMail, IconWsp } from '../Icons/Icons'
+import type { FooterDictionary } from '@/types/Dictionary'
 
-export default function Footer ({ dictionary }: any) {
-  const { footer } = dictionary
+interface FooterProps {
+  dictionary: FooterDictionary
+}
 
+export default function Footer ({ dictionary }: FooterProps) {
   return (
     <footer className="relative h-full w-full bg-neutral-900 py-14 sm:py-16 lg:py-20 border-t-2 border-t-fuchsia-950/60">
         <div className="absolute inset-0 bg-fuchsia-800 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
         <div className="backdrop-blur-xl mx-10 md:mx-14 flex flex-col lg:flex-row items-center justify-center md:justify-between">
             <span className="text-base sm:text-lg lg:text-xl text-slate-300 transition hover:text-slate-100 text-center font-semibold">
                 © 2025
-                <a href="#"> Sol y Vino™</a>
-                {footer.FooterRights}
+                <a href="/"> Sol y Vino™</a>
+                {dictionary.FooterRights}
             </span>
             <ul className="flex mt-4 justify-center lg:mt-0 gap-x-2 sm:gap-x-4 items-center">
                 <h3 className="text-base sm:text-lg lg:text-xl font-semibold text-slate-300 transition hover:text-slate-100">
-                    {footer.FooterContact}
+                    {dictionary.FooterContact}
                 </h3>
                 <a className="size-6 text-slate-300 hover:text-slate-100"
                    href="https://www.instagram.com/solyvinoexperiences_?igsh=MTN5YWlwaGN3dnp1bw%3D%3D"

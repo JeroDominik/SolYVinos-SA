@@ -1,19 +1,13 @@
-'use client'
-
 import { useState } from 'react'
 import Link from 'next/link'
-import { LogoSolyVino, IconUSA, IconSpain, IconBrasil } from './Icons/Icons'
+import { LogoSolyVino, IconUSA, IconSpain, IconBrasil } from '../Icons/Icons'
+import type { HeaderDictionary } from '@/types/Dictionary'
 
-interface HeaderDictionary {
-  NavInit: string
-  NavExperiences: string
-  NavBeneficios: string
-}
 interface HeaderProps {
-  header: HeaderDictionary
+  dictionary: HeaderDictionary
 }
 
-export default function Navbar ({ header }: HeaderProps) {
+export default function Navbar ({ dictionary }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -30,14 +24,14 @@ export default function Navbar ({ header }: HeaderProps) {
             </div>
           </button>
           <nav className="md:flex hidden gap-x-5 lg:gap-x-8 text-lg lg:text-xl font-medium">
-            <a href="#init" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavInit}</a>
+            <a href="#init" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{dictionary.NavInit}</a>
             <a href="#aboutus" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">Sol y Vino</a>
-            <a href="#experience" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavExperiences}</a>
-            <a href="#beneficios" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{header.NavBeneficios}</a>
+            <a href="#experience" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{dictionary.NavExperiences}</a>
+            <a href="#beneficios" className="p-2 transition hover:bg-white/10 hover:font-semibold rounded-xl">{dictionary.NavBeneficios}</a>
           </nav>
         </div>
         <div className="gap-x-2 hidden md:flex">
-          <Link href="/es" className="p-2 transition hover:bg-white/10 rounded-full">
+          <Link href="/" className="p-2 transition hover:bg-white/10 rounded-full">
             <IconSpain/>
           </Link>
           <Link href="/en" className="p-2 transition hover:bg-white/10 rounded-full">
@@ -51,10 +45,10 @@ export default function Navbar ({ header }: HeaderProps) {
 
       <section className={`${isOpen ? 'flex' : 'hidden'} h-screen justify-center absolute w-screen origin-top animate-open-menu flex-col text-3xl`}>
         <nav className="flex h-[92%] flex-col bg-neutral-950 pt-8 relative -top-8">
-          <a href="#init" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavInit}</a>
+          <a href="#init" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{dictionary.NavInit}</a>
           <a href="#aboutus" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>Sol y Vinos</a>
-          <a href="#experience" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavExperiences}</a>
-          <a href="#beneficios" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{header.NavBeneficios}</a>
+          <a href="#experience" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{dictionary.NavExperiences}</a>
+          <a href="#beneficios" className="w-3/4 py-6 mx-auto text-center hover:opacity-90 border-b-4 border-b-slate-400" onClick={toggleMenu}>{dictionary.NavBeneficios}</a>
           <div className="flex gap-x-4 justify-center relative py-6">
             <Link href="/es" className="size-14 transition hover:bg-white/5 p-2 rounded-full">
               <IconSpain/>

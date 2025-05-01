@@ -1,29 +1,18 @@
 import CardTour from './cardTour'
 import CardBoutique from './cardBoutique'
 import Image from 'next/image'
+import type { ExperienceDictionary, BoutiqueDictionary } from '@/types/Dictionary'
 
-interface ExperienceDictionary {
-  ExperiencesTitle: string
-  ExperiencesIntro: string
-  ExperiencesImg: string
-  ExperiencesDesc: string
-}
-interface BoutiqueDictionary {
-  boutiqueTitle: string
-  boutiqueDesc: string
-}
-interface ExperienceProps {
-  experiencesMaipu: ExperienceDictionary []
-  experiencesBoutiqueMaipu: ExperienceDictionary []
-  boutiqueMaipu: BoutiqueDictionary
-}
-interface Dictionary {
-  dictionary: ExperienceProps
+interface ExperiencesProps {
+  dictionary: {
+    experiencesMaipu: ExperienceDictionary[]
+    experiencesBoutiqueMaipu: ExperienceDictionary[]
+    boutiqueMaipu: BoutiqueDictionary
+  }
 }
 
-export default function ExperienceMaipu ({ dictionary }: Dictionary) {
+export default function ExperienceMaipu ({ dictionary }: ExperiencesProps) {
   const { experiencesMaipu, experiencesBoutiqueMaipu, boutiqueMaipu } = dictionary
-  const experiencesBoutique = experiencesBoutiqueMaipu
 
   return (
     <section className="py-12">
@@ -52,7 +41,7 @@ export default function ExperienceMaipu ({ dictionary }: Dictionary) {
         <h2 className="text-pretty sm:text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4">{boutiqueMaipu.boutiqueTitle}</h2>
         <p className="text-pretty text-base sm:text-lg lg:text-xl font-semibold mb-8 sm:mb-10">{boutiqueMaipu.boutiqueDesc}</p>
         <CardBoutique
-          experiencesBoutique={experiencesBoutique}
+          experiencesBoutique={experiencesBoutiqueMaipu}
         />
       </div>
     </section>

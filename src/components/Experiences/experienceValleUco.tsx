@@ -1,30 +1,18 @@
 import CardTour from './cardTour'
 import CardBoutique from './cardBoutique'
 import Image from 'next/image'
+import type { ExperienceDictionary, BoutiqueDictionary } from '@/types/Dictionary'
 
-interface ExperienceDictionary {
-  ExperiencesTitle: string
-  ExperiencesIntro: string
-  ExperiencesImg: string
-  ExperiencesDesc: string
-}
-interface BoutiqueDictionary {
-  boutiqueTitle: string
-  boutiqueDesc: string
-}
-interface ExperienceProps {
-  experiencesUco: ExperienceDictionary[]
-  experiencesBoutiqueUco: ExperienceDictionary[]
-  boutiqueUco: BoutiqueDictionary
-}
-interface Dictionary {
-  dictionary: ExperienceProps
+interface ExperiencesProps {
+  dictionary: {
+    experiencesUco: ExperienceDictionary[]
+    experiencesBoutiqueUco: ExperienceDictionary[]
+    boutiqueUco: BoutiqueDictionary
+  }
 }
 
-export default function ExperienceValleUco ({ dictionary }: Dictionary) {
-  const { experiencesUco, experiencesBoutiqueUco, boutiqueUco } = dictionary
-  const experiencesBoutique = experiencesBoutiqueUco
-
+export default function ExperienceValleUco ({ dictionary }: ExperiencesProps) {
+  const { experiencesUco, boutiqueUco, experiencesBoutiqueUco } = dictionary
   return (
     <section className="py-12">
       <div className="relative w-full h-96 brightness-75 mb-12">
@@ -50,10 +38,14 @@ export default function ExperienceValleUco ({ dictionary }: Dictionary) {
         }
       </ol>
       <div className="mx-auto pt-6 sm:pt-10 text-gray-300 w-[90%]">
-        <h2 className="text-pretty sm:text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4">{boutiqueUco.boutiqueTitle}</h2>
-        <p className="text-pretty text-base sm:text-lg lg:text-xl font-semibold mb-8 sm:mb-10">{boutiqueUco.boutiqueDesc}</p>
+        <h2 className="text-pretty sm:text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4">
+          {boutiqueUco.boutiqueTitle}
+        </h2>
+        <p className="text-pretty text-base sm:text-lg lg:text-xl font-semibold mb-8 sm:mb-10">
+          {boutiqueUco.boutiqueDesc}
+        </p>
         <CardBoutique
-          experiencesBoutique={experiencesBoutique}
+          experiencesBoutique={experiencesBoutiqueUco}
         />
       </div>
     </section>

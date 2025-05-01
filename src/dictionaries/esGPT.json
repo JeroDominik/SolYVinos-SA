@@ -1,0 +1,142 @@
+{
+    "title": "Nuestras Experiences",
+    "header": {
+        "HeaderTitle": "Disfrute de Mendoza y la mejor experiencia",
+        "NavInit": "Inicio",
+        "NavExperiences": "Experiences",
+        "NavBeneficios": "Benefícios"
+    },
+    "aboutUs": {
+        "AboutTitle": "Somos Sol y Vino. Somos Mendoza",
+        "FirstParagraph" : "Sol y Vino Experiences te invita a vivir momentos inolvidables en la encantadora región de Mendoza. Nos especializamos en ofrecer traslados exclusivos y aventuras cautivadoras que te permitirán explorar la belleza del paisaje mendocino mientras te sumerges en la fascinante cultura del vino y la gastronomía local.",
+        "SecondParagraph": "Desde emocionantes recorridos por bodegas de prestigio hasta degustaciones culinarias en los rincones más encantadores, estamos aquí para hacer realidad tus sueños en Mendoza. Personalizamos cada experiencia según tus preferencias y deseos, asegurando que cada momento sea único y memorable. Únete a nosotros y descubre la verdadera esencia de Mendoza en un viaje lleno de aventura y deleite."
+    },
+    "experiencesUco" : [
+        {
+            "ExperiencesTitle": "Bodega Salentein",
+            "ExperiencesIntro": "Ubicada en el Valle de Uco, en la Provincia de Mendoza. Ofrece visitas guiadas, degustaciones y actividades culturales, algunas como su 'Casa Grande', una antigua casa de campo restaurada que funciona como hotel boutique; y su 'Espacio Killka', un centro cultural y de arte contemporáneo. La Arquitectura de la bodega cuenta de un diseño innovador con forma de cruz, permitiendo un flujo eficiente del proceso de vinificación. Además cuenta con una cava subterránea que mantiene condiciones óptimas para el envejecimiento del vino. Destacan su Malbec, junto con otras variedades como Cabernet Sauvignon, Merlot, Pinot Noir, Chardonnay y Sauvignon Blanc. La línea de vinos incluye etiquetas reconocidas como Killka, Numina y Primus.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Salentein.webp",
+            "ExperiencesDesc": "Posee alrededor de 800 hectáreas de viñedos situados entre 1,050 y 1,700 metros sobre el nivel del mar. El clima y la altitud del Valle de Uco son ideales para la producción de vinos de alta calidad. Sus vinos han recibido múltiples premios y reconocimientos a nivel internacional por su calidad y carácter distintivo."
+        },
+        {
+            "ExperiencesTitle": "Bodega Zuccardi",
+            "ExperiencesIntro": "Radicada en el Valle de Uco, Provincia de Mendoza. Ofrece experiencias enoturísticas que incluyen visitas guiadas, catas, y actividades educativas. El restaurante de la bodega, ofrece maridajes exquisitos con los vinos Zuccardi. La bodega principal, conocida como 'Piedra Infinita,' es famosa por su diseño arquitectónico innovador y respetuoso con el entorno. Construida con materiales locales y utilizando técnicas sostenibles, su estructura se integra perfectamente con el paisaje andino. Cuenta de una destacada linea de Malbec, Cabernet Sauvignon, Syrah, y Torrontés que  expresan el terroir del Valle de Uco, con vinos de alta calidad y gran personalidad.",
+            "ExperiencesImg": "/experiencesValleUco/Bodega-Zuccardi.webp",
+            "ExperiencesDesc": "Sus viñedos ubicados en el Valle de Uco, reconocidos por su altitud y suelos aluvionales. Su finca Piedra Infinita, en Paraje Altamira, es uno de sus viñedos más destacados. La Bodega ha logrado reconocimientos como 'Mejor Bodega y Viñedo del Mundo' en los Worlds Best Vineyards en 2019, 2020, y 2021. Sus vinos han obtenido múltiples premios y altas calificaciones de críticos internacionales como Jacques Dupont y Tim Atkin."
+        }
+    ],
+    "experiencesBoutiqueUco" : [
+        {
+            "ExperiencesTitle": "Finca Adelma",
+            "ExperiencesDesc": "Finca Adelma destaca por sus vinos que reflejan la pureza del Valle de Uco. Desde su apertura, en 2005, se ha ganado una reputación por su atención al detalle y su compromiso con la calidad, ofreciendo vinos que capturan la esencia auténtica del terroir.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Adelma.webp"
+        },
+        {
+            "ExperiencesTitle": "Bodega Azul",
+            "ExperiencesDesc": "En Bodega Azul, la elegancia y el equilibrio son la norma. Desde su fundación, la bodega ha sido conocida por sus vinos sofisticados y bien elaborados, combinando técnicas modernas con un profundo respeto por la tradición vinícola.",
+            "ExperiencesImg": "/experiencesBoutiqueUco/Boutique-Azul.webp"
+        }
+    ],
+    "boutiqueUco": {
+        "boutiqueTitle": "Descubre la magia de las Bodegas Boutique en el Valle de Uco",
+        "boutiqueDesc": "El Valle de Uco es un verdadero paraíso para los amantes del vino. En esta región, la tradición vitivinícola se une con la innovación y el arte de las bodegas boutique. Te invitamos a conocer algunas de las bodegas más destacadas de esta región:"
+    },
+    "experiencesLujan" : [
+        {
+            "ExperiencesTitle": "Bodega Catena Zapata",
+            "ExperiencesIntro": "Se encuentra en el departamento mendocino Lujan de Cuyo. Ofrece visitas guiadas y degustaciones en un entorno deslumbrante. La bodega tiene un diseño icónico inspirado en las pirámides Mayas, combinando tecnología moderna con elementos tradicionales. Reconocida por su Malbec de clase mundial, también produce variedades como Cabernet Sauvignon, Chardonnay y Cabernet Franc. Cuenta de etiquetas emblemáticas tales como Catena, Catena Alta, y el prestigioso Nicolás Catena Zapata.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-CatenaZapata.webp",
+            "ExperiencesDesc": "Sus viñedos se encuentran ubicados en diversas zonas de Mendoza, incluyendo Luján de Cuyo y el Valle de Uco. Algunos dentro de sus renombradas fincas de alta altitud, como Adrianna y Nicasia, las cuales son célebres por sus terroir únicos. Los vinos de Catena Zapata han recibido innumerables premios y altas calificaciones de críticos internacionales. En 2023, Catena Zapata recibió el prestigioso reconocimiento como 'Mejor Viñedo del Mundo' por Worlds Best Vineyards."
+        },
+        {
+            "ExperiencesTitle": "Bodega Vistalba",
+            "ExperiencesIntro": "Ubicada en el departamento mendocino Lujan de Cuyo. Ofrece visitas guiadas y degustaciones en un entorno atractivo, permitiendo a los visitantes conocer el proceso de elaboración del vino. Además cuenta con Restaurante que ofrece experiencias gastronómicas maridando sus vinos con cocina gourmet local. La bodega cuenta con una arquitectura moderna y funcional, diseñada para optimizar el proceso de elaboración del vino. Especializada en Malbec, Cabernet Sauvignon, Merlot y Chardonnay. Las líneas de vinos incluyen 'Corte A', 'Corte B' y 'Corte C', cada una representando diferentes niveles de complejidad y envejecimiento.",
+            "ExperiencesImg": "/experiencesLujan/Bodega-Vistalba.webp",
+            "ExperiencesDesc": "Sus viñedos se encuentran situados en Luján de Cuyo, una de las zonas vitivinícolas más prestigiosas de Mendoza, conocida por sus excelentes condiciones para el cultivo de la vid. Los viñedos están a una altitud de 980 metros sobre el nivel del mar, beneficiándose de un clima seco y suelos franco-arenosos. Sus vinos han recibido reconocimientos tales como 'Wine Spectator': Puntuaciones altas para vinos como Corte A y Corte B, que destacan por su elegancia y estructura. 'Descorchados': Reconocimientos en esta guía anual de vinos sudamericanos, resaltando la calidad y expresión del terroir en sus vinos. 'Tim Atkin': Altas calificaciones en los informes de vinos argentinos, especialmente para sus vinos de alta gama."
+        }
+    ],
+    "experiencesBoutiqueLujan" : [
+        {
+            "ExperiencesTitle": "Susana Balbo",
+            "ExperiencesDesc": "Fundada por la famosa enóloga Susana Balbo, esta bodega es un referente en Luján de Cuyo. Desde 1999, se ha ganado una reputación por sus vinos elegantes y complejos, que reflejan la experiencia y pasión de Susana en cada copa.",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-SusanaBalbo.webp"
+        },
+        {
+            "ExperiencesTitle": "A16",
+            "ExperiencesDesc": "En A16, la esencia del Valle de Uco se convierte en arte. Desde su apertura, han buscado el equilibrio perfecto entre modernidad y tradición, creando vinos que son una verdadera obra maestra en cada botella.",
+            "ExperiencesImg": "/experiencesBoutiqueLujan/Boutique-A16.webp"
+        }
+    ],
+    "boutiqueLujan": {
+        "boutiqueTitle": "Descubre la magia de las Bodegas Boutique en Luján de Cuyo",
+        "boutiqueDesc": "Luján de Cuyo es un verdadero paraíso para los amantes del vino. Aquí, la tradición vitivinícola se une con la innovación y el arte de bodegas boutique. Te invitamos a conocer algunas de las destacadas de esta región:"
+    },
+    "experiencesMaipu" : [
+        {
+            "ExperiencesTitle": "Bodega Trapiche",
+            "ExperiencesIntro": "Situada en Maipú, Mendoza. Con más de 135 años de historia, es una de las bodegas más antiguas y prestigiosas de Argentina. Ofrece visitas guiadas, degustaciones, y experiencias gastronómicas en su restaurante gourmet  maridando comidas locales con los vinos de Trapiche. La bodega principal está situada en una histórica edificación del siglo XIX, que ha sido restaurada y modernizada. La Bodega es conocida por su Malbec, pero también produce variedades como Cabernet Sauvignon, Syrah, Merlot, y Chardonnay. Sus líneas de vinos destacadas incluyen Trapiche Medalla, Trapiche Broquel, Trapiche Gran Medalla, y su serie de vinos Single Vineyard, que destacan la expresión de terroirs unicos.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Trapiche.webp",
+            "ExperiencesDesc": "Viñedos ubicados en diversas zonas de Mendoza, incluyendo el Valle de Uco y Maipú que abarcan una amplia variedad de terroirs, permitiendo la producción de una gama diversa de vinos. Sus vinos han recibido reconocimientos tales como 'World Best Vineyards': Trapiche ha sido consistentemente reconocida como una de las mejores bodegas del mundo, figurando en el listado anual de World Best Vineyards. 'Premios Decanter': Sus vinos han ganado múltiples premios en los Decanter World Wine Awards, incluyendo medallas de oro para vinos como Trapiche Medalla y Trapiche Gran Medalla. 'Wine Spectator y Wine Enthusiast': Ha recibido altas calificaciones destacándose por su Malbec y otras variedades."
+        },
+        {
+            "ExperiencesTitle": "Bodega Vistandes",
+            "ExperiencesIntro": "Ubicada en el departamento mendocino Maipú. Ofrece visitas guiadas y degustaciones en un entorno atractivo, permitiendo a los visitantes conocer el proceso de elaboración del vino. Además cuenta con experiencias gastronómicas en el restaurante de la bodega, donde se maridan los vinos con cocina gourmet local. La bodega combina un diseño arquitectónico moderno y funcional, diseñado para optimizar el proceso de elaboración del vino. Las instalaciones incluyen una moderna sala de barricas y una cava subterránea para el envejecimiento de los vinos. Especializada en Malbec, Cabernet Sauvignon, Syrah, Bonarda, y Chardonnay, conocidos por su elegancia, frescura y carácter frutal. Las líneas de vinos incluyen Vistandes Reserva y Vistandes Gran Reserva, con un enfoque en la calidad y la expresión del terroir.",
+            "ExperiencesImg": "/experiencesMaipu/Bodega-Vistandes.webp",
+            "ExperiencesDesc": "Con viñedos situados en el corazón de Maipú, una de las zonas vitivinícolas más tradicionales y prestigiosas de Mendoza. Los mismos están a una altitud de 850 metros sobre el nivel del mar, beneficiándose de un clima seco y suelos franco-arcillosos. La bodega es conocida tambien por Reconocimientos tales como 'International Wine Challenge': Premios obtenidos en varias ediciones de este concurso, destacándose sus vinos Reserva y Gran Reserva. 'Decanter World Wine Awards': Medallas de plata y bronce para varios de sus vinos, reconocidos por su calidad y expresión. 'Wine Enthusiast': Buenas puntuaciones para sus vinos en esta revista estadounidense, resaltando la consistencia y elegancia de sus productos."
+        }
+    ],
+    "experiencesBoutiqueMaipu" : [
+        {
+            "ExperiencesTitle": "Flichman",
+            "ExperiencesDesc": "Un clásico en Maipú, Flichman ofrece vinos que mezclan lo tradicional con un toque moderno. Fundada en 1993, esta bodega es conocida por su compromiso con la calidad y su habilidad para capturar la esencia del terroir mendocino en cada botella.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Flichman.webp"
+        },
+        {
+            "ExperiencesTitle": "Finca Savina",
+            "ExperiencesDesc": "En Finca Savina, se centran en vinos con carácter. Desde sus inicios en 2005, han sido reconocidos por su atención al detalle y su capacidad para resaltar la riqueza del suelo local, resultando en vinos con sabores auténticos y atractivos.",
+            "ExperiencesImg": "/experiencesBoutiqueMaipu/Boutique-Savina.webp"
+        }
+    ],
+    "boutiqueMaipu": {
+        "boutiqueTitle": "Descubre la magia de las Bodegas Boutique en Maipú",
+        "boutiqueDesc": "Maipú es un verdadero paraíso para los amantes del vino. Aquí, la tradición vitivinícola se une con la innovación y el arte de las bodegas boutique. Te invitamos a conocer algunas de las bodegas más destacadas de esta región:"
+    },
+    "experiencesPotrerillos" : [
+        {
+            "ExperiencesTitle": "Las Palapas",
+            "ExperiencesIntro": "Sumérgete en la magia de Las Palapas, un bar de montaña ubicado en la inmensidad del dique Potrerillos. Disfruta de atardeceres espectaculares con música en vivo y una conexión profunda con la naturaleza. Rodeado por la imponente Cordillera de los Andes, este espacio ofrece una experiencia sensorial única que combina gastronomía, coctelería de autor y actividades culturales.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Palapas.webp",
+            "ExperiencesDesc": "Las Palapas es el lugar perfecto para relajarse entre amigos, celebrar ocasiones especiales o simplemente disfrutar de la tranquilidad y belleza del entorno natural. Con una capacidad limitada, se recomienda reservar con anticipación para asegurar un lugar en esta experiencia inolvidable."
+        },
+        {
+            "ExperiencesTitle": "Aventura Velero",
+            "ExperiencesIntro": "Embárcate en una experiencia única navegando por el dique Potrerillos. Disfruta de un paseo en velero rodeado de impresionantes paisajes montañosos y el reflejo del cielo en el agua, mientras degustas comidas y bebidas a bordo. Admira las vistas panorámicas de la Cordillera de los Andes y los frondosos bosques que rodean el embalse, perfectos para capturar fotografías y disfrutar de un día al aire libre.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Este paseo en velero es ideal para celebraciones especiales, escapadas en pareja, o simplemente para relajarse con amigos y familia en un entorno natural incomparable."
+        }
+    ],
+    "experiencesMas" : [
+        {
+            "ExperiencesTitle": "Día de Campo en el Valle de Uco",
+            "ExperiencesIntro": "Disfruta de una vivencia única en la naturaleza en una finca en el Valle de Uco. Vive un día perfecto rodeado de espléndidos paisajes rurales y la tranquilidad del campo, con la comodidad de un traslado incluido desde tu lugar de hospedaje.",
+            "ExperiencesImg": "/experiencesMas/DiaCampoUco.webp",
+            "ExperiencesDesc": "Itinerario del Día: Traslado de Ida y Vuelta: Para tu comodidad, el servicio de traslado recogerá a los participantes en el lugar de hospedaje por la mañana. Relájate durante el viaje y disfruta de las vistas panorámicas mientras te diriges al Valle de Uco. Al finalizar la experiencia, te llevarán de regreso a tu alojamiento, asegurando una jornada sin preocupaciones. Recepción y Aperitivos: Al llegar a la finca, te darán la bienvenida con una exquisita variedad de aperitivos, que incluye empanadas al disco, pastelitos y una selección de fiambres. Estos bocados iniciales están pensados para deleitarte y prepararte para una experiencia gastronómica en el entorno campestre. Visita a los Viñedos: Antes del almuerzo, disfrutarás de una encantadora visita a los viñedos de la finca. Conoce más sobre el proceso de cultivo y la producción de vinos en la región, y sumérgete en la belleza del paisaje vitivinícola. Almuerzo a la Parrilla: El almuerzo se centrará en un asado a la parrilla. Disfruta de una variedad de carnes, acompañadas de guarniciones tradicionales y ensaladas frescas. Bebidas Selectas: Acompaña tu comida con una cuidada selección de vinos de prestigio y espumantes. Tendrás la oportunidad de brindar y disfrutar de bebidas de alta calidad, elegidas para realzar tu experiencia gastronómica. Disfrute del Entorno: Después del almuerzo, tómate un tiempo para relajarte y disfrutar del paisaje. Puedes explorar la finca, caminar por los viñedos o simplemente relajarte y absorber la belleza del entorno natural. Este día está pensado para ofrecerte no solo un festín para los sentidos, sino también una experiencia de conexión con la naturaleza y la compañía de tus seres queridos, todo con la comodidad de un traslado sin complicaciones."
+        },
+        {
+            "ExperiencesTitle": "Día de Montaña a orillas del Dique Potrerillos",
+            "ExperiencesIntro": "Disfruta de una experiencia única en las orillas del Dique Potrerillos. Vive un día perfecto rodeado de magníficos paisajes montañosos y la tranquilidad de las aguas del dique, con la comodidad de un traslado incluido desde tu lugar de hospedaje.",
+            "ExperiencesImg": "/experiencesAltaMontana/AltaMontana-Velero.webp",
+            "ExperiencesDesc": "Itinerario del Día: Traslado de Ida y Vuelta: Para tu comodidad, el servicio de traslado recogerá a los participantes en el lugar de hospedaje por la mañana. Relájate durante el viaje en un cómodo vehículo y disfruta de las vistas panorámicas mientras te diriges al Dique Potrerillos. Al finalizar la experiencia, te llevarán de regreso a tu alojamiento, asegurando una jornada sin preocupaciones. Recepción y Aperitivos: Al llegar al dique, te recibirán con una deliciosa selección de aperitivos, que incluye empanadas al disco, pastelitos y una variedad de fiambres. Estos bocados iniciales están diseñados para despertar tus sentidos mientras te acomodas en el entorno natural. Almuerzo a la Parrilla: El almuerzo se centrará en un asado a la parrilla. Disfruta de una variedad de carnes asadas a la perfección, acompañadas de guarniciones tradicionales y ensaladas frescas. Bebidas Premium: Acompaña tu comida con una selección de vinos de prestigio y espumantes. Tendrás la oportunidad de brindar y celebrar en grande con bebidas de alta calidad, perfectamente elegidas para complementar tu almuerzo. Disfrute del Entorno: Después del almuerzo, tómate un tiempo para relajarte y disfrutar del paisaje. Puedes explorar la zona, caminar por la orilla del dique o simplemente relajarte y absorber la belleza del entorno natural."
+        }
+    ],
+    "masTitle": "Más Experiences",
+    "beneficios" : {
+        "BeneficiosTitle": "Beneficios",
+        "BeneficiosDesc": "Viví momentos inolvidables con nosotros y obtené descuentos exclusivos en:",
+        "BeneficiosRentLogo": "Alquiler Departamento"
+    },
+    "footer": {
+        "FooterRights": ". Todos los Derechos Reservados.",
+        "FooterContact" : "Contactanos"
+    }
+}

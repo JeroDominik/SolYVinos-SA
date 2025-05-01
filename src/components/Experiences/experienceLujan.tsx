@@ -1,29 +1,18 @@
 import CardTour from './cardTour'
 import CardBoutique from './cardBoutique'
 import Image from 'next/image'
+import type { ExperienceDictionary, BoutiqueDictionary } from '@/types/Dictionary'
 
-interface ExperienceDictionary {
-  ExperiencesTitle: string
-  ExperiencesIntro: string
-  ExperiencesImg: string
-  ExperiencesDesc: string
-}
-interface BoutiqueDictionary {
-  boutiqueTitle: string
-  boutiqueDesc: string
-}
-interface ExperienceProps {
-  experiencesLujan: ExperienceDictionary []
-  experiencesBoutiqueLujan: ExperienceDictionary[]
-  boutiqueLujan: BoutiqueDictionary
-}
-interface Dictionary {
-  dictionary: ExperienceProps
+interface ExperiencesProps {
+  dictionary: {
+    experiencesLujan: ExperienceDictionary[]
+    experiencesBoutiqueLujan: ExperienceDictionary[]
+    boutiqueLujan: BoutiqueDictionary
+  }
 }
 
-export default function ExperienceLujan ({ dictionary }: Dictionary) {
+export default function ExperienceLujan ({ dictionary }: ExperiencesProps) {
   const { experiencesLujan, experiencesBoutiqueLujan, boutiqueLujan } = dictionary
-  const experiencesBoutique = experiencesBoutiqueLujan
 
   return (
     <section className="py-12">
@@ -49,10 +38,14 @@ export default function ExperienceLujan ({ dictionary }: Dictionary) {
         }
       </ol>
       <div className="mx-auto pt-6 sm:pt-10 text-gray-300 w-[90%]">
-        <h2 className="text-pretty sm:text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4">{boutiqueLujan.boutiqueTitle}</h2>
-        <p className="text-pretty text-base sm:text-lg lg:text-xl font-semibold mb-8 sm:mb-10">{boutiqueLujan.boutiqueDesc}</p>
+        <h2 className="text-pretty sm:text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4">
+          {boutiqueLujan.boutiqueTitle}
+        </h2>
+        <p className="text-pretty text-base sm:text-lg lg:text-xl font-semibold mb-8 sm:mb-10">
+          {boutiqueLujan.boutiqueDesc}
+        </p>
         <CardBoutique
-          experiencesBoutique={experiencesBoutique}
+          experiencesBoutique={experiencesBoutiqueLujan}
         />
       </div>
     </section>

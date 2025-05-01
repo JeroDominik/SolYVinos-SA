@@ -1,15 +1,8 @@
-'use client'
-
 import { useState } from 'react'
 import Image from 'next/image'
-import { IconViewMore, IconX } from './Icons/Icons'
+import { IconViewMore, IconX } from '../Icons/Icons'
+import type { ExperienceDictionary } from '@/types/Dictionary'
 
-interface ExperienceDictionary {
-  ExperiencesTitle: string
-  ExperiencesIntro: string
-  ExperiencesImg: string
-  ExperiencesDesc: string
-}
 interface ExperienceProps {
   experience: ExperienceDictionary
 }

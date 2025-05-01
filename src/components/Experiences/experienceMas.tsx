@@ -1,21 +1,15 @@
 import CardTour from './cardTour'
-import { IconMoreExperience } from './Icons/Icons'
+import { IconMoreExperience } from '../Icons/Icons'
+import type { ExperienceDictionary } from '@/types/Dictionary'
 
-interface ExperienceDictionary {
-  ExperiencesTitle: string
-  ExperiencesIntro: string
-  ExperiencesImg: string
-  ExperiencesDesc: string
-}
-interface ExperienceProps {
-  experiencesMas: ExperienceDictionary[]
-  masTitle: string
-}
-interface Dictionary {
-  dictionary: ExperienceProps
+interface ExperiencesProps {
+  dictionary: {
+    experiencesMas: ExperienceDictionary[]
+    masTitle: string
+  }
 }
 
-export default function ExperienceMas ({ dictionary }: Dictionary) {
+export default function ExperienceMas ({ dictionary }: ExperiencesProps) {
   const { experiencesMas, masTitle } = dictionary
 
   return (

@@ -1,20 +1,14 @@
 import CardTour from './cardTour'
 import Image from 'next/image'
+import type { ExperienceDictionary } from '@/types/Dictionary'
 
-interface ExperienceDictionary {
-  ExperiencesTitle: string
-  ExperiencesIntro: string
-  ExperiencesImg: string
-  ExperiencesDesc: string
-}
-interface ExperienceProps {
-  experiencesPotrerillos: [ExperienceDictionary]
-}
-interface Dictionary {
-  dictionary: ExperienceProps
+interface ExperiencesProps {
+  dictionary: {
+    experiencesPotrerillos: ExperienceDictionary[]
+  }
 }
 
-export default function ExperienceAltaMontana ({ dictionary }: Dictionary) {
+export default function ExperienceAltaMontana ({ dictionary }: ExperiencesProps) {
   const { experiencesPotrerillos } = dictionary
 
   return (
