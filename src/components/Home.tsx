@@ -16,7 +16,7 @@ interface HomeProps {
 
 export default function Home ({ dictionary }: HomeProps) {
   return (
-    <main className="flex flex-col mx-auto items-center justify-center overflow-x-hidden overflow-y-auto scroll-smooth">
+    <div className="flex flex-col mx-auto items-center justify-center overflow-x-hidden overflow-y-auto scroll-smooth">
       <Header dictionary={dictionary.header} />
       <AboutUs dictionary={dictionary.aboutUs} />
       <main className="w-full py-14 sm:py-20" id="experience">
@@ -47,6 +47,6 @@ export default function Home ({ dictionary }: HomeProps) {
         <Beneficios dictionary={dictionary.beneficios} />
       </main>
       <Footer dictionary={dictionary.footer} />
-    </main>
+    </div>
   )
 }

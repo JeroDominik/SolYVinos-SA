@@ -4,7 +4,9 @@ export default function Document () {
   return (
     <Html lang="es">
       <Head>
-        <link rel="icon" href="/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta charSet="UTF-8"/>
+        <link rel="icon" href="/favicon.png"/>
       </Head>
       <body className="relative h-full w-full bg-neutral-950">
         <Main />
